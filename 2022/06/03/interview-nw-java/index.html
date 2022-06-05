@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -23,10 +23,10 @@
   <meta name="description" content="一、基础篇 网络基础 TCP三次握手 1、OSI与TCP&#x2F;IP 模型 2、常见网络服务分层 3、TCP与UDP区别及场景 4、TCP滑动窗口，拥塞控制 5、TCP粘包原因和解决方法 6、TCP、UDP报文格式   HTTP协议 1、HTTP协议1.0_1.1_2.0 2、HTTP与HTTPS之间的区别 3、Get和Post请求区别 4、HTTP常见响应状态码 5、重定向和转发区别 6、">
 <meta property="og:type" content="article">
 <meta property="og:title" content="interview-question">
-<meta property="og:url" content="http://example.com/2022/06/03/interview-question/index.html">
+<meta property="og:url" content="http://example.com/2022/06/03/interview-nw-java/index.html">
 <meta property="og:site_name" content="SYC的博客">
 <meta property="og:description" content="一、基础篇 网络基础 TCP三次握手 1、OSI与TCP&#x2F;IP 模型 2、常见网络服务分层 3、TCP与UDP区别及场景 4、TCP滑动窗口，拥塞控制 5、TCP粘包原因和解决方法 6、TCP、UDP报文格式   HTTP协议 1、HTTP协议1.0_1.1_2.0 2、HTTP与HTTPS之间的区别 3、Get和Post请求区别 4、HTTP常见响应状态码 5、重定向和转发区别 6、">
-<meta property="og:locale">
+<meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://farm1.staticflickr.com/792/27194088468_4cb0141fc8_b.jpg">
 <meta property="og:image" content="https://appwk.baidu.com/naapi/doc/view?ih=482&o=png_6_0_0_176_917_504_247_892.979_1262.879&iw=986&ix=0&iy=0&aimw=986&rn=1&doc_id=182d935c3186bceb18e8bb77&pn=1&sign=b88bda03b9954e506622f97b8b2ae438&type=1&app_ver=2.9.8.2&ua=bd_800_800_IncredibleS_2.9.8.2_2.3.7&bid=1&app_ua=IncredibleS&uid=&cuid=&fr=3&Bdi_bear=WIFI&from=3_10000&bduss=&pid=1&screen=800_800&sys_ver=2.3.7">
 <meta property="og:image" content="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1614312792,1954581760&fm=26&gp=0.jpg">
@@ -115,7 +115,7 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://farm1.staticflickr.com/792/27194088468_4cb0141fc8_b.jpg">
 
-<link rel="canonical" href="http://example.com/2022/06/03/interview-question/">
+<link rel="canonical" href="http://example.com/2022/06/03/interview-nw-java/">
 
 
 <script id="page-configurations">
@@ -124,7 +124,7 @@
     sidebar: "",
     isHome : false,
     isPost : true,
-    lang   : 'zh'
+    lang   : 'zh-CN'
   };
 </script>
 
@@ -168,7 +168,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -199,31 +199,31 @@
   <ul id="menu" class="main-menu menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-about">
 
-    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>About</a>
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
 
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>Tags</a>
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
 
   </li>
         <li class="menu-item menu-item-categories">
 
-    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>Categories</a>
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
       <li class="menu-item menu-item-search">
-        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>Search
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
         </a>
       </li>
   </ul>
@@ -239,7 +239,7 @@
   </span>
   <div class="search-input-container">
     <input autocomplete="off" autocapitalize="off"
-           placeholder="Searching..." spellcheck="false"
+           placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
   <span class="popup-btn-close">
@@ -276,8 +276,8 @@
     
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/06/03/interview-question/">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/06/03/interview-nw-java/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -298,10 +298,10 @@
               <span class="post-meta-item-icon">
                 <i class="far fa-calendar"></i>
               </span>
-              <span class="post-meta-item-text">Posted on</span>
+              <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="Created: 2022-06-03 11:30:42 / Modified: 11:31:50" itemprop="dateCreated datePublished" datetime="2022-06-03T11:30:42+08:00">2022-06-03</time>
+              <time title="创建时间：2022-06-03 11:30:42 / 修改时间：11:31:50" itemprop="dateCreated datePublished" datetime="2022-06-03T11:30:42+08:00">2022-06-03</time>
             </span>
 
           
@@ -4441,6 +4441,25 @@
     
     
     
+        
+
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
+
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat_channel.jpg">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
+
+            <span class="label">WeChat</span>
+          </a>
+        </div>
+    </div>
+  </div>
+
 
       <footer class="post-footer">
 
@@ -4506,10 +4525,10 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
@@ -4529,24 +4548,29 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">7</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
       <div class="site-state-item site-state-categories">
             <a href="/categories/">
           
         <span class="site-state-item-count">3</span>
-        <span class="site-state-item-name">categories</span></a>
+        <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
         <span class="site-state-item-count">4</span>
-        <span class="site-state-item-name">tags</span></a>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="https://github.com/yourname" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;yourname" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+  </div>
 
 
 
@@ -4575,7 +4599,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">Michael Song</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
 
         
