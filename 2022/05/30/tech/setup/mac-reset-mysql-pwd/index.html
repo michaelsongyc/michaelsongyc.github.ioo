@@ -20,17 +20,21 @@
     var CONFIG = {"hostname":"example.com","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="浙江大学学士，阿里研发工程师。">
-<meta property="og:type" content="website">
-<meta property="og:title" content="SYC的博客">
-<meta property="og:url" content="http://example.com/categories/tools/index.html">
+  <meta name="description" content="具体的解决方案如下：  苹果-&gt;系统偏好设置-&gt;最下边点mysql 在弹出页面中 关闭mysql服务（点击stop mysql server） 进入终端输入：cd &#x2F;usr&#x2F;local&#x2F;mysql&#x2F;bin&#x2F; 回车后 登录管理员权限 sudo su 输入mac的管理员密码 回车后输入以下命令来禁止mysql验证功能 .&#x2F;mysq">
+<meta property="og:type" content="article">
+<meta property="og:title" content="tools_mac_reset_mysql_pwd">
+<meta property="og:url" content="http://example.com/2022/05/30/tech/setup/mac-reset-mysql-pwd/index.html">
 <meta property="og:site_name" content="SYC的博客">
-<meta property="og:description" content="浙江大学学士，阿里研发工程师。">
+<meta property="og:description" content="具体的解决方案如下：  苹果-&gt;系统偏好设置-&gt;最下边点mysql 在弹出页面中 关闭mysql服务（点击stop mysql server） 进入终端输入：cd &#x2F;usr&#x2F;local&#x2F;mysql&#x2F;bin&#x2F; 回车后 登录管理员权限 sudo su 输入mac的管理员密码 回车后输入以下命令来禁止mysql验证功能 .&#x2F;mysq">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-05-30T14:34:41.000Z">
+<meta property="article:modified_time" content="2022-06-05T07:07:43.810Z">
 <meta property="article:author" content="Michael Song">
+<meta property="article:tag" content="install">
+<meta property="article:tag" content="mysql">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://example.com/categories/tools/">
+<link rel="canonical" href="http://example.com/2022/05/30/tech/setup/mac-reset-mysql-pwd/">
 
 
 <script id="page-configurations">
@@ -38,12 +42,12 @@
   CONFIG.page = {
     sidebar: "",
     isHome : false,
-    isPost : false,
+    isPost : true,
     lang   : 'zh-CN'
   };
 </script>
 
-  <title>分类: tools | SYC的博客</title>
+  <title>tools_mac_reset_mysql_pwd | SYC的博客</title>
   
 
 
@@ -185,51 +189,129 @@
         <div class="content-wrap">
           
 
-          <div class="content category">
+          <div class="content post posts-expand">
             
 
+    
   
   
-  
-  <div class="post-block">
-    <div class="posts-collapse">
-      <div class="collection-title">
-        <h2 class="collection-header">tools
-          <small>分类</small>
-        </h2>
-      </div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/05/30/tech/setup/mac-reset-mysql-pwd/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Michael Song">
+      <meta itemprop="description" content="浙江大学学士，阿里研发工程师。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SYC的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          tools_mac_reset_mysql_pwd
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-05-30 22:34:41" itemprop="dateCreated datePublished" datetime="2022-05-30T22:34:41+08:00">2022-05-30</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-06-05 15:07:43" itemprop="dateModified" datetime="2022-06-05T15:07:43+08:00">2022-06-05</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Tech/" itemprop="url" rel="index"><span itemprop="name">Tech</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-    <div class="collection-year">
-      <span class="collection-header">2022</span>
+        <p>具体的解决方案如下：</p>
+<ol>
+<li>苹果-&gt;系统偏好设置-&gt;最下边点mysql 在弹出页面中 关闭mysql服务（点击stop mysql server）</li>
+<li>进入终端输入：cd &#x2F;usr&#x2F;local&#x2F;mysql&#x2F;bin&#x2F;</li>
+<li>回车后 登录管理员权限 sudo su</li>
+<li>输入mac的管理员密码</li>
+<li>回车后输入以下命令来禁止mysql验证功能 .&#x2F;mysqld_safe –skip-grant-tables &amp;</li>
+<li>回车后mysql会自动重启（偏好设置中mysql的状态会变成running）</li>
+<li>输入命令 .&#x2F;mysql</li>
+<li>输入命令 FLUSH PRIVILEGES;</li>
+<li>输入命令 SET PASSWORD FOR ‘root‘@’localhost’ &#x3D; PASSWORD(‘你的新密码’);<br>至此，密码已经修改成功，可以登录啦！</li>
+</ol>
+
     </div>
 
-  <article itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
+    
+    
+    
+        
 
-      <div class="post-meta">
-        <time itemprop="dateCreated"
-              datetime="2022-05-29T23:07:02+08:00"
-              content="2022-05-29">
-          05-29
-        </time>
-      </div>
+  <div class="followme">
+    <p>欢迎关注我的其它发布渠道</p>
 
-      <div class="post-title">
-          <a class="post-title-link" href="/2022/05/29/tools-paint/" itemprop="url">
-            <span itemprop="name">常用作图工具</span>
+    <div class="social-list">
+
+        <div class="social-item">
+          <a target="_blank" class="social-link" href="/images/wechat_channel.jpg">
+            <span class="icon">
+              <i class="fab fa-weixin"></i>
+            </span>
+
+            <span class="label">WeChat</span>
           </a>
-      </div>
-
-    </header>
-  </article>
-
+        </div>
     </div>
   </div>
-  
-  
-  
 
+
+      <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/install/" rel="tag"># install</a>
+              <a href="/tags/mysql/" rel="tag"># mysql</a>
+          </div>
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2022/05/29/tools-paint/" rel="prev" title="常用作图工具">
+      <i class="fa fa-chevron-left"></i> 常用作图工具
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2022/05/30/test/" rel="next" title="Hello World">
+      Hello World <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
   
 
 
@@ -295,7 +377,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-count">13</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -308,7 +390,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-count">10</span>
         <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
