@@ -191,6 +191,86 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2022/06/13/mac-translate-word/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Michael Song">
+      <meta itemprop="description" content="浙江大学学士，阿里研发工程师。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SYC的博客">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2022/06/13/mac-translate-word/" class="post-title-link" itemprop="url">mac_translate_word</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2022-06-13 21:56:56" itemprop="dateCreated datePublished" datetime="2022-06-13T21:56:56+08:00">2022-06-13</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2022-06-15 23:32:56" itemprop="dateModified" datetime="2022-06-15T23:32:56+08:00">2022-06-15</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1><span id="使用">使用</span></h1><h2><span id="简单调用">简单调用</span></h2><p>在mac的命令行下面，执行：</p>
+<blockquote>
+<p>say hello world</p>
+</blockquote>
+<p>就可以发出”hello world”的声音了，支持中文。</p>
+<h2><span id="文本文件转为语音文件">文本文件转为语音文件</span></h2><p>新建一个文本文件aa.txt，在终端里在，cd 到该目录，然后执行:</p>
+<blockquote>
+<p>say -f aa.txt -o a.m4a</p>
+</blockquote>
+<p>即可生成a.m4a这个语音文件。 -f 后面跟的是需要转换成语音的文件，-o 是 -out 的意思。</p>
+<p>##设置<br>修改语音声音<br>打开Mac系统偏好设置-&gt;辅助功能-&gt;语音</p>
+<p>对于国人来说，Sin-ji是讲粤语的，而Ting-ting是讲普通话的。当然，所有的演员都认识英文。</p>
+<h1><span id="参照">参照</span></h1><ul>
+<li><a target="_blank" rel="noopener" href="https://javascript.net.cn/articles/721">https://javascript.net.cn/articles/721</a></li>
+<li><a target="_blank" rel="noopener" href="https://newsn.net/say/mac-command-say.html">https://newsn.net/say/mac-command-say.html</a></li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://example.com/2022/06/05/tech/tools/markdown/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -216,7 +296,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2022-06-05 15:20:51 / 修改时间：15:57:34" itemprop="dateCreated datePublished" datetime="2022-06-05T15:20:51+08:00">2022-06-05</time>
+              <time title="创建时间：2022-06-05 15:20:51 / 修改时间：16:07:40" itemprop="dateCreated datePublished" datetime="2022-06-05T15:20:51+08:00">2022-06-05</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -282,6 +362,8 @@
 <h2><span id="粗体-斜体">粗体、斜体</span></h2><p>可以使用星号*或下划线_指定粗体或者斜体。</p>
 <p><em>这是斜体</em><br><em>这也是斜体</em></p>
 <p><strong>这是粗体</strong><br><em><strong>这是粗体+斜体</strong></em></p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">*这是斜体*</span><br><span class="line">_这也是斜体_</span><br><span class="line"></span><br><span class="line">**这是粗体**</span><br><span class="line">***这是粗体+斜体***</span><br></pre></td></tr></table></figure>
+
 <h2><span id="删除线">删除线</span></h2><p><del>删除线</del></p>
 <h2><span id="引用">引用</span></h2><p>通过在行首加上大于号&gt;来添加引用格式。</p>
 <blockquote>
@@ -345,6 +427,8 @@
 <hr>
 <hr>
 <hr>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">* * *</span><br><span class="line">***</span><br><span class="line">*****</span><br><span class="line">- - -</span><br><span class="line">---------------------------------------</span><br></pre></td></tr></table></figure>
+
 <h2><span id="超链接">超链接</span></h2><p><a href="http://example.com/">an example</a></p>
 <p><a href="http://example.com/" title="Optional Title">an example</a><br>会被解释为</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">&lt;a href=&#x27;http://example.com/&#x27;&gt;an example&lt;/a&gt;</span><br><span class="line">&lt;a href=&#x27;http://example.com/&#x27; title=&quot;Optional Title&quot;&gt;an example&lt;/a&gt;</span><br></pre></td></tr></table></figure>
@@ -381,8 +465,21 @@
 </tr>
 </tbody></table>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">| Item     | Value | Qty   |</span><br><span class="line">| :------- | ----: | :---: |</span><br><span class="line">| Computer | $1600 |  5    |</span><br><span class="line">| Phone    | $12   |  12   |</span><br><span class="line">| Pipe     | $1    |  234  |</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th align="left">title1</th>
+<th align="center">title2</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">v1</td>
+<td align="center">v2</td>
+</tr>
+</tbody></table>
 <p>要注意第二行的冒号决定了居左居右还是居中，如果你不加冒号，默认是居左的。</p>
-<p>另外可以把第一行去掉，做成没有表头的表格，但第二行始终是要有的。</p>
+<p>另外可以把第一行去掉，做成没有表头的表格，<strong>但第二行始终是要有的</strong>。</p>
 <h2><span id="toc">TOC</span></h2><p>TOC = Table of content ， 将内容制作成导航<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_46527915/article/details/105466439">hexo toc</a></p>
 <p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_25760623/article/details/107739436">快速生成markdown目录TOC</a></p>
 <p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/57f23e4140ba">快速生成markdown目录TOC，页内跳转</a></p>
@@ -2695,7 +2792,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-06-05 15:23:21" itemprop="dateModified" datetime="2022-06-05T15:23:21+08:00">2022-06-05</time>
+                <time title="修改时间：2022-06-05 18:08:51" itemprop="dateModified" datetime="2022-06-05T18:08:51+08:00">2022-06-05</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -3500,7 +3597,7 @@
 <p>​	<strong>如何得到Class的实例:</strong></p>
 <pre><code>     1.类名.class(就是一份字节码)
      2.Class.forName(String className);根据一个类的全限定名来构建Class对象
-     3.每一个对象多有getClass()方法:obj.getClass();返回对象的真实类型
+     3.每一个对象都有getClass()方法:obj.getClass();返回对象的真实类型
 </code></pre>
 <p><strong>使用场景：</strong></p>
 <ul>
@@ -3555,7 +3652,8 @@
 <p>缺点：基于拷贝内容的优点是避免了ConcurrentModificationException，但同样地，迭代器并不能访问到修改后的内容，即：迭代器遍历的是开始遍历那一刻拿到的集合拷贝，在遍历期间原集合发生的修改迭代器是不知道的。</p>
 <p>场景：java.util.concurrent包下的容器都是安全失败，可以在多线程下并发使用，并发修改。</p>
 <h4><span id="3-详细介绍hashmap"><strong>3、详细介绍HashMap</strong></span></h4><p>角度：数据结构+扩容情况+put查找的详细过程+哈希函数+容量为什么始终都是2^N，JDK1.7与1.8的区别。</p>
-<p>参考：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/9fe4cb316c05">https://www.jianshu.com/p/9fe4cb316c05</a></p>
+<p>参考：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/wuhuangdi/p/4175991.html">https://www.cnblogs.com/wuhuangdi/p/4175991.html</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_39480875/article/details/123423138">https://blog.csdn.net/qq_39480875/article/details/123423138</a></p>
 <p><strong>数据结构：</strong></p>
 <p>​		HashMap在底层数据结构上采用了数组＋链表＋红黑树，通过散列映射来存储键值对数据</p>
 <p><strong>扩容情况：</strong></p>
@@ -7015,91 +7113,6 @@
   
   
 
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2022/05/30/tech/setup/mac-reset-mysql-pwd/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Michael Song">
-      <meta itemprop="description" content="浙江大学学士，阿里研发工程师。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="SYC的博客">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2022/05/30/tech/setup/mac-reset-mysql-pwd/" class="post-title-link" itemprop="url">tools_mac_reset_mysql_pwd</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2022-05-30 22:34:41" itemprop="dateCreated datePublished" datetime="2022-05-30T22:34:41+08:00">2022-05-30</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="far fa-calendar-check"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-06-05 15:07:43" itemprop="dateModified" datetime="2022-06-05T15:07:43+08:00">2022-06-05</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-folder"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Tech/" itemprop="url" rel="index"><span itemprop="name">Tech</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>具体的解决方案如下：</p>
-<ol>
-<li>苹果-&gt;系统偏好设置-&gt;最下边点mysql 在弹出页面中 关闭mysql服务（点击stop mysql server）</li>
-<li>进入终端输入：cd &#x2F;usr&#x2F;local&#x2F;mysql&#x2F;bin&#x2F;</li>
-<li>回车后 登录管理员权限 sudo su</li>
-<li>输入mac的管理员密码</li>
-<li>回车后输入以下命令来禁止mysql验证功能 .&#x2F;mysqld_safe –skip-grant-tables &amp;</li>
-<li>回车后mysql会自动重启（偏好设置中mysql的状态会变成running）</li>
-<li>输入命令 .&#x2F;mysql</li>
-<li>输入命令 FLUSH PRIVILEGES;</li>
-<li>输入命令 SET PASSWORD FOR ‘root‘@’localhost’ &#x3D; PASSWORD(‘你的新密码’);<br>至此，密码已经修改成功，可以登录啦！</li>
-</ol>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
 
   
   <nav class="pagination">
@@ -7169,7 +7182,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">13</span>
+          <span class="site-state-item-count">14</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>

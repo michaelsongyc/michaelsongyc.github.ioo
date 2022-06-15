@@ -110,7 +110,7 @@
 <meta property="og:image" content="https://i.loli.net/2021/01/14/fmYEJy9N7Zjp2Xd.png">
 <meta property="og:image" content="https://tva1.sinaimg.cn/large/008eGmZEly1gmr1k3dfbxj31h00pkjy8.jpg">
 <meta property="article:published_time" content="2022-06-03T03:30:42.000Z">
-<meta property="article:modified_time" content="2022-06-05T07:23:21.477Z">
+<meta property="article:modified_time" content="2022-06-05T10:08:51.509Z">
 <meta property="article:author" content="Michael Song">
 <meta property="article:tag" content="interview">
 <meta name="twitter:card" content="summary">
@@ -308,7 +308,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2022-06-05 15:23:21" itemprop="dateModified" datetime="2022-06-05T15:23:21+08:00">2022-06-05</time>
+                <time title="修改时间：2022-06-05 18:08:51" itemprop="dateModified" datetime="2022-06-05T18:08:51+08:00">2022-06-05</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -1113,7 +1113,7 @@
 <p>​	<strong>如何得到Class的实例:</strong></p>
 <pre><code>     1.类名.class(就是一份字节码)
      2.Class.forName(String className);根据一个类的全限定名来构建Class对象
-     3.每一个对象多有getClass()方法:obj.getClass();返回对象的真实类型
+     3.每一个对象都有getClass()方法:obj.getClass();返回对象的真实类型
 </code></pre>
 <p><strong>使用场景：</strong></p>
 <ul>
@@ -1168,7 +1168,8 @@
 <p>缺点：基于拷贝内容的优点是避免了ConcurrentModificationException，但同样地，迭代器并不能访问到修改后的内容，即：迭代器遍历的是开始遍历那一刻拿到的集合拷贝，在遍历期间原集合发生的修改迭代器是不知道的。</p>
 <p>场景：java.util.concurrent包下的容器都是安全失败，可以在多线程下并发使用，并发修改。</p>
 <h4><span id="3-详细介绍hashmap"><strong>3、详细介绍HashMap</strong></span></h4><p>角度：数据结构+扩容情况+put查找的详细过程+哈希函数+容量为什么始终都是2^N，JDK1.7与1.8的区别。</p>
-<p>参考：<a target="_blank" rel="noopener" href="https://www.jianshu.com/p/9fe4cb316c05">https://www.jianshu.com/p/9fe4cb316c05</a></p>
+<p>参考：<a target="_blank" rel="noopener" href="https://www.cnblogs.com/wuhuangdi/p/4175991.html">https://www.cnblogs.com/wuhuangdi/p/4175991.html</a></p>
+<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_39480875/article/details/123423138">https://blog.csdn.net/qq_39480875/article/details/123423138</a></p>
 <p><strong>数据结构：</strong></p>
 <p>​		HashMap在底层数据结构上采用了数组＋链表＋红黑树，通过散列映射来存储键值对数据</p>
 <p><strong>扩容情况：</strong></p>
@@ -4567,7 +4568,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">13</span>
+          <span class="site-state-item-count">14</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
