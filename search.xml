@@ -92,6 +92,7 @@
 <li><a href="https://hengyun.tech/">横云断岭的博客 </a></li>
 <li><a href="https://github.com/hengyunabc">横云断岭 github</a></li>
 </ul>
+<p><a href="https://programmercarl.com/">代码随想录 &amp;&amp; 刷题网站</a></p>
 ]]></content>
       <categories>
         <category>Tech</category>
@@ -6397,16 +6398,33 @@
 <p>say hello world</p>
 </blockquote>
 <p>就可以发出”hello world”的声音了，支持中文。</p>
+<h2><span id="文本文件播放语音">文本文件播放语音</span></h2><p>新建一个文本文件aa.txt，在终端里在，cd 到该目录，然后执行:</p>
+<blockquote>
+<p>say -f aa.txt</p>
+</blockquote>
 <h2><span id="文本文件转为语音文件">文本文件转为语音文件</span></h2><p>新建一个文本文件aa.txt，在终端里在，cd 到该目录，然后执行:</p>
 <blockquote>
 <p>say -f aa.txt -o a.m4a</p>
 </blockquote>
 <p>即可生成a.m4a这个语音文件。 -f 后面跟的是需要转换成语音的文件，-o 是 -out 的意思。</p>
-<p>##设置<br>修改语音声音<br>打开Mac系统偏好设置-&gt;辅助功能-&gt;语音</p>
+<h2><span id="设置">设置</span></h2><p>修改语音声音<br>打开Mac系统偏好设置-&gt;辅助功能-&gt;语音</p>
 <p>对于国人来说，Sin-ji是讲粤语的，而Ting-ting是讲普通话的。当然，所有的演员都认识英文。</p>
+<ul>
+<li>可切换语种</li>
+<li>可调整语速</li>
+</ul>
 <h1><span id="参照">参照</span></h1><ul>
 <li><a href="https://javascript.net.cn/articles/721">https://javascript.net.cn/articles/721</a></li>
 <li><a href="https://newsn.net/say/mac-command-say.html">https://newsn.net/say/mac-command-say.html</a></li>
+</ul>
+]]></content>
+  </entry>
+  <entry>
+    <title>java链表</title>
+    <url>/2022/06/19/java-node/</url>
+    <content><![CDATA[<ul>
+<li><a href="https://www.cnblogs.com/easyidea/p/13371863.html">java ListNode 链表 </a></li>
+<li></li>
 </ul>
 ]]></content>
   </entry>
