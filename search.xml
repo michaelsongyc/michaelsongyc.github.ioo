@@ -192,9 +192,11 @@
 <li><a href="#toc">TOC</a></li>
 </ul>
 </li>
+<li><a href="#%E5%9B%BE%E7%89%87-1">图片</a></li>
 </ul>
 <!-- tocstop -->
 
+<p><a href="https://markdown-it.github.io/">markdown-it-demo</a></p>
 <h1><span id="refer">Refer</span></h1><p><a href="https://wizardforcel.gitbooks.io/markdown-simple-world/content/2.html">markdown grammar</a></p>
 <p><a href="https://www.zybuluo.com/mdeditor">Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。</a></p>
 <h2><span id="标题">标题</span></h2><p>markdown总支持1~6六级标题，通过在一行之前加上不同数量的井号来表示。</p>
@@ -329,6 +331,8 @@
 <h2><span id="toc">TOC</span></h2><p>TOC = Table of content ， 将内容制作成导航<br><a href="https://blog.csdn.net/qq_46527915/article/details/105466439">hexo toc</a></p>
 <p><a href="https://blog.csdn.net/qq_25760623/article/details/107739436">快速生成markdown目录TOC</a></p>
 <p><a href="https://www.jianshu.com/p/57f23e4140ba">快速生成markdown目录TOC，页内跳转</a></p>
+<h1><span id="图片">图片</span></h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">![图片](https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png)</span><br></pre></td></tr></table></figure>
+<p><img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" alt="图片"></p>
 ]]></content>
       <categories>
         <category>Tech</category>
