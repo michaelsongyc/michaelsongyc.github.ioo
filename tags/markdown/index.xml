@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>markdown on -MichelSongs</title>
+    <link>http://localhost:1313/tags/markdown/</link>
+    <description>Recent content in markdown on -MichelSongs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 05 Jun 2022 15:20:51 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>markdown</title>
+      <link>http://localhost:1313/post/tech/tools/markdown/</link>
+      <pubDate>Sun, 05 Jun 2022 15:20:51 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/tech/tools/markdown/</guid>
+      <description>markdown-it-demo Refer markdown grammar Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。 标题 markdown总支持1~6六级标题，通过在一行之前加上不同</description>
+    </item>
+    
+  </channel>
+</rss>

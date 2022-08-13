@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>interview on -MichelSongs</title>
+    <link>http://localhost:1313/tags/interview/</link>
+    <description>Recent content in interview on -MichelSongs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 03 Jun 2022 19:59:25 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/interview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>neiwang-design</title>
+      <link>http://localhost:1313/post/tech/interview/interview-al-design/</link>
+      <pubDate>Fri, 03 Jun 2022 19:59:25 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/tech/interview/interview-al-design/</guid>
+      <description>一、ES篇 1、概述 特点 功能 场景 竞品分析 对比 2、基本概念 IK分词器 索引（类数据库） 映射（类表设计） 文档（数据） 3、高级特性 映射高级 地理坐标点数</description>
+    </item>
+    
+    <item>
+      <title>neiwang-java-1</title>
+      <link>http://localhost:1313/post/tech/interview/interview-nw-java/</link>
+      <pubDate>Fri, 03 Jun 2022 11:30:42 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/tech/interview/interview-nw-java/</guid>
+      <description>一、基础篇 网络基础 TCP三次握手 1、OSI与TCP/IP 模型 2、常见网络服务分层 3、TCP与UDP区别及场景 4、TCP滑动窗口，拥塞控制 5、</description>
+    </item>
+    
+  </channel>
+</rss>

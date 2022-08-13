@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>learning on -MichelSongs</title>
+    <link>http://localhost:1313/tags/learning/</link>
+    <description>Recent content in learning on -MichelSongs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 03 Jun 2022 13:54:20 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mine-thinking</title>
+      <link>http://localhost:1313/post/thinking/mine-thinking/</link>
+      <pubDate>Fri, 03 Jun 2022 13:54:20 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/thinking/mine-thinking/</guid>
+      <description>所有的行业-》提供产品，服务消费者，教培行业[知识付费] 每天都在重复、传授、吸收知识。&amp;ndash; 如教师行业 知识星球。 知识是掌握路径： 学习</description>
+    </item>
+    
+    <item>
+      <title>collection_material</title>
+      <link>http://localhost:1313/post/tech/collection-material/</link>
+      <pubDate>Thu, 02 Jun 2022 16:13:17 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/tech/collection-material/</guid>
+      <description>github java Guide-1 java Guide-2 java Guide-git 1、不要沉迷框架，修炼内功 2、提高英语阅读能力【google translate】 3、职场从来不缺普通的程序员 4、工作之外有自己</description>
+    </item>
+    
+  </channel>
+</rss>

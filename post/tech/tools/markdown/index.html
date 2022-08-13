@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>markdown - -MichelSongs</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Michael Song" /><meta name="description" content="markdown-it-demo Refer markdown grammar Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。 标题 markdown总支持1~6六级标题，通过在一行之前加上不同" /><meta name="keywords" content="Hugo, theme, even" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.101.0 with theme even" />
+
+
+<link rel="canonical" href="http://localhost:1313/post/tech/tools/markdown/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+
+
+<link href="/sass/main.min.f92fd13721ddf72129410fd8250e73152cc6f2438082b6c0208dc24ee7c13fc4.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="markdown" />
+<meta property="og:description" content="markdown-it-demo Refer markdown grammar Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。 标题 markdown总支持1~6六级标题，通过在一行之前加上不同" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/tech/tools/markdown/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2022-06-05T15:20:51+00:00" />
+<meta property="article:modified_time" content="2022-06-05T15:20:51+00:00" />
+
+<meta itemprop="name" content="markdown">
+<meta itemprop="description" content="markdown-it-demo Refer markdown grammar Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。 标题 markdown总支持1~6六级标题，通过在一行之前加上不同"><meta itemprop="datePublished" content="2022-06-05T15:20:51+00:00" />
+<meta itemprop="dateModified" content="2022-06-05T15:20:51+00:00" />
+<meta itemprop="wordCount" content="989">
+<meta itemprop="keywords" content="markdown," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="markdown"/>
+<meta name="twitter:description" content="markdown-it-demo Refer markdown grammar Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。 标题 markdown总支持1~6六级标题，通过在一行之前加上不同"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">SYC</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">首页</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">归档</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">标签</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">分类</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">SYC</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">首页</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">归档</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">标签</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">分类</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">markdown</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2022-06-05 </span>
+        <div class="post-category">
+            <a href="/categories/tech/"> Tech </a>
+            </div>
+        
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#refer">Refer</a>
+      <ul>
+        <li><a href="#标题">标题</a></li>
+      </ul>
+    </li>
+    <li><a href="#这是-h1">这是 H1</a>
+      <ul>
+        <li><a href="#这是-h2">这是 H2</a>
+          <ul>
+            <li><a href="#这是-h3">这是 H3</a></li>
+          </ul>
+        </li>
+        <li><a href="#段落">段落</a></li>
+        <li><a href="#粗体斜体">粗体、斜体</a></li>
+        <li><a href="#删除线">删除线</a></li>
+        <li><a href="#引用">引用</a></li>
+        <li><a href="#这是一个标题">这是一个标题。</a></li>
+        <li><a href="#列表">列表</a></li>
+        <li><a href="#内联代码">内联代码</a></li>
+        <li><a href="#分隔线">分隔线</a></li>
+        <li><a href="#超链接">超链接</a></li>
+        <li><a href="#图片">图片</a></li>
+        <li><a href="#转义">转义</a></li>
+        <li><a href="#表格">表格</a></li>
+        <li><a href="#toc">TOC</a></li>
+      </ul>
+    </li>
+    <li><a href="#图片-1">图片</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <!-- toc -->
+<p><a href="https://markdown-it.github.io/">markdown-it-demo</a></p>
+<h1 id="refer">Refer</h1>
+<p><a href="https://wizardforcel.gitbooks.io/markdown-simple-world/content/2.html">markdown grammar</a></p>
+<p><a href="https://www.zybuluo.com/mdeditor">Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。</a></p>
+<h2 id="标题">标题</h2>
+<p>markdown总支持1~6六级标题，通过在一行之前加上不同数量的井号来表示。</p>
+<h1 id="这是-h1">这是 H1</h1>
+<h2 id="这是-h2">这是 H2</h2>
+<h3 id="这是-h3">这是 H3</h3>
+<p>&hellip;</p>
+<h6 id="这是-h6">这是 H6</h6>
+<h2 id="段落">段落</h2>
+<p>非常自然，一行文字就是一个段落。</p>
+<p>这是一个段落1</p>
+<p>这是一个段落2</p>
+<p>w1</p>
+<p>w2</p>
+<h2 id="粗体斜体">粗体、斜体</h2>
+<p>可以使用星号*或下划线_指定粗体或者斜体。</p>
+<p><em>这是斜体</em>
+<em>这也是斜体</em></p>
+<p><strong>这是粗体</strong>
+<em><strong>这是粗体+斜体</strong></em></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">*这是斜体*
+</span></span><span class="line"><span class="cl">_这也是斜体_
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">**这是粗体**
+</span></span><span class="line"><span class="cl">***这是粗体+斜体***
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="删除线">删除线</h2>
+<p><del>删除线</del></p>
+<h2 id="引用">引用</h2>
+<p>通过在行首加上大于号&gt;来添加引用格式。</p>
+<blockquote>
+<p>DD</p>
+<p>DD</p>
+</blockquote>
+<p>引用可以嵌套：</p>
+<blockquote>
+<p>w</p>
+<blockquote>
+<p>引用可以嵌套：</p>
+</blockquote>
+</blockquote>
+<p>也可以嵌套其他格式：</p>
+<blockquote>
+<h2 id="这是一个标题">这是一个标题。</h2>
+<ol>
+<li>这是第一行列表项。</li>
+</ol>
+</blockquote>
+<h2 id="列表">列表</h2>
+<p>无序列表使用星号、加号或是减号作为列表标记：</p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<p>等同于</p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<p>和</p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+<li></li>
+</ul>
+<p>有序列表则使用数字接着一个英文句点：</p>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<p>数字并不会影响输出的 HTML 结果，也就是说上面的例子等同于：</p>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<h2 id="内联代码">内联代码</h2>
+<p>用反引号` 来标记内联代码，它们会解释成<code>标签。</p>
+<p>如果代码的内容中有反引号，请用两个反引号包裹。</p>
+<p>代码中的&amp;、&lt;、&gt;符号都会自动转义，请放心使用。</p>
+<p><code>eee</code></p>
+<p>还有一种是github的风格，代码段的前后用三个反引号 ``` 独占一行来标记。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ww
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="分隔线">分隔线</h2>
+<p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">* * *
+</span></span><span class="line"><span class="cl">***
+</span></span><span class="line"><span class="cl">*****
+</span></span><span class="line"><span class="cl">- - -
+</span></span><span class="line"><span class="cl">---------------------------------------
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="超链接">超链接</h2>
+<p><a href="http://example.com/">an example</a></p>
+<p><a href="http://example.com/" title="Optional Title">an example</a>
+会被解释为</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;a href=&#39;http://example.com/&#39;&gt;an example&lt;/a&gt;
+</span></span><span class="line"><span class="cl">&lt;a href=&#39;http://example.com/&#39; title=&#34;Optional Title&#34;&gt;an example&lt;/a&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="图片">图片</h2>
+<p><img src="/path/to/img.jpg" alt="Alt text"></p>
+<p><img src="/path/to/img.jpg" alt="Alt text" title="Optional Title"></p>
+<p>会被解释为</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;img src=&#39;/path/to/img.jpg&#39; alt=&#39;Alt text&#39; /&gt;
+</span></span><span class="line"><span class="cl">&lt;img src=&#39;/path/to/img.jpg&#39; alt=&#39;Alt text&#39; title=&#39;Optional Title&#39; /&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="转义">转义</h2>
+<p>markdown支持在以下字符前面插入反斜杠，插入之后，将不再解析这些字符，而是原样输出。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">\   反斜线
+</span></span><span class="line"><span class="cl">`   反引号
+</span></span><span class="line"><span class="cl">*   星号
+</span></span><span class="line"><span class="cl">_   底线
+</span></span><span class="line"><span class="cl">{}  花括号
+</span></span><span class="line"><span class="cl">[]  方括号
+</span></span><span class="line"><span class="cl">()  括弧
+</span></span><span class="line"><span class="cl">#   井字号
+</span></span><span class="line"><span class="cl">+   加号
+</span></span><span class="line"><span class="cl">-   减号
+</span></span><span class="line"><span class="cl">.   英文句点
+</span></span><span class="line"><span class="cl">!   惊叹号
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="表格">表格</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Item</th>
+<th style="text-align:right">Value</th>
+<th style="text-align:center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Computer</td>
+<td style="text-align:right">$1600</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:left">Phone</td>
+<td style="text-align:right">$12</td>
+<td style="text-align:center">12</td>
+</tr>
+<tr>
+<td style="text-align:left">Pipe</td>
+<td style="text-align:right">$1</td>
+<td style="text-align:center">234</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">| Item     | Value | Qty   |
+</span></span><span class="line"><span class="cl">| :------- | ----: | :---: |
+</span></span><span class="line"><span class="cl">| Computer | $1600 |  5    |
+</span></span><span class="line"><span class="cl">| Phone    | $12   |  12   |
+</span></span><span class="line"><span class="cl">| Pipe     | $1    |  234  |
+</span></span></code></pre></td></tr></table>
+</div>
+</div><table>
+<thead>
+<tr>
+<th style="text-align:left">title1</th>
+<th style="text-align:center">title2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">v1</td>
+<td style="text-align:center">v2</td>
+</tr>
+</tbody>
+</table>
+<p>要注意第二行的冒号决定了居左居右还是居中，如果你不加冒号，默认是居左的。</p>
+<p>另外可以把第一行去掉，做成没有表头的表格，<strong>但第二行始终是要有的</strong>。</p>
+<h2 id="toc">TOC</h2>
+<p>TOC = Table of content ， 将内容制作成导航
+<a href="https://blog.csdn.net/qq_46527915/article/details/105466439">hexo toc</a></p>
+<p><a href="https://blog.csdn.net/qq_25760623/article/details/107739436">快速生成markdown目录TOC</a></p>
+<p><a href="https://www.jianshu.com/p/57f23e4140ba">快速生成markdown目录TOC，页内跳转</a></p>
+<h1 id="图片-1">图片</h1>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">![图片](https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" alt="图片"></p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">Michael Song</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2022-06-05
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/markdown/">markdown</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/mac-translate-word/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">mac_translate_word</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/parttime/wemeida/">
+            <span class="next-text nav-default">自媒体</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2022<span class="heart"><i class="iconfont icon-heart"></i></span><span>Michael Song</span>
+  </span>
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.4ae89da218555efa0e7093a20b92017d2e1202b66fff9fc2edf4cb8d44b44c6e.js"></script>
+
+
+
+
+
+
+
+
+</body>
+</html>
