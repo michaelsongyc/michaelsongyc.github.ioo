@@ -26,18 +26,144 @@
     </item>
     
     <item>
+      <title>读书笔记：《穷查理宝典》</title>
+      <link>https://michaelsongyc.github.io/post/book/poor_charlie_book/</link>
+      <pubDate>Fri, 29 Jul 2022 20:03:11 +0800</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/book/poor_charlie_book/</guid>
+      <description>查理就是如此独特的人，他的独特性既表现在他的思想上，也表现在他的人格上。 比如说，查理思考问题总是从逆向开始。如果要明白人生如何得到幸福，查理</description>
+    </item>
+    
+    <item>
+      <title>新疆旅行-北疆</title>
+      <link>https://michaelsongyc.github.io/post/travel/xinjiang/</link>
+      <pubDate>Fri, 22 Jul 2022 00:57:07 +0000</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/travel/xinjiang/</guid>
+      <description>当六月份看到朋友发的招募贴时，随即决定给自己放一次长假，让自己从持续多年的忙碌状态中抽离出来，腾出几天时间，给自己来一场心灵的放松、灵魂的洗</description>
+    </item>
+    
+    <item>
+      <title>java链表</title>
+      <link>https://michaelsongyc.github.io/post/tech/java/java-node/</link>
+      <pubDate>Sun, 19 Jun 2022 22:26:50 +0000</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/tech/java/java-node/</guid>
+      <description>ww java ListNode 链表</description>
+    </item>
+    
+    <item>
+      <title>自媒体</title>
+      <link>https://michaelsongyc.github.io/post/parttime/wemeida/</link>
+      <pubDate>Sun, 05 Jun 2022 11:14:50 +0000</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/parttime/wemeida/</guid>
+      <description>方向 一到两个 方向/赛道，不要多。 知识分享、知识付费 （Java）&amp;ndash; 起网名，中文、简单、便于搜索； 资料 自媒体-1 自媒体-2 自媒体-3</description>
+    </item>
+    
+    <item>
+      <title>neiwang-design</title>
+      <link>https://michaelsongyc.github.io/post/tech/interview/interview-al-design/</link>
+      <pubDate>Fri, 03 Jun 2022 19:59:25 +0000</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/tech/interview/interview-al-design/</guid>
+      <description>一、ES篇 1、概述 特点 功能 场景 竞品分析 对比 2、基本概念 IK分词器 索引（类数据库） 映射（类表设计） 文档（数据） 3、高级特性 映射高级 地理坐标点数</description>
+    </item>
+    
+    <item>
+      <title>mine-thinking</title>
+      <link>https://michaelsongyc.github.io/post/thinking/mine-thinking/</link>
+      <pubDate>Fri, 03 Jun 2022 13:54:20 +0000</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/thinking/mine-thinking/</guid>
+      <description>所有的行业-》提供产品，服务消费者，教培行业[知识付费] 每天都在重复、传授、吸收知识。&amp;ndash; 如教师行业 知识星球。 知识是掌握路径： 学习</description>
+    </item>
+    
+    <item>
+      <title>neiwang-java-1</title>
+      <link>https://michaelsongyc.github.io/post/tech/interview/interview-nw-java/</link>
+      <pubDate>Fri, 03 Jun 2022 11:30:42 +0000</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/tech/interview/interview-nw-java/</guid>
+      <description>一、基础篇 网络基础 TCP三次握手 1、OSI与TCP/IP 模型 2、常见网络服务分层 3、TCP与UDP区别及场景 4、TCP滑动窗口，拥塞控制 5、</description>
+    </item>
+    
+    <item>
+      <title>collection_material</title>
+      <link>https://michaelsongyc.github.io/post/tech/collection-material/</link>
+      <pubDate>Thu, 02 Jun 2022 16:13:17 +0000</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/tech/collection-material/</guid>
+      <description>github java Guide-1 java Guide-2 java Guide-git 1、不要沉迷框架，修炼内功 2、提高英语阅读能力【google translate】 3、职场从来不缺普通的程序员 4、工作之外有自己</description>
+    </item>
+    
+    <item>
+      <title>Mac下开发工具安装</title>
+      <link>https://michaelsongyc.github.io/post/tech/setup/install-software-collection/</link>
+      <pubDate>Sun, 01 May 2022 15:34:11 +0000</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/tech/setup/install-software-collection/</guid>
+      <description>Mac mac-mysql安装-参考-1 mac-mysql安装-参考-2 mac-python3 安装-参考 mac-Homebrew 安装-参考</description>
+    </item>
+    
+    <item>
       <title>Github Pages Action</title>
       <link>https://michaelsongyc.github.io/post/tech/github/githubaction/</link>
-      <pubDate>Sat, 13 Aug 2022 20:03:11 +0800</pubDate>
+      <pubDate>Sun, 13 Mar 2022 20:03:11 +0800</pubDate>
       
       <guid>https://michaelsongyc.github.io/post/tech/github/githubaction/</guid>
       <description>github 自动部署, refer to : Hugo 白话文 | GitHub Action 自动部署 基于 Github Action 自动构建 Hugo 博客 document</description>
     </item>
     
     <item>
+      <title>读书笔记：《人生定位》</title>
+      <link>https://michaelsongyc.github.io/post/book/life_orientation/</link>
+      <pubDate>Tue, 21 Sep 2021 20:03:11 +0800</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/book/life_orientation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo如何添加about页</title>
+      <link>https://michaelsongyc.github.io/post/tech/tools/hugo-about/</link>
+      <pubDate>Sat, 14 Aug 2021 09:52:33 +0800</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/tech/tools/hugo-about/</guid>
+      <description>创建页面 此处以even模板为例 1 hugo new post/about.md 文件创建完成后，会生成在 ${根目录}/content/post/目录下； 将about.md上移一层，到</description>
+    </item>
+    
+    <item>
+      <title>万宁Outing</title>
+      <link>https://michaelsongyc.github.io/post/travel/wanning/</link>
+      <pubDate>Tue, 13 Jul 2021 16:58:08 +0800</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/travel/wanning/</guid>
+      <description>海南outing</description>
+    </item>
+    
+    <item>
+      <title>西湖群山越野赛</title>
+      <link>https://michaelsongyc.github.io/post/sport/westlake2021/</link>
+      <pubDate>Sat, 01 May 2021 16:05:18 +0800</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/sport/westlake2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac下文字转换语音</title>
+      <link>https://michaelsongyc.github.io/post/mac-translate-word/</link>
+      <pubDate>Thu, 10 Sep 2020 21:56:56 +0000</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/mac-translate-word/</guid>
+      <description>使用 简单调用 在mac的命令行下面，执行： say hello world 就可以发出&amp;quot;hello world&amp;quot;的声音了，支持中文。 文本文件播放语音 新建</description>
+    </item>
+    
+    <item>
       <title>使用hugo搭建个人博客mac版[How to build a blog quickly?]</title>
       <link>https://michaelsongyc.github.io/post/tech/tools/hugo/</link>
-      <pubDate>Sat, 13 Aug 2022 00:56:59 +0000</pubDate>
+      <pubDate>Thu, 13 Aug 2020 00:56:59 +0000</pubDate>
       
       <guid>https://michaelsongyc.github.io/post/tech/tools/hugo/</guid>
       <description>&lt;p&gt;&lt;img src=&#34;https://michaelsongyc.github.io/image/hexo-blog.png&#34; alt=&#34;图片引用&#34;&gt;&lt;/p&gt;
@@ -116,123 +242,6 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
     </item>
     
     <item>
-      <title>《穷查理宝典》</title>
-      <link>https://michaelsongyc.github.io/post/book/poor_charlie_book/</link>
-      <pubDate>Fri, 29 Jul 2022 20:03:11 +0800</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/book/poor_charlie_book/</guid>
-      <description>please look at the image first: ww 333 q</description>
-    </item>
-    
-    <item>
-      <title>新疆旅行</title>
-      <link>https://michaelsongyc.github.io/post/travel/xinjiang/</link>
-      <pubDate>Wed, 27 Jul 2022 00:57:07 +0000</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/travel/xinjiang/</guid>
-      <description>当六月份看到朋友发的招募贴时，随即决定给自己放一次长假，让自己从持续多年的忙碌状态中抽离出来，腾出几天时间，给自己来一场心灵的放松、灵魂的洗</description>
-    </item>
-    
-    <item>
-      <title>java链表</title>
-      <link>https://michaelsongyc.github.io/post/tech/java/java-node/</link>
-      <pubDate>Sun, 19 Jun 2022 22:26:50 +0000</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/tech/java/java-node/</guid>
-      <description>ww java ListNode 链表</description>
-    </item>
-    
-    <item>
-      <title>mac_translate_word</title>
-      <link>https://michaelsongyc.github.io/post/mac-translate-word/</link>
-      <pubDate>Mon, 13 Jun 2022 21:56:56 +0000</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/mac-translate-word/</guid>
-      <description>使用 简单调用 在mac的命令行下面，执行： say hello world 就可以发出&amp;quot;hello world&amp;quot;的声音了，支持中文。 文本文件播放语音 新建</description>
-    </item>
-    
-    <item>
-      <title>自媒体</title>
-      <link>https://michaelsongyc.github.io/post/parttime/wemeida/</link>
-      <pubDate>Sun, 05 Jun 2022 11:14:50 +0000</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/parttime/wemeida/</guid>
-      <description>方向 一到两个 方向/赛道，不要多。 知识分享、知识付费 （Java）&amp;ndash; 起网名，中文、简单、便于搜索； 资料 自媒体-1 自媒体-2 自媒体-3</description>
-    </item>
-    
-    <item>
-      <title>neiwang-design</title>
-      <link>https://michaelsongyc.github.io/post/tech/interview/interview-al-design/</link>
-      <pubDate>Fri, 03 Jun 2022 19:59:25 +0000</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/tech/interview/interview-al-design/</guid>
-      <description>一、ES篇 1、概述 特点 功能 场景 竞品分析 对比 2、基本概念 IK分词器 索引（类数据库） 映射（类表设计） 文档（数据） 3、高级特性 映射高级 地理坐标点数</description>
-    </item>
-    
-    <item>
-      <title>mine-thinking</title>
-      <link>https://michaelsongyc.github.io/post/thinking/mine-thinking/</link>
-      <pubDate>Fri, 03 Jun 2022 13:54:20 +0000</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/thinking/mine-thinking/</guid>
-      <description>所有的行业-》提供产品，服务消费者，教培行业[知识付费] 每天都在重复、传授、吸收知识。&amp;ndash; 如教师行业 知识星球。 知识是掌握路径： 学习</description>
-    </item>
-    
-    <item>
-      <title>neiwang-java-1</title>
-      <link>https://michaelsongyc.github.io/post/tech/interview/interview-nw-java/</link>
-      <pubDate>Fri, 03 Jun 2022 11:30:42 +0000</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/tech/interview/interview-nw-java/</guid>
-      <description>一、基础篇 网络基础 TCP三次握手 1、OSI与TCP/IP 模型 2、常见网络服务分层 3、TCP与UDP区别及场景 4、TCP滑动窗口，拥塞控制 5、</description>
-    </item>
-    
-    <item>
-      <title>collection_material</title>
-      <link>https://michaelsongyc.github.io/post/tech/collection-material/</link>
-      <pubDate>Thu, 02 Jun 2022 16:13:17 +0000</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/tech/collection-material/</guid>
-      <description>github java Guide-1 java Guide-2 java Guide-git 1、不要沉迷框架，修炼内功 2、提高英语阅读能力【google translate】 3、职场从来不缺普通的程序员 4、工作之外有自己</description>
-    </item>
-    
-    <item>
-      <title>tools_mac_reset_mysql_pwd</title>
-      <link>https://michaelsongyc.github.io/post/tech/setup/mac-reset-mysql-pwd/</link>
-      <pubDate>Mon, 30 May 2022 22:34:41 +0000</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/tech/setup/mac-reset-mysql-pwd/</guid>
-      <description>具体的解决方案如下： 苹果-&amp;gt;系统偏好设置-&amp;gt;最下边点mysql 在弹出页面中 关闭mysql服务（点击stop mysql server） 进入终</description>
-    </item>
-    
-    <item>
-      <title>install_software_collection</title>
-      <link>https://michaelsongyc.github.io/post/tech/setup/install-software-collection/</link>
-      <pubDate>Sun, 01 May 2022 15:34:11 +0000</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/tech/setup/install-software-collection/</guid>
-      <description>Mac mac-mysql安装-参考-1 mac-mysql安装-参考-2 mac-python3 安装-参考 mac-Homebrew 安装-参考</description>
-    </item>
-    
-    <item>
-      <title>Hugo如何添加about页</title>
-      <link>https://michaelsongyc.github.io/post/tech/tools/hugo-about/</link>
-      <pubDate>Sat, 14 Aug 2021 09:52:33 +0800</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/tech/tools/hugo-about/</guid>
-      <description>创建页面 此处以even模板为例 1 hugo new post/about.md 文件创建完成后，会生成在 ${根目录}/content/post/目录下； 将about.md上移一层，到</description>
-    </item>
-    
-    <item>
-      <title>万宁Outing</title>
-      <link>https://michaelsongyc.github.io/post/travel/wanning/</link>
-      <pubDate>Tue, 13 Jul 2021 16:58:08 +0800</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/travel/wanning/</guid>
-      <description>海南outing</description>
-    </item>
-    
-    <item>
       <title>常用作图工具(工作&amp;&amp;生活)</title>
       <link>https://michaelsongyc.github.io/post/tech/tools/tools-paint/</link>
       <pubDate>Fri, 29 May 2020 23:07:02 +0000</pubDate>
@@ -248,6 +257,15 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
       
       <guid>https://michaelsongyc.github.io/post/tech/python/python3/</guid>
       <description>Chart github: Python3 chart</description>
+    </item>
+    
+    <item>
+      <title>Mac下Mysql重置密码</title>
+      <link>https://michaelsongyc.github.io/post/tech/setup/mac-reset-mysql-pwd/</link>
+      <pubDate>Sun, 16 Jun 2019 22:34:41 +0000</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/tech/setup/mac-reset-mysql-pwd/</guid>
+      <description>具体的解决方案如下： 苹果-&amp;gt;系统偏好设置-&amp;gt;最下边点mysql 在弹出页面中 关闭mysql服务（点击stop mysql server） 进入终</description>
     </item>
     
     <item>
