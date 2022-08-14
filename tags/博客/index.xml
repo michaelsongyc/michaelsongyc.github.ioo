@@ -2,18 +2,90 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>博客 on -MichelSongs</title>
-    <link>http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/</link>
+    <link>https://michaelsongyc.github.io/tags/%E5%8D%9A%E5%AE%A2/</link>
     <description>Recent content in 博客 on -MichelSongs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 29 Mar 2022 18:05:30 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Aug 2022 00:56:59 +0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to build a blog quickly?</title>
-      <link>http://localhost:1313/post/blog/</link>
-      <pubDate>Tue, 29 Mar 2022 18:05:30 +0000</pubDate>
+      <title>使用hugo搭建个人博客mac版[How to build a blog quickly?]</title>
+      <link>https://michaelsongyc.github.io/post/tech/tools/hugo/</link>
+      <pubDate>Sat, 13 Aug 2022 00:56:59 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/blog/</guid>
-      <description>流程图 please look at the image first:</description>
+      <guid>https://michaelsongyc.github.io/post/tech/tools/hugo/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://michaelsongyc.github.io/image/hexo-blog.png&#34; alt=&#34;图片引用&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;hugo介绍&#34;&gt;hugo介绍&lt;/h1&gt;
+&lt;p&gt;Hugo
+Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 hexo 迁移到了 Hugo，Hugo使用人数也多了起来，GitHub 上 Hugo 项目有 56.2k 个 star，已远远超过了 hexo，因此你也不用太担心 Hugo 会不会太小众化的问题，但是 Hugo 上的主题选择会更少一些，其中最受欢迎的是 wowchemy，但也仅有 6.1k 个star，而本站采用的是 LoveIt 主题，它的 star 就更少了，才 1.6k 个。当然，如果你是搞前端开发的，或者乐意自己写主题，那这些就不重要了。&lt;/p&gt;
+&lt;h2 id=&#34;hugo优点&#34;&gt;Hugo优点：&lt;/h2&gt;
+&lt;p&gt;速度快&lt;/p&gt;
+&lt;p&gt;Hugo 采用 Go 语言编写，它的速度用作者的话来形容就是世界上最快的构建网站工具。并且 Hugo 是即时渲染的，这意味着你可以边写边改样式，直到你满意为止。即使是你写了几百篇文章，它也能在几秒之内全部渲染完成。&lt;/p&gt;
+&lt;p&gt;The world’s fastest framework for building websites&lt;/p&gt;
+&lt;p&gt;配置更为简单&lt;/p&gt;
+&lt;p&gt;你需要安装只是 Hugo，不像 hexo 还得安装 Node.js。并且Hugo 中是不区分站点和主题的配置文件的，Hugo 中只有一个位于站点根目录下的 config.toml 配置文件，你只用在这里面进行修改就可以了。&lt;/p&gt;
+&lt;p&gt;方便自定义&lt;/p&gt;
+&lt;p&gt;你可以在不修改主题文件的前提下方便地定制主题。在 Hugo 中，如果你想要定制主题，你只需在站点目录下新建相应的文件即可。这是非常利于主题的维护的，你只需使用 Git 的 submodule 的方式安装 Hugo 的主题，然后更新时只需直接在站点根目录下敲一条命令回车即可，非常方便！&lt;/p&gt;
+&lt;h2 id=&#34;缺点&#34;&gt;缺点：&lt;/h2&gt;
+&lt;p&gt;主题比较少，很可能大家都是用的同一个主题，并且主题作者更新会更少一点。&lt;/p&gt;
+&lt;p&gt;总结：如果你喜欢 DIY，我建议使用 Hugo。如果你是个专业博主，写了很多文章需要渲染，我建议使用 Hugo！&lt;/p&gt;
+&lt;h1 id=&#34;环境准备&#34;&gt;环境准备&lt;/h1&gt;
+&lt;h2 id=&#34;1安装-hugo&#34;&gt;1.安装 hugo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;自动安装（依赖网速，可能会非常慢）
+在终端中输入 brew install hugo安装。
+安装成功后可输入hugo version查看版本信息。
+&lt;img src=&#34;img.png&#34; alt=&#34;img.png&#34;&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;手工安装
+首先，请前往 GitHub 上下载最新版的 Hugo 压缩包，Releases · gohugoio/hugo (github.com)，建议选择 extended 版本，这将更有利于后续的 DIY 操作！
+下载完成后解压到一个你认为合适的位置，然后把 hugo.exe 所在的文件夹添加至环境变量中的 Path 中即可。&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;2创建新网址&#34;&gt;2.创建新网址&lt;/h2&gt;
+&lt;p&gt;hugo new site quickstart 其中quickstart更改为用户名.github.io-creator（用户名为 github 用户名，需要小写） 使用code 用户名.github.io-creator使用 vscode 查看目录&lt;/p&gt;
+&lt;h2 id=&#34;3添加一个主题&#34;&gt;3.添加一个主题&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;在 quickstart 目录下打开新的终端，输入 git init&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;git clone &lt;a href=&#34;https://github.com/olOwOlo/hugo-theme-even&#34;&gt;https://github.com/olOwOlo/hugo-theme-even&lt;/a&gt; themes/even&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;把 \themes\LoveIt\exampleSite目录下的config.toml复制下来，替换掉站点根目录下的同名文件。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;然后对这个文件进行一些自定义修改。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;然后进入根目录下的archetypes文件夹中，修改default.md文件为下面的内容（这个文件是模板文件，通过指令创建的文章将以模板为基础内容）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;title: &amp;#34;{{ replace .Name &amp;#34;-&amp;#34; &amp;#34; &amp;#34; | title }}&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;date: {{ .Date }}
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;tags: [&amp;#34;&amp;#34;]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;categories: [&amp;#34;&amp;#34;]
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;toc:
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;  enable: true
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;description: 
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;draft: true
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;其中title表示文章标题，date为生成文章当时的时间，tags为标签，categories为目录，toc enable为启用文章目录（需要自己在文章中生成），description为文章摘要，draft表示是否为草稿（写完了文章把这里改为 false 即可），&lt;/p&gt;
+&lt;/blockquote&gt;</description>
     </item>
     
   </channel>

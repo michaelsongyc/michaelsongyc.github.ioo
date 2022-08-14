@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.101.0 with theme even" />
 
 
-<link rel="canonical" href="http://localhost:1313/post/tech/tools/markdown/" />
+<link rel="canonical" href="https://michaelsongyc.github.io/post/tech/tools/markdown/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -42,14 +42,14 @@
 <meta property="og:title" content="markdown" />
 <meta property="og:description" content="markdown-it-demo Refer markdown grammar Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。 标题 markdown总支持1~6六级标题，通过在一行之前加上不同" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/post/tech/tools/markdown/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2022-06-05T15:20:51+00:00" />
-<meta property="article:modified_time" content="2022-06-05T15:20:51+00:00" />
+<meta property="og:url" content="https://michaelsongyc.github.io/post/tech/tools/markdown/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2019-03-02T15:20:51+00:00" />
+<meta property="article:modified_time" content="2019-03-02T15:20:51+00:00" />
 
 <meta itemprop="name" content="markdown">
-<meta itemprop="description" content="markdown-it-demo Refer markdown grammar Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。 标题 markdown总支持1~6六级标题，通过在一行之前加上不同"><meta itemprop="datePublished" content="2022-06-05T15:20:51+00:00" />
-<meta itemprop="dateModified" content="2022-06-05T15:20:51+00:00" />
-<meta itemprop="wordCount" content="989">
+<meta itemprop="description" content="markdown-it-demo Refer markdown grammar Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。 标题 markdown总支持1~6六级标题，通过在一行之前加上不同"><meta itemprop="datePublished" content="2019-03-02T15:20:51+00:00" />
+<meta itemprop="dateModified" content="2019-03-02T15:20:51+00:00" />
+<meta itemprop="wordCount" content="1036">
 <meta itemprop="keywords" content="markdown," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="markdown"/>
 <meta name="twitter:description" content="markdown-it-demo Refer markdown grammar Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。 标题 markdown总支持1~6六级标题，通过在一行之前加上不同"/>
@@ -86,7 +86,7 @@
       </a><a href="/categories/">
         <li class="mobile-menu-item">分类</li>
       </a><a href="/about/">
-        <li class="mobile-menu-item">关于我</li>
+        <li class="mobile-menu-item">关于</li>
       </a>
   </ul>
 
@@ -116,7 +116,7 @@
       </li><li class="menu-item">
         <a class="menu-item-link" href="/categories/">分类</a>
       </li><li class="menu-item">
-        <a class="menu-item-link" href="/about/">关于我</a>
+        <a class="menu-item-link" href="/about/">关于</a>
       </li>
   </ul>
 </nav>
@@ -132,12 +132,12 @@
       <h1 class="post-title">markdown</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2022-06-05 </span>
+        <span class="post-time"> 2019-03-02 </span>
         <div class="post-category">
             <a href="/categories/tech/"> Tech </a>
             </div>
-          <span class="more-meta"> 约 989 字 </span>
-          <span class="more-meta"> 预计阅读 2 分钟 </span>
+          <span class="more-meta"> 约 1036 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
         
       </div>
     </header>
@@ -150,31 +150,25 @@
     <li><a href="#refer">Refer</a>
       <ul>
         <li><a href="#标题">标题</a></li>
-      </ul>
-    </li>
-    <li><a href="#这是-h1">这是 H1</a>
-      <ul>
-        <li><a href="#这是-h2">这是 H2</a>
-          <ul>
-            <li><a href="#这是-h3">这是 H3</a></li>
-          </ul>
-        </li>
         <li><a href="#段落">段落</a></li>
         <li><a href="#粗体斜体">粗体、斜体</a></li>
         <li><a href="#删除线">删除线</a></li>
         <li><a href="#引用">引用</a></li>
-        <li><a href="#这是一个标题">这是一个标题。</a></li>
         <li><a href="#列表">列表</a></li>
         <li><a href="#内联代码">内联代码</a></li>
         <li><a href="#分隔线">分隔线</a></li>
         <li><a href="#超链接">超链接</a></li>
-        <li><a href="#图片">图片</a></li>
         <li><a href="#转义">转义</a></li>
         <li><a href="#表格">表格</a></li>
         <li><a href="#toc">TOC</a></li>
       </ul>
     </li>
-    <li><a href="#图片-1">图片</a></li>
+    <li><a href="#图片">图片</a>
+      <ul>
+        <li><a href="#内联">内联</a></li>
+        <li><a href="#外联">外联</a></li>
+      </ul>
+    </li>
   </ul>
 </nav>
   </div>
@@ -187,17 +181,28 @@
 <p><a href="https://www.zybuluo.com/mdeditor">Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。</a></p>
 <h2 id="标题">标题</h2>
 <p>markdown总支持1~6六级标题，通过在一行之前加上不同数量的井号来表示。</p>
-<h1 id="这是-h1">这是 H1</h1>
-<h2 id="这是-h2">这是 H2</h2>
-<h3 id="这是-h3">这是 H3</h3>
-<p>&hellip;</p>
-<h6 id="这是-h6">这是 H6</h6>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># 这是 H1 #
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">## 这是 H2 ##
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">### 这是 H3 ###
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>&hellip;</p>
 <h2 id="段落">段落</h2>
 <p>非常自然，一行文字就是一个段落。</p>
 <p>这是一个段落1</p>
 <p>这是一个段落2</p>
 <p>w1</p>
-<p>w2</p>
 <h2 id="粗体斜体">粗体、斜体</h2>
 <p>可以使用星号*或下划线_指定粗体或者斜体。</p>
 <p><em>这是斜体</em>
@@ -222,7 +227,15 @@
 </div>
 </div><h2 id="删除线">删除线</h2>
 <p><del>删除线</del></p>
-<h2 id="引用">引用</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">~~删除线~~
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="引用">引用</h2>
 <p>通过在行首加上大于号&gt;来添加引用格式。</p>
 <blockquote>
 <p>DD</p>
@@ -235,13 +248,17 @@
 <p>引用可以嵌套：</p>
 </blockquote>
 </blockquote>
-<p>也可以嵌套其他格式：</p>
-<blockquote>
-<h2 id="这是一个标题">这是一个标题。</h2>
-<ol>
-<li>这是第一行列表项。</li>
-</ol>
-</blockquote>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&gt;w
+</span></span><span class="line"><span class="cl">&gt; &gt;引用可以嵌套：
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>也可以嵌套其他格式：</p>
 <h2 id="列表">列表</h2>
 <p>无序列表使用星号、加号或是减号作为列表标记：</p>
 <ul>
@@ -260,9 +277,20 @@
 <li>Red</li>
 <li>Green</li>
 <li>Blue</li>
-<li></li>
 </ul>
-<p>有序列表则使用数字接着一个英文句点：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">- Red
+</span></span><span class="line"><span class="cl">- Green
+</span></span><span class="line"><span class="cl">- Blue 
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>有序列表则使用数字接着一个英文句点：</p>
 <ol>
 <li>Bird</li>
 <li>McHale</li>
@@ -276,7 +304,15 @@
 </ol>
 <h2 id="内联代码">内联代码</h2>
 <p>用反引号` 来标记内联代码，它们会解释成<code>标签。</p>
-<p>如果代码的内容中有反引号，请用两个反引号包裹。</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;code&gt;标签
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>如果代码的内容中有反引号，请用两个反引号包裹。</p>
 <p>代码中的&amp;、&lt;、&gt;符号都会自动转义，请放心使用。</p>
 <p><code>eee</code></p>
 <p>还有一种是github的风格，代码段的前后用三个反引号 ``` 独占一行来标记。</p>
@@ -321,22 +357,8 @@
 </span><span class="lnt">2
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;a href=&#39;http://example.com/&#39;&gt;an example&lt;/a&gt;
-</span></span><span class="line"><span class="cl">&lt;a href=&#39;http://example.com/&#39; title=&#34;Optional Title&#34;&gt;an example&lt;/a&gt;
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="图片">图片</h2>
-<p><img src="/path/to/img.jpg" alt="Alt text"></p>
-<p><img src="/path/to/img.jpg" alt="Alt text" title="Optional Title"></p>
-<p>会被解释为</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;img src=&#39;/path/to/img.jpg&#39; alt=&#39;Alt text&#39; /&gt;
-</span></span><span class="line"><span class="cl">&lt;img src=&#39;/path/to/img.jpg&#39; alt=&#39;Alt text&#39; title=&#39;Optional Title&#39; /&gt;
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;a href=&#39;https://www.google.com/&#39;&gt;google&lt;/a&gt;
+</span></span><span class="line"><span class="cl">&lt;a href=&#39;https://www.google.com/&#39; title=&#34;Optional Title&#34;&gt;google&lt;/a&gt;
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="转义">转义</h2>
@@ -435,7 +457,34 @@
 <a href="https://blog.csdn.net/qq_46527915/article/details/105466439">hexo toc</a></p>
 <p><a href="https://blog.csdn.net/qq_25760623/article/details/107739436">快速生成markdown目录TOC</a></p>
 <p><a href="https://www.jianshu.com/p/57f23e4140ba">快速生成markdown目录TOC，页内跳转</a></p>
-<h1 id="图片-1">图片</h1>
+<h1 id="图片">图片</h1>
+<h2 id="内联">内联</h2>
+<p><img src="/path/img.jpg" alt="Alt text"></p>
+<p><img src="/path/img.jpg" alt="Alt text" title="Optional Title"></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">![Alt text](/path/img.jpg)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">![Alt text](/path/img.jpg &#34;Optional Title&#34;)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>会被解释为</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;img src=&#39;/path/to/img.jpg&#39; alt=&#39;Alt text&#39; /&gt;
+</span></span><span class="line"><span class="cl">&lt;img src=&#39;/path/to/img.jpg&#39; alt=&#39;Alt text&#39; title=&#39;Optional Title&#39; /&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="外联">外联</h2>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -456,7 +505,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2022-06-05
+        2019-03-02
         
     </span>
   </p>
@@ -468,16 +517,12 @@
           <a href="/tags/markdown/">markdown</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/mac-translate-word/">
+        <a class="prev" href="/post/tech/tools/tools-hexo/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">mac_translate_word</span>
+            <span class="prev-text nav-default">hexo demo</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        <a class="next" href="/post/parttime/wemeida/">
-            <span class="next-text nav-default">自媒体</span>
-            <span class="next-text nav-mobile">下一篇</span>
-            <i class="iconfont icon-right"></i>
-          </a>
+        
       </nav>
     </footer>
   </article>
@@ -495,7 +540,7 @@
       <div class="social-links">
       <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
       <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
-  <a href="http://localhost:1313/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+  <a href="https://michaelsongyc.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
 </div>
 
 <div class="copyright">

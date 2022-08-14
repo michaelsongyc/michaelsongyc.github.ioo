@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thinking on -MichelSongs</title>
-    <link>http://localhost:1313/categories/thinking/</link>
+    <link>https://michaelsongyc.github.io/categories/thinking/</link>
     <description>Recent content in Thinking on -MichelSongs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 03 Jun 2022 13:54:20 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/thinking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 03 Jun 2022 13:54:20 +0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/categories/thinking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>mine-thinking</title>
-      <link>http://localhost:1313/post/thinking/mine-thinking/</link>
+      <link>https://michaelsongyc.github.io/post/thinking/mine-thinking/</link>
       <pubDate>Fri, 03 Jun 2022 13:54:20 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/thinking/mine-thinking/</guid>
+      <guid>https://michaelsongyc.github.io/post/thinking/mine-thinking/</guid>
       <description>所有的行业-》提供产品，服务消费者，教培行业[知识付费] 每天都在重复、传授、吸收知识。&amp;ndash; 如教师行业 知识星球。 知识是掌握路径： 学习</description>
     </item>
     

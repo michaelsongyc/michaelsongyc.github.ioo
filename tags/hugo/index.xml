@@ -2,18 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>hugo on -MichelSongs</title>
-    <link>http://localhost:1313/tags/hugo/</link>
+    <link>https://michaelsongyc.github.io/tags/hugo/</link>
     <description>Recent content in hugo on -MichelSongs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 13 Aug 2022 00:56:59 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Aug 2022 00:56:59 +0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>使用hugo搭建个人博客mac版</title>
-      <link>http://localhost:1313/post/hugo/</link>
+      <title>使用hugo搭建个人博客mac版[How to build a blog quickly?]</title>
+      <link>https://michaelsongyc.github.io/post/tech/tools/hugo/</link>
       <pubDate>Sat, 13 Aug 2022 00:56:59 +0000</pubDate>
       
-      <guid>http://localhost:1313/post/hugo/</guid>
-      <description>&lt;h1 id=&#34;hugo介绍&#34;&gt;hugo介绍&lt;/h1&gt;
+      <guid>https://michaelsongyc.github.io/post/tech/tools/hugo/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://michaelsongyc.github.io/image/hexo-blog.png&#34; alt=&#34;图片引用&#34;&gt;&lt;/p&gt;
+&lt;h1 id=&#34;hugo介绍&#34;&gt;hugo介绍&lt;/h1&gt;
 &lt;p&gt;Hugo
 Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 hexo 迁移到了 Hugo，Hugo使用人数也多了起来，GitHub 上 Hugo 项目有 56.2k 个 star，已远远超过了 hexo，因此你也不用太担心 Hugo 会不会太小众化的问题，但是 Hugo 上的主题选择会更少一些，其中最受欢迎的是 wowchemy，但也仅有 6.1k 个star，而本站采用的是 LoveIt 主题，它的 star 就更少了，才 1.6k 个。当然，如果你是搞前端开发的，或者乐意自己写主题，那这些就不重要了。&lt;/p&gt;
 &lt;h2 id=&#34;hugo优点&#34;&gt;Hugo优点：&lt;/h2&gt;
@@ -85,6 +86,15 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
 &lt;/div&gt;&lt;blockquote&gt;
 &lt;p&gt;其中title表示文章标题，date为生成文章当时的时间，tags为标签，categories为目录，toc enable为启用文章目录（需要自己在文章中生成），description为文章摘要，draft表示是否为草稿（写完了文章把这里改为 false 即可），&lt;/p&gt;
 &lt;/blockquote&gt;</description>
+    </item>
+    
+    <item>
+      <title>Hugo如何添加about页</title>
+      <link>https://michaelsongyc.github.io/post/tech/tools/hugo-about/</link>
+      <pubDate>Sat, 14 Aug 2021 09:52:33 +0800</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/tech/tools/hugo-about/</guid>
+      <description>创建页面 此处以even模板为例 1 hugo new post/about.md 文件创建完成后，会生成在 ${根目录}/content/post/目录下； 将about.md上移一层，到</description>
     </item>
     
   </channel>
