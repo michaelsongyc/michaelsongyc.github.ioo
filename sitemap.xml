@@ -3,7 +3,28 @@
   
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2022-08-13T20:03:11+08:00</lastmod>
+    <lastmod>2022-08-14T09:20:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/draft/</loc>
+    <lastmod>2022-08-14T09:20:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/</loc>
+    <lastmod>2022-08-14T09:20:01+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/about/</loc>
+    <lastmod>2022-08-14T00:17:16+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -31,13 +52,6 @@
   
   <url>
     <loc>http://localhost:1313/post/tech/github/githubaction/</loc>
-    <lastmod>2022-08-13T20:03:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/</loc>
     <lastmod>2022-08-13T20:03:11+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -114,7 +128,7 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/post/java-node/</loc>
+    <loc>http://localhost:1313/post/tech/java/java-node/</loc>
     <lastmod>2022-06-19T22:26:50+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -326,12 +340,6 @@
   <url>
     <loc>http://localhost:1313/post/tech/setup/install-software-collection/</loc>
     <lastmod>2021-01-04T15:34:11+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/post/about/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
