@@ -49,7 +49,7 @@
 <meta itemprop="name" content="markdown">
 <meta itemprop="description" content="markdown-it-demo Refer markdown grammar Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。 标题 markdown总支持1~6六级标题，通过在一行之前加上不同"><meta itemprop="datePublished" content="2019-03-02T15:20:51+00:00" />
 <meta itemprop="dateModified" content="2019-03-02T15:20:51+00:00" />
-<meta itemprop="wordCount" content="1036">
+<meta itemprop="wordCount" content="1064">
 <meta itemprop="keywords" content="markdown," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="markdown"/>
 <meta name="twitter:description" content="markdown-it-demo Refer markdown grammar Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。 标题 markdown总支持1~6六级标题，通过在一行之前加上不同"/>
@@ -136,7 +136,7 @@
         <div class="post-category">
             <a href="/categories/tech/"> Tech </a>
             </div>
-          <span class="more-meta"> 约 1036 字 </span>
+          <span class="more-meta"> 约 1064 字 </span>
           <span class="more-meta"> 预计阅读 3 分钟 </span>
         
       </div>
@@ -161,6 +161,7 @@
         <li><a href="#转义">转义</a></li>
         <li><a href="#表格">表格</a></li>
         <li><a href="#toc">TOC</a></li>
+        <li><a href="#checkbox">checkbox</a></li>
       </ul>
     </li>
     <li><a href="#图片">图片</a>
@@ -303,13 +304,13 @@
 <li>Parish</li>
 </ol>
 <h2 id="内联代码">内联代码</h2>
-<p>用反引号` 来标记内联代码，它们会解释成<code>标签。</p>
+<p>用反引号` 来标记内联代码，它们会解释成<code>标签</code></p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;code&gt;标签
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;code&gt;标签&lt;/code&gt;
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>如果代码的内容中有反引号，请用两个反引号包裹。</p>
@@ -349,8 +350,20 @@
 </div>
 </div><h2 id="超链接">超链接</h2>
 <p><a href="http://example.com/">an example</a></p>
-<p><a href="http://example.com/" title="Optional Title">an example</a>
-会被解释为</p>
+<p><a href="http://example.com/" title="Optional Title">an example</a></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[an example](http://example.com/)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">[an example](http://example.com/ &#34;Optional Title&#34;)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>会被解释为</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -457,7 +470,19 @@
 <a href="https://blog.csdn.net/qq_46527915/article/details/105466439">hexo toc</a></p>
 <p><a href="https://blog.csdn.net/qq_25760623/article/details/107739436">快速生成markdown目录TOC</a></p>
 <p><a href="https://www.jianshu.com/p/57f23e4140ba">快速生成markdown目录TOC，页内跳转</a></p>
-<h1 id="图片">图片</h1>
+<h2 id="checkbox">checkbox</h2>
+<ul>
+<li><input disabled="" type="checkbox"> checkbox</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">- [ ]  checkbox
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h1 id="图片">图片</h1>
 <h2 id="内联">内联</h2>
 <p><img src="/path/img.jpg" alt="Alt text"></p>
 <p><img src="/path/img.jpg" alt="Alt text" title="Optional Title"></p>
@@ -522,7 +547,11 @@
             <span class="prev-text nav-default">hexo demo</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
-        
+        <a class="next" href="/post/tech/interview/interview-al-design/">
+            <span class="next-text nav-default"></span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
       </nav>
     </footer>
   </article>
@@ -540,7 +569,7 @@
       <div class="social-links">
       <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
       <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
-  <a href="https://michaelsongyc.github.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
+  
 </div>
 
 <div class="copyright">
@@ -549,8 +578,9 @@
   </span>
   <span class="division">|</span>
   <span class="theme-info">
-    Theme - 
-    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+
+    Theme -Even
+
   </span>
 
   

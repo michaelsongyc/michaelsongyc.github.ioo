@@ -6,7 +6,16 @@
     <description>Recent content in Categories on -MichelSongs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 29 Jul 2022 20:03:11 +0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Aug 2022 22:59:12 +0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>社会</title>
+      <link>https://michaelsongyc.github.io/categories/%E7%A4%BE%E4%BC%9A/</link>
+      <pubDate>Sat, 06 Aug 2022 22:59:12 +0800</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/categories/%E7%A4%BE%E4%BC%9A/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>读书笔记</title>
       <link>https://michaelsongyc.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
@@ -26,6 +35,15 @@
     </item>
     
     <item>
+      <title>影视</title>
+      <link>https://michaelsongyc.github.io/categories/%E5%BD%B1%E8%A7%86/</link>
+      <pubDate>Sun, 26 Jun 2022 21:23:51 +0800</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/categories/%E5%BD%B1%E8%A7%86/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>part-time</title>
       <link>https://michaelsongyc.github.io/categories/part-time/</link>
       <pubDate>Sun, 05 Jun 2022 11:14:50 +0000</pubDate>
@@ -35,20 +53,20 @@
     </item>
     
     <item>
-      <title>Tech</title>
-      <link>https://michaelsongyc.github.io/categories/tech/</link>
-      <pubDate>Fri, 03 Jun 2022 19:59:25 +0000</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/categories/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Thinking</title>
       <link>https://michaelsongyc.github.io/categories/thinking/</link>
       <pubDate>Fri, 03 Jun 2022 13:54:20 +0000</pubDate>
       
       <guid>https://michaelsongyc.github.io/categories/thinking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://michaelsongyc.github.io/categories/tech/</link>
+      <pubDate>Thu, 02 Jun 2022 16:13:17 +0000</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/categories/tech/</guid>
       <description></description>
     </item>
     
@@ -73,7 +91,7 @@
     <item>
       <title>运动健身</title>
       <link>https://michaelsongyc.github.io/categories/%E8%BF%90%E5%8A%A8%E5%81%A5%E8%BA%AB/</link>
-      <pubDate>Sat, 01 May 2021 16:05:18 +0800</pubDate>
+      <pubDate>Sat, 24 Apr 2021 16:05:18 +0800</pubDate>
       
       <guid>https://michaelsongyc.github.io/categories/%E8%BF%90%E5%8A%A8%E5%81%A5%E8%BA%AB/</guid>
       <description></description>
