@@ -17,16 +17,14 @@
 
 
 <meta name="author" content="Michael Song" /><meta name="description" content="hugo介绍 Hugo Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 hexo 迁移到了 Hugo，Hugo使用人数也多了起来，GitHub 上 Hugo 项目有 56.2k 个 star，已远远超过了 hexo，因此你也不用太担心 Hugo 会不会太小众化的问题，但是 Hugo 上的主题选择会更少一些，其中最受欢迎的是 wowchemy，但也仅有 6.1k 个star，而本站采用的是 LoveIt 主题，它的 star 就更少了，才 1.6k 个。当然，如果你是搞前端开发的，或者乐意自己写主题，那这些就不重要了。
-Hugo优点：
-速度快
+Hugo优点： 速度快
 Hugo 采用 Go 语言编写，它的速度用作者的话来形容就是世界上最快的构建网站工具。并且 Hugo 是即时渲染的，这意味着你可以边写边改样式，直到你满意为止。即使是你写了几百篇文章，它也能在几秒之内全部渲染完成。
 The world’s fastest framework for building websites
 配置更为简单
 你需要安装只是 Hugo，不像 hexo 还得安装 Node.js。并且Hugo 中是不区分站点和主题的配置文件的，Hugo 中只有一个位于站点根目录下的 config.toml 配置文件，你只用在这里面进行修改就可以了。
 方便自定义
 你可以在不修改主题文件的前提下方便地定制主题。在 Hugo 中，如果你想要定制主题，你只需在站点目录下新建相应的文件即可。这是非常利于主题的维护的，你只需使用 Git 的 submodule 的方式安装 Hugo 的主题，然后更新时只需直接在站点根目录下敲一条命令回车即可，非常方便！
-缺点：
-主题比较少，很可能大家都是用的同一个主题，并且主题作者更新会更少一点。
+缺点： 主题比较少，很可能大家都是用的同一个主题，并且主题作者更新会更少一点。
 总结：如果你喜欢 DIY，我建议使用 Hugo。如果你是个专业博主，写了很多文章需要渲染，我建议使用 Hugo！
 环境准备 1.安装 hugo 自动安装（依赖网速，可能会非常慢） 在终端中输入 brew install hugo安装。 安装成功后可输入hugo version查看版本信息。 手工安装 首先，请前往 GitHub 上下载最新版的 Hugo 压缩包，Releases · gohugoio/hugo (github.com)，建议选择 extended 版本，这将更有利于后续的 DIY 操作！ 下载完成后解压到一个你认为合适的位置，然后把 hugo.exe 所在的文件夹添加至环境变量中的 Path 中即可。
 2.创建新网址 hugo new site quickstart 其中quickstart更改为用户名.github.io-creator（用户名为 github 用户名，需要小写） 使用code 用户名.github.io-creator使用 vscode 查看目录
@@ -210,7 +208,7 @@ draft: true
 其中title表示文章标题，date为生成文章当时的时间，tags为标签，categories为目录，toc enable为启用文章目录（需要自己在文章中生成），description为文章摘要，draft表示是否为草稿（写完了文章把这里改为 false 即可），
 "><meta itemprop="datePublished" content="2022-08-13T00:56:59+00:00" />
 <meta itemprop="dateModified" content="2022-08-13T00:56:59+00:00" />
-<meta itemprop="wordCount" content="1736">
+<meta itemprop="wordCount" content="1719">
 <meta itemprop="keywords" content="hugo," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="使用hugo搭建个人博客mac版"/>
 <meta name="twitter:description" content="hugo介绍
@@ -317,6 +315,8 @@ draft: true
         <li class="mobile-menu-item">标签</li>
       </a><a href="/categories/">
         <li class="mobile-menu-item">分类</li>
+      </a><a href="/about/">
+        <li class="mobile-menu-item">关于我</li>
       </a>
   </ul>
 
@@ -345,6 +345,8 @@ draft: true
         <a class="menu-item-link" href="/tags/">标签</a>
       </li><li class="menu-item">
         <a class="menu-item-link" href="/categories/">分类</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/about/">关于我</a>
       </li>
   </ul>
 </nav>
@@ -373,7 +375,12 @@ draft: true
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#hugo介绍">hugo介绍</a></li>
+    <li><a href="#hugo介绍">hugo介绍</a>
+      <ul>
+        <li><a href="#hugo优点">Hugo优点：</a></li>
+        <li><a href="#缺点">缺点：</a></li>
+      </ul>
+    </li>
     <li><a href="#环境准备">环境准备</a>
       <ul>
         <li><a href="#1安装-hugo">1.安装 hugo</a></li>
@@ -388,6 +395,7 @@ draft: true
         <li><a href="#上传至-github">上传至 github</a></li>
       </ul>
     </li>
+    <li><a href="#refer">Refer</a></li>
   </ul>
 </nav>
   </div>
@@ -396,7 +404,7 @@ draft: true
       <h1 id="hugo介绍">hugo介绍</h1>
 <p>Hugo
 Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 hexo 迁移到了 Hugo，Hugo使用人数也多了起来，GitHub 上 Hugo 项目有 56.2k 个 star，已远远超过了 hexo，因此你也不用太担心 Hugo 会不会太小众化的问题，但是 Hugo 上的主题选择会更少一些，其中最受欢迎的是 wowchemy，但也仅有 6.1k 个star，而本站采用的是 LoveIt 主题，它的 star 就更少了，才 1.6k 个。当然，如果你是搞前端开发的，或者乐意自己写主题，那这些就不重要了。</p>
-<p>Hugo优点：</p>
+<h2 id="hugo优点">Hugo优点：</h2>
 <p>速度快</p>
 <p>Hugo 采用 Go 语言编写，它的速度用作者的话来形容就是世界上最快的构建网站工具。并且 Hugo 是即时渲染的，这意味着你可以边写边改样式，直到你满意为止。即使是你写了几百篇文章，它也能在几秒之内全部渲染完成。</p>
 <p>The world’s fastest framework for building websites</p>
@@ -404,7 +412,7 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
 <p>你需要安装只是 Hugo，不像 hexo 还得安装 Node.js。并且Hugo 中是不区分站点和主题的配置文件的，Hugo 中只有一个位于站点根目录下的 config.toml 配置文件，你只用在这里面进行修改就可以了。</p>
 <p>方便自定义</p>
 <p>你可以在不修改主题文件的前提下方便地定制主题。在 Hugo 中，如果你想要定制主题，你只需在站点目录下新建相应的文件即可。这是非常利于主题的维护的，你只需使用 Git 的 submodule 的方式安装 Hugo 的主题，然后更新时只需直接在站点根目录下敲一条命令回车即可，非常方便！</p>
-<p>缺点：</p>
+<h2 id="缺点">缺点：</h2>
 <p>主题比较少，很可能大家都是用的同一个主题，并且主题作者更新会更少一点。</p>
 <p>总结：如果你喜欢 DIY，我建议使用 Hugo。如果你是个专业博主，写了很多文章需要渲染，我建议使用 Hugo！</p>
 <h1 id="环境准备">环境准备</h1>
@@ -476,18 +484,16 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
 <li>注意: 对于even这个主题，应该使用 post 而不是 posts，即</li>
 <li>
 <blockquote>
-<p>hugo new post/some-content.md。</p>
+<p>hugo new post/some-content.md</p>
 </blockquote>
 </li>
 </ul>
 <h1 id="构建页面">构建页面</h1>
-<ul>
-<li>写完了文章进行网页的构建</li>
-</ul>
+<p>写完了文章进行网页的构建</p>
 <blockquote>
-<p>hugo server -D -e production
--D表示草稿也要渲染，-serve表示启动一个本地服务器，即时渲染，方便修改。</p>
+<p>hugo server -D -e production</p>
 </blockquote>
+<p>-D表示草稿也要渲染，-serve表示启动一个本地服务器，即时渲染，方便修改。</p>
 <p>hugo serve 的默认运行环境是 development, 而 hugo 的默认运行环境是 production。</p>
 <p>由于本地 development 环境的限制, 评论系统**, **CDN 和 fingerprint 不会在 development 环境下启用。</p>
 <p>你可以使用</p>
@@ -509,6 +515,8 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
 <p>hugo server -D</p>
 </blockquote>
 <h2 id="上传至-github">上传至 github</h2>
+<h1 id="refer">Refer</h1>
+<p><a href="https://spongecaptain.cool/post/hugo/howtousehugo/#1-%E5%AE%89%E8%A3%85-hugo">参考</a></p>
     </div>
 
     <div class="post-copyright">
@@ -531,9 +539,9 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
           <a href="/tags/hugo/">hugo</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/some-content/">
+        <a class="prev" href="/post/tech/github/githubaction/">
             <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">test</span>
+            <span class="prev-text nav-default">Github Pages Action</span>
             <span class="prev-text nav-mobile">上一篇</span>
           </a>
         <a class="next" href="/post/book/poor_charlie_book/">

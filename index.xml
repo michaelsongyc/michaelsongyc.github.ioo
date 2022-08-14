@@ -6,14 +6,14 @@
     <description>Recent content on -MichelSongs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 13 Aug 2022 16:07:53 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Aug 2022 20:03:11 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>test</title>
-      <link>http://localhost:1313/post/some-content/</link>
-      <pubDate>Sat, 13 Aug 2022 16:07:53 +0800</pubDate>
+      <title>Github Pages Action</title>
+      <link>http://localhost:1313/post/tech/github/githubaction/</link>
+      <pubDate>Sat, 13 Aug 2022 20:03:11 +0800</pubDate>
       
-      <guid>http://localhost:1313/post/some-content/</guid>
-      <description>hello world! 你好！ hello world! 你好！</description>
+      <guid>http://localhost:1313/post/tech/github/githubaction/</guid>
+      <description>github 自动部署, refer to : Hugo 白话文 | GitHub Action 自动部署 基于 Github Action 自动构建 Hugo 博客 document</description>
     </item>
     
     <item>
@@ -25,7 +25,7 @@
       <description>&lt;h1 id=&#34;hugo介绍&#34;&gt;hugo介绍&lt;/h1&gt;
 &lt;p&gt;Hugo
 Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 hexo 迁移到了 Hugo，Hugo使用人数也多了起来，GitHub 上 Hugo 项目有 56.2k 个 star，已远远超过了 hexo，因此你也不用太担心 Hugo 会不会太小众化的问题，但是 Hugo 上的主题选择会更少一些，其中最受欢迎的是 wowchemy，但也仅有 6.1k 个star，而本站采用的是 LoveIt 主题，它的 star 就更少了，才 1.6k 个。当然，如果你是搞前端开发的，或者乐意自己写主题，那这些就不重要了。&lt;/p&gt;
-&lt;p&gt;Hugo优点：&lt;/p&gt;
+&lt;h2 id=&#34;hugo优点&#34;&gt;Hugo优点：&lt;/h2&gt;
 &lt;p&gt;速度快&lt;/p&gt;
 &lt;p&gt;Hugo 采用 Go 语言编写，它的速度用作者的话来形容就是世界上最快的构建网站工具。并且 Hugo 是即时渲染的，这意味着你可以边写边改样式，直到你满意为止。即使是你写了几百篇文章，它也能在几秒之内全部渲染完成。&lt;/p&gt;
 &lt;p&gt;The world’s fastest framework for building websites&lt;/p&gt;
@@ -33,7 +33,7 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
 &lt;p&gt;你需要安装只是 Hugo，不像 hexo 还得安装 Node.js。并且Hugo 中是不区分站点和主题的配置文件的，Hugo 中只有一个位于站点根目录下的 config.toml 配置文件，你只用在这里面进行修改就可以了。&lt;/p&gt;
 &lt;p&gt;方便自定义&lt;/p&gt;
 &lt;p&gt;你可以在不修改主题文件的前提下方便地定制主题。在 Hugo 中，如果你想要定制主题，你只需在站点目录下新建相应的文件即可。这是非常利于主题的维护的，你只需使用 Git 的 submodule 的方式安装 Hugo 的主题，然后更新时只需直接在站点根目录下敲一条命令回车即可，非常方便！&lt;/p&gt;
-&lt;p&gt;缺点：&lt;/p&gt;
+&lt;h2 id=&#34;缺点&#34;&gt;缺点：&lt;/h2&gt;
 &lt;p&gt;主题比较少，很可能大家都是用的同一个主题，并且主题作者更新会更少一点。&lt;/p&gt;
 &lt;p&gt;总结：如果你喜欢 DIY，我建议使用 Hugo。如果你是个专业博主，写了很多文章需要渲染，我建议使用 Hugo！&lt;/p&gt;
 &lt;h1 id=&#34;环境准备&#34;&gt;环境准备&lt;/h1&gt;
@@ -247,6 +247,15 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
       
       <guid>http://localhost:1313/post/tech/setup/install-software-collection/</guid>
       <description>Mac mac-mysql安装-参考-1 mac-mysql安装-参考-2 mac-python3 安装-参考 mac-Homebrew 安装-参考</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/post/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/post/about/</guid>
+      <description>about me</description>
     </item>
     
     <item>

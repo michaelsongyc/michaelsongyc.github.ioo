@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>github on -MichelSongs</title>
+    <link>http://localhost:1313/tags/github/</link>
+    <description>Recent content in github on -MichelSongs</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 13 Aug 2022 20:03:11 +0800</lastBuildDate><atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github Pages Action</title>
+      <link>http://localhost:1313/post/tech/github/githubaction/</link>
+      <pubDate>Sat, 13 Aug 2022 20:03:11 +0800</pubDate>
+      
+      <guid>http://localhost:1313/post/tech/github/githubaction/</guid>
+      <description>github 自动部署, refer to : Hugo 白话文 | GitHub Action 自动部署 基于 Github Action 自动构建 Hugo 博客 document</description>
+    </item>
+    
+  </channel>
+</rss>
