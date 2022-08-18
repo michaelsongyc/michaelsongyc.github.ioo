@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>leetcode on SYC</title>
+    <link>https://michaelsongyc.github.io/tags/leetcode/</link>
+    <description>Recent content in leetcode on SYC</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 15 Aug 2022 23:16:44 +0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Leetcode</title>
+      <link>https://michaelsongyc.github.io/post/tech/leetcode/leetcode/</link>
+      <pubDate>Mon, 15 Aug 2022 23:16:44 +0800</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/tech/leetcode/leetcode/</guid>
+      <description>#求解方程 640-求解方程 #错题集合 删除有序数组中的重复项 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 class Solution { public int removeDuplicates(int[] nums) { int len = nums.length; if (len == 0) { return 0; }</description>
+    </item>
+    
+  </channel>
+</rss>

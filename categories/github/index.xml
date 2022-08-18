@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>github on -MichelSongs</title>
+    <title>github on SYC</title>
     <link>https://michaelsongyc.github.io/categories/github/</link>
-    <description>Recent content in github on -MichelSongs</description>
+    <description>Recent content in github on SYC</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 13 Mar 2022 20:03:11 +0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/categories/github/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Aug 2022 20:24:07 +0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/categories/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Algorithm</title>
+      <link>https://michaelsongyc.github.io/post/tech/github/algorithm/</link>
+      <pubDate>Thu, 18 Aug 2022 20:24:07 +0800</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/tech/github/algorithm/</guid>
+      <description>一、数据结构的存储方式 数据结构的存储方式只有两种：数组（顺序存储）和链表（链式存储） 这句话怎么理解，不是还有散列表、栈、队列、堆、树、图等等</description>
+    </item>
+    
+    <item>
+      <title>Github</title>
+      <link>https://michaelsongyc.github.io/post/tech/github/github/</link>
+      <pubDate>Thu, 18 Aug 2022 20:00:22 +0800</pubDate>
+      
+      <guid>https://michaelsongyc.github.io/post/tech/github/github/</guid>
+      <description>leetcode leetcode-labuladong (109k) </description>
+    </item>
+    
     <item>
       <title>Github Pages Action</title>
       <link>https://michaelsongyc.github.io/post/tech/github/githubaction/</link>
