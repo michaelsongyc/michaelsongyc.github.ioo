@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>代码设计 - 标签 - </title>
+        <link>https://michaelsongyc.github.io/tags/%E4%BB%A3%E7%A0%81%E8%AE%BE%E8%AE%A1/</link>
+        <description>代码设计 - 标签 - </description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 03 Sep 2022 13:43:58 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/%E4%BB%A3%E7%A0%81%E8%AE%BE%E8%AE%A1/" rel="self" type="application/rss+xml" /><item>
+    <title>Design</title>
+    <link>https://michaelsongyc.github.io/posts/tech/leetcode/design/</link>
+    <pubDate>Sat, 03 Sep 2022 13:43:58 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/tech/leetcode/design/</guid>
+    <description><![CDATA[堆栈 最小栈-M 第155题 最小栈 设计一个支持 push ，pop ，top 操作，并能在常数时间内检索到最小元素的栈。 实现 MinStack 类: MinStack() 初始化堆栈对象。 void push(int val) 将元]]></description>
+</item>
+</channel>
+</rss>

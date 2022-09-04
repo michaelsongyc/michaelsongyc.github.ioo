@@ -1,471 +1,58 @@
-<?xml-stylesheet type="text/xsl" href="https://michaelsongyc.github.io/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/life/sentence/</loc>
-    <lastmod>2022-08-16T20:19:50+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/github/algorithm/</loc>
-    <lastmod>2022-08-18T20:24:07+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/categories/</loc>
-    <lastmod>2022-08-18T20:24:07+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/categories/github/</loc>
-    <lastmod>2022-08-18T20:24:07+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/</loc>
-    <lastmod>2022-08-18T20:24:07+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/</loc>
-    <lastmod>2022-08-18T20:24:07+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/</loc>
-    <lastmod>2022-08-18T20:24:07+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E7%AE%97%E6%B3%95/</loc>
-    <lastmod>2022-08-18T20:24:07+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/github/</loc>
-    <lastmod>2022-08-18T20:00:22+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/github/github/</loc>
-    <lastmod>2022-08-18T20:00:22+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E5%8A%B1%E5%BF%97/</loc>
-    <lastmod>2022-08-16T20:19:50+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
-    <lastmod>2022-08-16T20:19:50+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/leetcode/</loc>
-    <lastmod>2022-08-15T23:16:44+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/leetcode/leetcode/</loc>
-    <lastmod>2022-08-15T23:16:44+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/categories/tech/</loc>
-    <lastmod>2022-08-15T23:16:44+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/life/draft/</loc>
-    <lastmod>2022-08-14T09:20:01+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/about/</loc>
-    <lastmod>2022-08-14T00:17:16+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E5%85%AC%E7%9B%8A/</loc>
-    <lastmod>2022-08-06T22:59:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/life/huakailing/</loc>
-    <lastmod>2022-08-06T22:59:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/categories/%E7%A4%BE%E4%BC%9A/</loc>
-    <lastmod>2022-08-06T22:59:12+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/book/poor_charlie_book/</loc>
-    <lastmod>2022-07-29T20:03:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
-    <lastmod>2022-07-29T20:03:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E7%90%86%E8%B4%A2/</loc>
-    <lastmod>2022-07-29T20:03:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/categories/%E6%97%85%E6%B8%B8/</loc>
-    <lastmod>2022-07-22T00:57:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E6%96%B0%E7%96%86/</loc>
-    <lastmod>2022-07-22T00:57:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/travel/xinjiang/</loc>
-    <lastmod>2022-07-22T00:57:07+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/life/movie/learning/</loc>
-    <lastmod>2022-06-26T21:23:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E7%BA%AA%E5%BD%95%E7%89%87/</loc>
-    <lastmod>2022-06-26T21:23:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/categories/%E5%BD%B1%E8%A7%86/</loc>
-    <lastmod>2022-06-26T21:23:51+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/java/java-node/</loc>
-    <lastmod>2022-06-19T22:26:50+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/categories/part-time/</loc>
-    <lastmod>2022-06-05T11:14:50+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E8%87%AA%E5%AA%92%E4%BD%93/</loc>
-    <lastmod>2022-06-05T11:14:50+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/life/parttime/wemeida/</loc>
-    <lastmod>2022-06-05T11:14:50+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/learning/</loc>
-    <lastmod>2022-06-03T13:54:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/thinking/mine-thinking/</loc>
-    <lastmod>2022-06-03T13:54:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/categories/thinking/</loc>
-    <lastmod>2022-06-03T13:54:20+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/collection-material/</loc>
-    <lastmod>2022-06-02T16:13:17+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/install/</loc>
-    <lastmod>2022-05-01T15:34:11+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/setup/install-software-collection/</loc>
-    <lastmod>2022-05-01T15:34:11+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/github/githubaction/</loc>
-    <lastmod>2022-03-13T20:03:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/hugo/</loc>
-    <lastmod>2022-03-13T20:03:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/book/life_orientation/</loc>
-    <lastmod>2021-09-21T20:03:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E8%A7%84%E5%88%92/</loc>
-    <lastmod>2021-09-21T20:03:11+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/categories/hugo/</loc>
-    <lastmod>2021-08-14T09:52:33+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/tools/hugo-about/</loc>
-    <lastmod>2021-08-14T09:52:33+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E6%B5%B7%E5%8D%97/</loc>
-    <lastmod>2021-07-13T16:58:08+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E4%B8%89%E4%BA%9A/</loc>
-    <lastmod>2021-07-13T16:58:08+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E4%B8%87%E5%AE%81/</loc>
-    <lastmod>2021-07-13T16:58:08+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/travel/wanning/</loc>
-    <lastmod>2021-07-13T16:58:08+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E9%A9%AC%E6%8B%89%E6%9D%BE/</loc>
-    <lastmod>2021-04-24T16:05:18+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/life/sport/westlake2021/</loc>
-    <lastmod>2021-04-24T16:05:18+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E8%B6%8A%E9%87%8E/</loc>
-    <lastmod>2021-04-24T16:05:18+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/categories/%E8%BF%90%E5%8A%A8%E5%81%A5%E8%BA%AB/</loc>
-    <lastmod>2021-04-24T16:05:18+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/mac-translate-word/</loc>
-    <lastmod>2020-09-10T21:56:56+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc>
-    <lastmod>2020-08-13T00:56:59+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/tools/hugo/</loc>
-    <lastmod>2020-08-13T00:56:59+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/tools/tools-paint/</loc>
-    <lastmod>2020-05-29T23:07:02+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/%E4%BD%9C%E5%9B%BEpaint/</loc>
-    <lastmod>2020-05-29T23:07:02+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/python/</loc>
-    <lastmod>2019-12-05T10:53:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/python/python3/</loc>
-    <lastmod>2019-12-05T10:53:18+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/setup/mac-reset-mysql-pwd/</loc>
-    <lastmod>2019-06-16T22:34:41+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/mysql/</loc>
-    <lastmod>2019-06-16T22:34:41+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/tools/tools-hexo/</loc>
-    <lastmod>2019-03-03T23:07:02+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/tags/markdown/</loc>
-    <lastmod>2019-03-02T15:20:51+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/tools/markdown/</loc>
-    <lastmod>2019-03-02T15:20:51+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/interview/interview-al-design/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://michaelsongyc.github.io/post/tech/interview/interview-nw-java/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-</urlset>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    ><url>
+            <loc>https://michaelsongyc.github.io/posts/life/sentence/</loc><lastmod>2022-08-16T20:19:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelsongyc.github.io/</loc><lastmod>2022-08-18T20:24:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelsongyc.github.io/categories/</loc><lastmod>2022-08-18T20:24:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/leetcode/</loc><lastmod>2022-08-18T20:24:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelsongyc.github.io/categories/leetcode/</loc><lastmod>2022-08-18T20:24:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/</loc><lastmod>2022-08-18T20:24:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/</loc><lastmod>2022-08-18T20:24:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/%E7%AE%97%E6%B3%95/</loc><lastmod>2022-08-18T20:24:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/tech/leetcode/algorithm/</loc><lastmod>2022-08-18T20:24:07&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/github/</loc><lastmod>2022-08-18T20:00:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelsongyc.github.io/categories/github/</loc><lastmod>2022-08-18T20:00:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/tech/github/github/</loc><lastmod>2022-08-18T20:00:22&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/%E5%8A%B1%E5%BF%97/</loc><lastmod>2022-08-16T20:19:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelsongyc.github.io/categories/%E7%94%9F%E6%B4%BB/</loc><lastmod>2022-08-16T20:19:50&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/book/poor_charlie_book/</loc><lastmod>2022-07-29T20:03:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/categories/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc><lastmod>2022-07-29T20:03:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/%E7%90%86%E8%B4%A2/</loc><lastmod>2022-07-29T20:03:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/categories/%E6%97%85%E6%B8%B8/</loc><lastmod>2022-07-22T00:57:07&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/%E6%96%B0%E7%96%86/</loc><lastmod>2022-07-22T00:57:07&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/travel/xinjiang/</loc><lastmod>2022-07-22T00:57:07&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/tech/java/java-node/</loc><lastmod>2022-06-19T22:26:50&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/categories/part-time/</loc><lastmod>2022-06-05T11:14:50&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/%E8%87%AA%E5%AA%92%E4%BD%93/</loc><lastmod>2022-06-05T11:14:50&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/life/parttime/wemeida/</loc><lastmod>2022-06-05T11:14:50&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/learning/</loc><lastmod>2022-06-03T13:54:20&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/thinking/mine-thinking/</loc><lastmod>2022-06-03T13:54:20&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/categories/thinking/</loc><lastmod>2022-06-03T13:54:20&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/tech/collection-material/</loc><lastmod>2022-06-02T16:13:17&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/categories/tech/</loc><lastmod>2022-06-02T16:13:17&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/install/</loc><lastmod>2022-05-01T15:34:11&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/tech/setup/install-software-collection/</loc><lastmod>2022-05-01T15:34:11&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/tech/github/githubaction/</loc><lastmod>2022-03-13T20:03:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/hugo/</loc><lastmod>2022-03-13T20:03:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/book/life_orientation/</loc><lastmod>2021-09-21T20:03:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/%E8%A7%84%E5%88%92/</loc><lastmod>2021-09-21T20:03:11&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/%E6%B5%B7%E5%8D%97/</loc><lastmod>2021-07-13T16:58:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/%E4%B8%89%E4%BA%9A/</loc><lastmod>2021-07-13T16:58:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/%E4%B8%87%E5%AE%81/</loc><lastmod>2021-07-13T16:58:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/travel/wanning/</loc><lastmod>2021-07-13T16:58:08&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/mac-translate-word/</loc><lastmod>2020-09-10T21:56:56&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/categories/hugo/</loc><lastmod>2020-08-13T00:56:59&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/%E5%8D%9A%E5%AE%A2/</loc><lastmod>2020-08-13T00:56:59&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/tech/tools/hugo/</loc><lastmod>2020-08-13T00:56:59&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/tech/tools/tools-paint/</loc><lastmod>2020-05-29T23:07:02&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/%E4%BD%9C%E5%9B%BEpaint/</loc><lastmod>2020-05-29T23:07:02&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/python/</loc><lastmod>2019-12-05T10:53:18&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/tech/python/python3/</loc><lastmod>2019-12-05T10:53:18&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/tech/setup/mac-reset-mysql-pwd/</loc><lastmod>2019-06-16T22:34:41&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/mysql/</loc><lastmod>2019-06-16T22:34:41&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/tech/tools/tools-hexo/</loc><lastmod>2019-03-03T23:07:02&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/tags/markdown/</loc><lastmod>2019-03-02T15:20:51&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/tech/tools/markdown/</loc><lastmod>2019-03-02T15:20:51&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/tech/interview/interview-al-design/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://michaelsongyc.github.io/posts/tech/interview/interview-nw-java/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url></urlset>

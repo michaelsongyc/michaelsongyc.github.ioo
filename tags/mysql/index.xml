@@ -1,20 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>mysql on SYC</title>
-    <link>https://michaelsongyc.github.io/tags/mysql/</link>
-    <description>Recent content in mysql on SYC</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 16 Jun 2019 22:34:41 +0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Mac下Mysql重置密码</title>
-      <link>https://michaelsongyc.github.io/post/tech/setup/mac-reset-mysql-pwd/</link>
-      <pubDate>Sun, 16 Jun 2019 22:34:41 +0000</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/tech/setup/mac-reset-mysql-pwd/</guid>
-      <description>具体的解决方案如下： 苹果-&amp;gt;系统偏好设置-&amp;gt;最下边点mysql 在弹出页面中 关闭mysql服务（点击stop mysql server） 进入终</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>mysql - 标签 - </title>
+        <link>https://michaelsongyc.github.io/tags/mysql/</link>
+        <description>mysql - 标签 - </description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 16 Jun 2019 22:34:41 &#43;0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/mysql/" rel="self" type="application/rss+xml" /><item>
+    <title>Mac下Mysql重置密码</title>
+    <link>https://michaelsongyc.github.io/posts/tech/setup/mac-reset-mysql-pwd/</link>
+    <pubDate>Sun, 16 Jun 2019 22:34:41 &#43;0000</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/tech/setup/mac-reset-mysql-pwd/</guid>
+    <description><![CDATA[具体的解决方案如下： 苹果-&gt;系统偏好设置-&gt;最下边点mysql 在弹出页面中 关闭mysql服务（点击stop mysql server） 进入终]]></description>
+</item>
+</channel>
 </rss>

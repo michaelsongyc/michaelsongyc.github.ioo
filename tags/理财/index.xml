@@ -1,20 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>理财 on SYC</title>
-    <link>https://michaelsongyc.github.io/tags/%E7%90%86%E8%B4%A2/</link>
-    <description>Recent content in 理财 on SYC</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 29 Jul 2022 20:03:11 +0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/%E7%90%86%E8%B4%A2/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>[读书笔记] 《穷查理宝典》</title>
-      <link>https://michaelsongyc.github.io/post/book/poor_charlie_book/</link>
-      <pubDate>Fri, 29 Jul 2022 20:03:11 +0800</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/book/poor_charlie_book/</guid>
-      <description>查理就是如此独特的人，他的独特性既表现在他的思想上，也表现在他的人格上。 比如说，查理思考问题总是从逆向开始。如果要明白人生如何得到幸福，查理</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>理财 - 标签 - </title>
+        <link>https://michaelsongyc.github.io/tags/%E7%90%86%E8%B4%A2/</link>
+        <description>理财 - 标签 - </description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 29 Jul 2022 20:03:11 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/%E7%90%86%E8%B4%A2/" rel="self" type="application/rss+xml" /><item>
+    <title>[读书笔记] 《穷查理宝典》</title>
+    <link>https://michaelsongyc.github.io/posts/book/poor_charlie_book/</link>
+    <pubDate>Fri, 29 Jul 2022 20:03:11 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/book/poor_charlie_book/</guid>
+    <description><![CDATA[查理就是如此独特的人，他的独特性既表现在他的思想上，也表现在他的人格上。 比如说，查理思考问题总是从逆向开始。如果要明白人生如何得到幸福，查理]]></description>
+</item>
+</channel>
 </rss>

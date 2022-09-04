@@ -1,20 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>python on SYC</title>
-    <link>https://michaelsongyc.github.io/tags/python/</link>
-    <description>Recent content in python on SYC</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 05 Dec 2019 10:53:18 +0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>python3</title>
-      <link>https://michaelsongyc.github.io/post/tech/python/python3/</link>
-      <pubDate>Thu, 05 Dec 2019 10:53:18 +0000</pubDate>
-      
-      <guid>https://michaelsongyc.github.io/post/tech/python/python3/</guid>
-      <description>Chart github: Python3 chart</description>
-    </item>
-    
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>python - 标签 - </title>
+        <link>https://michaelsongyc.github.io/tags/python/</link>
+        <description>python - 标签 - </description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 05 Dec 2019 10:53:18 &#43;0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/python/" rel="self" type="application/rss+xml" /><item>
+    <title>python3</title>
+    <link>https://michaelsongyc.github.io/posts/tech/python/python3/</link>
+    <pubDate>Thu, 05 Dec 2019 10:53:18 &#43;0000</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/tech/python/python3/</guid>
+    <description><![CDATA[Chart github: Python3 chart]]></description>
+</item>
+</channel>
 </rss>
