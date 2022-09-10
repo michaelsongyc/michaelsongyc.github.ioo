@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>作图（paint） - 标签 - </title>
+        <link>https://michaelsongyc.github.io/tags/%E4%BD%9C%E5%9B%BEpaint/</link>
+        <description>作图（paint） - 标签 - </description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 29 May 2020 23:07:02 &#43;0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/%E4%BD%9C%E5%9B%BEpaint/" rel="self" type="application/rss+xml" /><item>
+    <title>常用作图工具(工作&amp;&amp;生活)</title>
+    <link>https://michaelsongyc.github.io/posts/tech/tools/tools-paint/</link>
+    <pubDate>Fri, 29 May 2020 23:07:02 &#43;0000</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/tech/tools/tools-paint/</guid>
+    <description><![CDATA[思维导图 xmind UML plantUML Official website demo IDEA plant plugins idea plugin 流程图 Omni全家桶 OmniGraffle Mac平台的流程图绘制软件，相当于windows平台的visio OmniPlan 工期规划甘特图的工具 Gliffy]]></description>
+</item>
+</channel>
+</rss>
