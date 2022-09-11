@@ -5,10 +5,10 @@
         <description>博客 - 标签 - </description>
         <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 13 Aug 2020 00:56:59 &#43;0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/%E5%8D%9A%E5%AE%A2/" rel="self" type="application/rss+xml" /><item>
     <title>使用hugo搭建个人博客mac版[How to build a blog quickly?]</title>
-    <link>https://michaelsongyc.github.io/posts/tech/tools/hugo/</link>
+    <link>https://michaelsongyc.github.io/posts/tech/hugo/hugo-build-blog/</link>
     <pubDate>Thu, 13 Aug 2020 00:56:59 &#43;0000</pubDate>
     <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/tools/hugo/</guid>
+    <guid>https://michaelsongyc.github.io/posts/tech/hugo/hugo-build-blog/</guid>
     <description><![CDATA[<p></p>
 <h1 id="hugo介绍">hugo介绍</h1>
 <p>Hugo

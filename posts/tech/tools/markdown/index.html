@@ -17,7 +17,7 @@
 <meta name="application-name" content="My cool site">
 <meta name="apple-mobile-web-app-title" content="My cool site"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://michaelsongyc.github.io/posts/tech/tools/markdown/" /><link rel="prev" href="https://michaelsongyc.github.io/posts/tech/interview/interview-al-design/" /><link rel="next" href="https://michaelsongyc.github.io/posts/tech/tools/tools-hexo/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://michaelsongyc.github.io/posts/tech/tools/markdown/" /><link rel="prev" href="https://michaelsongyc.github.io/posts/tech/interview/interview-al-design/" /><link rel="next" href="https://michaelsongyc.github.io/posts/tech/hugo/tools-hexo/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/michaelsongyc.github.io\/posts\/tech\/tools\/markdown\/"
-        },"genre": "posts","keywords": "markdown","wordcount":  1052 ,
+        },"genre": "posts","keywords": "markdown","wordcount":  1161 ,
         "url": "https:\/\/michaelsongyc.github.io\/posts\/tech\/tools\/markdown\/","datePublished": "2019-03-02T15:20:51+00:00","dateModified": "2019-03-02T15:20:51+00:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -102,7 +102,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">markdown</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Michael Song</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/tech/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Tech</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2019-03-02">2019-03-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1052 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2019-03-02">2019-03-02</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1161 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -113,8 +113,7 @@
   <ul>
     <li><a href="#标题">标题</a></li>
     <li><a href="#段落">段落</a></li>
-    <li><a href="#粗体斜体">粗体、斜体</a></li>
-    <li><a href="#删除线">删除线</a></li>
+    <li><a href="#文本样式">文本样式</a></li>
     <li><a href="#引用">引用</a></li>
     <li><a href="#列表">列表</a></li>
     <li><a href="#内联代码">内联代码</a></li>
@@ -159,9 +158,15 @@
 <p>非常自然，一行文字就是一个段落。</p>
 <!-- raw HTML omitted -->
 <p>w1</p>
-<h2 id="粗体斜体">粗体、斜体</h2>
-<p>可以使用星号*或下划线_指定粗体或者斜体。</p>
-<p><em>这是斜体</em>
+<h2 id="文本样式">文本样式</h2>
+<p>字体样式常用的有粗体、斜体、删除线等。</p>
+<p><code>*斜体字*</code> 对应 <em>斜体字</em></p>
+<p><code>**粗体字**</code> 对应 <strong>粗体字</strong></p>
+<p><code>~~删除线~~</code> 对应 <del>删除线</del></p>
+<p><code>行内代码</code>  对应 <code>行内代码</code></p>
+<p>还有一些样式原生不支持，但是可以通过html间接支持。</p>
+<p>可以使用星号*或下划线_指定粗体或者斜体。
+<em>这是斜体</em>
 <em>这也是斜体</em></p>
 <p><strong>这是粗体</strong>
 <em><strong>这是粗体+斜体</strong></em></p>
@@ -179,16 +184,6 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">**这是粗体**
 </span></span><span class="line"><span class="cl">***这是粗体+斜体***
-</span></span></code></pre></td></tr></table>
-</div>
-</div><h2 id="删除线">删除线</h2>
-<p><del>删除线</del></p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">~~删除线~~
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="引用">引用</h2>
@@ -270,7 +265,19 @@
 </div>
 </div><p>如果代码的内容中有反引号，请用两个反引号包裹。</p>
 <p>代码中的&amp;、&lt;、&gt;符号都会自动转义，请放心使用。</p>
-<p><code>eee</code></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">`
+</span></span><span class="line"><span class="cl">eee
+</span></span><span class="line"><span class="cl">`
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><code>eee</code></p>
 <p>还有一种是github的风格，代码段的前后用三个反引号 ``` 独占一行来标记。</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -447,16 +454,24 @@
         data-sizes="auto"
         alt="/path/img.jpg"
         title="Alt text" /></p>
-<p><figure><a class="lightgallery" href="/path/img.jpg" title="Alt text" data-thumbnail="/path/img.jpg" data-sub-html="<h2>Optional Title</h2><p>Alt text</p>">
-        <img
-            class="lazyload"
-            src="/svg/loading.min.svg"
-            data-src="/path/img.jpg"
-            data-srcset="/path/img.jpg, /path/img.jpg 1.5x, /path/img.jpg 2x"
-            data-sizes="auto"
-            alt="/path/img.jpg" />
-    </a><figcaption class="image-caption">Optional Title</figcaption>
-    </figure></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">![Alt text](/path/img.jpg)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>会被解释为</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;img src=&#39;/path/to/img.jpg&#39;/&gt;
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>这种格式显示图片不能控制对齐和大小，需要的话可以采取raw html的方法：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -464,20 +479,9 @@
 </span><span class="lnt">3
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">![Alt text](/path/img.jpg)
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl">![Alt text](/path/img.jpg &#34;Optional Title&#34;)
-</span></span></code></pre></td></tr></table>
-</div>
-</div><p>会被解释为</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">&lt;img src=&#39;/path/to/img.jpg&#39; alt=&#39;Alt text&#39; /&gt;
-</span></span><span class="line"><span class="cl">&lt;img src=&#39;/path/to/img.jpg&#39; alt=&#39;Alt text&#39; title=&#39;Optional Title&#39; /&gt;
+<pre tabindex="0" class="chroma"><code class="language-HTML" data-lang="HTML"><span class="line"><span class="cl"><span class="p">&lt;</span><span class="nt">p</span> <span class="na">align</span><span class="o">=</span><span class="s">&#34;center&#34;</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">img</span> <span class="na">src</span><span class="o">=</span><span class="s">&#34;https://i.loli.net/2021/01/31/4ZHoWduI59fiqJY.png&#34;</span> <span class="na">width</span><span class="o">=</span><span class="s">&#34;100&#34;</span> <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl"><span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div><h2 id="外联">外联</h2>
@@ -519,7 +523,7 @@
     </div>
 
     <div class="post-nav"><a href="/posts/tech/interview/interview-al-design/" class="prev" rel="prev" title=""><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i></a>
-            <a href="/posts/tech/tools/tools-hexo/" class="next" rel="next" title="hexo demo">hexo demo<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+            <a href="/posts/tech/hugo/tools-hexo/" class="next" rel="next" title="hexo demo">hexo demo<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">
