@@ -3,7 +3,7 @@
         <title></title>
         <link>https://michaelsongyc.github.io/</link>
         <description>Welcome to SYC Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Fri, 09 Sep 2022 20:39:01 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 10 Sep 2022 20:39:01 &#43;0800</lastBuildDate>
             <atom:link href="https://michaelsongyc.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>心灵鸡汤</title>
@@ -14,9 +14,9 @@
     <description><![CDATA[加油，把刷题变成打游戏一样的兴趣。 天道酬勤，凡事感激. 编程能力就像任何其他技能一样，也是一个可以通过 刻意练习 大大提高的。 1 2 3 4 5 6 7 8 9 大]]></description>
 </item>
 <item>
-    <title>算法-综合</title>
+    <title>算法-搜集</title>
     <link>https://michaelsongyc.github.io/posts/tech/leetcode/collect/</link>
-    <pubDate>Fri, 09 Sep 2022 20:39:01 &#43;0800</pubDate>
+    <pubDate>Sat, 10 Sep 2022 20:39:01 &#43;0800</pubDate>
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/tech/leetcode/collect/</guid>
     <description><![CDATA[1-容易-两数之和 1-容易-两数之和 给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target 的那 两个 整数，并返回它们的]]></description>
@@ -28,22 +28,6 @@
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/tech/tools/hugo-search/</guid>
     <description><![CDATA[LoveIt 使用Algolia搜索 Hugo-LoveIt添加Algolia搜索 loveit支持两种搜索：lunr和algolia。 lunr性能实在堪忧]]></description>
-</item>
-<item>
-    <title>算法-设计</title>
-    <link>https://michaelsongyc.github.io/posts/tech/leetcode/design/</link>
-    <pubDate>Sat, 03 Sep 2022 13:43:58 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/leetcode/design/</guid>
-    <description><![CDATA[堆栈 最小栈-M 第155题 最小栈 设计一个支持 push ，pop ，top 操作，并能在常数时间内检索到最小元素的栈。 实现 MinStack 类: MinStack() 初始化堆栈对象。 void push(int val) 将元]]></description>
-</item>
-<item>
-    <title>算法-数学</title>
-    <link>https://michaelsongyc.github.io/posts/tech/leetcode/shuxue/</link>
-    <pubDate>Thu, 01 Sep 2022 20:39:01 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/leetcode/shuxue/</guid>
-    <description><![CDATA[2的幂-E 第 231 题 2的幂 给你一个整数 n，请你判断该整数是否是 2 的幂次方。如果是，返回 true ；否则，返回 false 。 1 2 3 4 5 6 7 8 class Solution { public boolean isPowerOfTwo(int n) { while (n != 0]]></description>
 </item>
 <item>
     <title>算法-二叉树</title>
@@ -70,20 +54,36 @@
     <description><![CDATA[方式1 使用 codeinword 在线工具，选择code对应的语言后，生成copy，粘贴到word中即可。 方式2 使用 Visual Studio code. VSCode 支持复制后直接粘贴到word即是着色后]]></description>
 </item>
 <item>
-    <title>算法-字符串</title>
-    <link>https://michaelsongyc.github.io/posts/tech/leetcode/string/</link>
-    <pubDate>Sat, 20 Aug 2022 13:53:35 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/leetcode/string/</guid>
-    <description><![CDATA[颠倒字符串 力扣第 151 题「 颠倒字符串中的单词」 常规的方式是把 s 按空格 split 成若干单词，然后 reverse 这些单词的顺序，最后把这些单词 join 成句子。但这种方式使用了]]></description>
-</item>
-<item>
     <title>算法-数组</title>
     <link>https://michaelsongyc.github.io/posts/tech/leetcode/array/</link>
     <pubDate>Fri, 19 Aug 2022 18:23:28 &#43;0800</pubDate>
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/tech/leetcode/array/</guid>
     <description><![CDATA[数组/单链表系列算法 单链表常考的技巧就是双指针 比如判断单链表是否成环，拍脑袋的暴力解是什么？就是用一个 HashSet 之类的数据结构来缓存走过的节点，遇到]]></description>
+</item>
+<item>
+    <title>算法概述</title>
+    <link>https://michaelsongyc.github.io/posts/tech/leetcode/algorithm/</link>
+    <pubDate>Thu, 18 Aug 2022 20:24:07 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/tech/leetcode/algorithm/</guid>
+    <description><![CDATA[一、数据结构的存储方式 数据结构的存储方式只有两种：数组（顺序存储）和链表（链式存储） 这句话怎么理解，不是还有散列表、栈、队列、堆、树、图等等]]></description>
+</item>
+<item>
+    <title>Github</title>
+    <link>https://michaelsongyc.github.io/posts/tech/github/github/</link>
+    <pubDate>Thu, 18 Aug 2022 20:00:22 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/tech/github/github/</guid>
+    <description><![CDATA[leetcode leetcode-labuladong (109k) labuladong-算法讲解 宫水三叶-blog leetcode-宫水三叶 github-宫水三叶]]></description>
+</item>
+<item>
+    <title>Draft</title>
+    <link>https://michaelsongyc.github.io/posts/life/draft/</link>
+    <pubDate>Sun, 14 Aug 2022 09:20:01 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/life/draft/</guid>
+    <description><![CDATA[]]></description>
 </item>
 </channel>
 </rss>
