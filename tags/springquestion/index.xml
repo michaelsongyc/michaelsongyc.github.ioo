@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Spring - 分类 - </title>
-        <link>https://michaelsongyc.github.io/categories/spring/</link>
-        <description>Spring - 分类 - </description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 28 Sep 2021 00:13:30 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/categories/spring/" rel="self" type="application/rss+xml" /><item>
+        <title>SpringQuestion - 标签 - </title>
+        <link>https://michaelsongyc.github.io/tags/springquestion/</link>
+        <description>SpringQuestion - 标签 - </description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Tue, 28 Sep 2021 00:13:30 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/springquestion/" rel="self" type="application/rss+xml" /><item>
     <title>SpringQuestion</title>
     <link>https://michaelsongyc.github.io/posts/tech/spring/springquestion/</link>
     <pubDate>Tue, 28 Sep 2021 00:13:30 &#43;0800</pubDate>
