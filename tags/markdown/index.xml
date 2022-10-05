@@ -3,10 +3,10 @@
         <title>markdown - 标签 - </title>
         <link>https://michaelsongyc.github.io/tags/markdown/</link>
         <description>markdown - 标签 - </description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sat, 02 Mar 2019 15:20:51 &#43;0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/markdown/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Mon, 04 Mar 2019 15:20:51 &#43;0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/markdown/" rel="self" type="application/rss+xml" /><item>
     <title>markdown</title>
     <link>https://michaelsongyc.github.io/posts/tech/tools/markdown/</link>
-    <pubDate>Sat, 02 Mar 2019 15:20:51 &#43;0000</pubDate>
+    <pubDate>Mon, 04 Mar 2019 15:20:51 &#43;0000</pubDate>
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/tech/tools/markdown/</guid>
     <description><![CDATA[markdown-it-demo Refer markdown grammar Markdown，写博客当然要用这个。在线编辑器，所见即所得地编写。 标题 markdown总支持1~6六级标题，通过在一行之前加上不同]]></description>

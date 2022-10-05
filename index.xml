@@ -30,14 +30,6 @@
     <description><![CDATA[1-容易-两数之和 1-容易-两数之和 给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target 的那 两个 整数，并返回它们的]]></description>
 </item>
 <item>
-    <title>Hugo Search</title>
-    <link>https://michaelsongyc.github.io/posts/tech/hugo/hugo-search/</link>
-    <pubDate>Sun, 04 Sep 2022 15:32:39 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/hugo/hugo-search/</guid>
-    <description><![CDATA[LoveIt 使用Algolia搜索 Hugo-LoveIt添加Algolia搜索 loveit支持两种搜索：lunr和algolia。 lunr性能实在堪忧]]></description>
-</item>
-<item>
     <title>算法-二叉树</title>
     <link>https://michaelsongyc.github.io/posts/tech/leetcode/tree/</link>
     <pubDate>Sun, 21 Aug 2022 22:59:48 &#43;0800</pubDate>
@@ -52,14 +44,6 @@
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/tech/leetcode/listnode/</guid>
     <description><![CDATA[链表 链表分带头结点的链表 和 不带头结点的链表； 所有的链表都有一个头指针head，带头结点的链表中head的数据项为空，而不带头的链表直接在头结]]></description>
-</item>
-<item>
-    <title>Word中如何插入代码块？</title>
-    <link>https://michaelsongyc.github.io/posts/tech/tools/wordcode/</link>
-    <pubDate>Sun, 21 Aug 2022 12:43:16 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/tools/wordcode/</guid>
-    <description><![CDATA[方式1 使用 codeinword 在线工具，选择code对应的语言后，生成copy，粘贴到word中即可。 方式2 使用 Visual Studio code. VSCode 支持复制后直接粘贴到word即是着色后]]></description>
 </item>
 <item>
     <title>算法-数组</title>
@@ -84,6 +68,22 @@
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/tech/github/github/</guid>
     <description><![CDATA[leetcode leetcode-labuladong (109k) labuladong-算法讲解 宫水三叶-blog leetcode-宫水三叶 github-宫水三叶]]></description>
+</item>
+<item>
+    <title>花开岭公益行</title>
+    <link>https://michaelsongyc.github.io/posts/life/huakailing/</link>
+    <pubDate>Sat, 06 Aug 2022 22:59:12 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/life/huakailing/</guid>
+    <description><![CDATA[8.6号，机缘巧合，今天来到花开岭公益基地，&ldquo;免费午餐&rdquo;、&ldquo;微博打拐发起人&rdquo; 邓飞 老师在这里分]]></description>
+</item>
+<item>
+    <title>[读书笔记] 《穷查理宝典》</title>
+    <link>https://michaelsongyc.github.io/posts/book/poor_charlie_book/</link>
+    <pubDate>Fri, 29 Jul 2022 20:03:11 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/book/poor_charlie_book/</guid>
+    <description><![CDATA[查理就是如此独特的人，他的独特性既表现在他的思想上，也表现在他的人格上。 比如说，查理思考问题总是从逆向开始。如果要明白人生如何得到幸福，查理]]></description>
 </item>
 </channel>
 </rss>
