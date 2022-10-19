@@ -3,12 +3,12 @@
         <title>Categories - 分类 - </title>
         <link>https://michaelsongyc.github.io/categories/</link>
         <description>Categories - 分类 - </description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 11 Sep 2022 15:42:05 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/categories/" rel="self" type="application/rss+xml" /><item>
-    <title>健身</title>
-    <link>https://michaelsongyc.github.io/categories/%E5%81%A5%E8%BA%AB/</link>
-    <pubDate>Sun, 11 Sep 2022 15:42:05 &#43;0800</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Thu, 18 Aug 2022 20:24:07 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/categories/" rel="self" type="application/rss+xml" /><item>
+    <title>leetcode</title>
+    <link>https://michaelsongyc.github.io/categories/leetcode/</link>
+    <pubDate>Thu, 18 Aug 2022 20:24:07 &#43;0800</pubDate>
     <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/categories/%E5%81%A5%E8%BA%AB/</guid>
+    <guid>https://michaelsongyc.github.io/categories/leetcode/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

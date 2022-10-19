@@ -3,13 +3,13 @@
         <title>链表 - 标签 - </title>
         <link>https://michaelsongyc.github.io/tags/%E9%93%BE%E8%A1%A8/</link>
         <description>链表 - 标签 - </description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 21 Aug 2022 12:59:26 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/%E9%93%BE%E8%A1%A8/" rel="self" type="application/rss+xml" /><item>
-    <title>算法-链表</title>
-    <link>https://michaelsongyc.github.io/posts/tech/leetcode/listnode/</link>
-    <pubDate>Sun, 21 Aug 2022 12:59:26 &#43;0800</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><lastBuildDate>Sun, 19 Jun 2022 22:26:50 &#43;0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/%E9%93%BE%E8%A1%A8/" rel="self" type="application/rss+xml" /><item>
+    <title>Java链表</title>
+    <link>https://michaelsongyc.github.io/posts/tech/java/java-node/</link>
+    <pubDate>Sun, 19 Jun 2022 22:26:50 &#43;0000</pubDate>
     <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/leetcode/listnode/</guid>
-    <description><![CDATA[链表 链表分带头结点的链表 和 不带头结点的链表； 所有的链表都有一个头指针head，带头结点的链表中head的数据项为空，而不带头的链表直接在头结]]></description>
+    <guid>https://michaelsongyc.github.io/posts/tech/java/java-node/</guid>
+    <description><![CDATA[java ListNode 链表]]></description>
 </item>
 </channel>
 </rss>
