@@ -28,10 +28,7 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
 <h2 id="1安装-hugo">1.安装 hugo</h2>
 <ul>
 <li>
-<p>自动安装（依赖网速，可能会非常慢）
-在终端中输入 brew install hugo安装。
-安装成功后可输入hugo version查看版本信息。
-</p>
+<p>自动安装（依赖网速，可能会非常慢） 在终端中输入 <code>brew install hugo</code> 安装。 安装成功后可输入 <code>hugo version</code> 查看版本信息。</p>
 </li>
 <li>
 <p>手工安装
@@ -40,15 +37,18 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
 </li>
 </ul>
 <h2 id="2创建新网址">2.创建新网址</h2>
-<p>hugo new site quickstart 其中quickstart更改为用户名.github.io-creator（用户名为 github 用户名，需要小写） 使用code 用户名.github.io-creator使用 vscode 查看目录</p>
+<blockquote>
+<p>hugo new site quickstart</p>
+</blockquote>
+<p>其中quickstart更改为用户名.github.io-creator（用户名为 github 用户名，需要小写） 使用code 用户名.github.io-creator使用 vscode 查看目录</p>
 <h2 id="3添加一个主题">3.添加一个主题</h2>
 <ul>
-<li>在 quickstart 目录下打开新的终端，输入 git init</li>
+<li>在 quickstart 目录下打开新的终端，输入 <code>git init</code></li>
 </ul>
 <blockquote>
 <p>git clone <a href="https://github.com/olOwOlo/hugo-theme-even" target="_blank" rel="noopener noreffer ">https://github.com/olOwOlo/hugo-theme-even</a> themes/even</p>
 </blockquote>
-<p>把 \themes\LoveIt\exampleSite目录下的config.toml复制下来，替换掉站点根目录下的同名文件。</p>
+<p>把 \themes\LoveIt\exampleSite目录下的config.toml复制下来，替换掉 <code>站点根目录</code> 下的同名文件。</p>
 <ul>
 <li>
 <p>然后对这个文件进行一些自定义修改。</p>
