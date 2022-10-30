@@ -3,13 +3,13 @@
         <title>Java - 分类 - </title>
         <link>https://michaelsongyc.github.io/categories/java/</link>
         <description>Java - 分类 - </description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 19 Jun 2022 22:26:50 &#43;0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/categories/java/" rel="self" type="application/rss+xml" /><item>
-    <title>Java链表</title>
-    <link>https://michaelsongyc.github.io/posts/tech/java/java-node/</link>
-    <pubDate>Sun, 19 Jun 2022 22:26:50 &#43;0000</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 25 Oct 2018 22:24:05 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/categories/java/" rel="self" type="application/rss+xml" /><item>
+    <title>并行&amp;&amp;并发</title>
+    <link>https://michaelsongyc.github.io/posts/tech/java/concurrencyparall/</link>
+    <pubDate>Thu, 25 Oct 2018 22:24:05 &#43;0800</pubDate>
     <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/java/java-node/</guid>
-    <description><![CDATA[java ListNode 链表]]></description>
+    <guid>https://michaelsongyc.github.io/posts/tech/java/concurrencyparall/</guid>
+    <description><![CDATA[并发: 一个处理器同时处理多个任务。有效解决了单CPU下的多任务问题； 并行: 多个处理器或者是多核的处理器同时处理多个不同的任务.[ 能够并行执行]]></description>
 </item>
 </channel>
 </rss>

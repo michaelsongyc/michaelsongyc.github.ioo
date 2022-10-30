@@ -11,7 +11,7 @@
     <pubDate>Tue, 16 Aug 2022 20:19:50 &#43;0800</pubDate>
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/life/sentence/</guid>
-    <description><![CDATA[加油，把刷题变成打游戏一样的兴趣。 天道酬勤，凡事感激. 编程能力就像任何其他技能一样，也是一个可以通过 刻意练习 大大提高的。 1 2 3 4 5 6 7 8 9 大]]></description>
+    <description><![CDATA[大道至简 加油，把刷题变成打游戏一样的兴趣。 天道酬勤，凡事感激. 编程能力就像任何其他技能一样，也是一个可以通过 刻意练习 大大提高的。 1 2 3 4 5 6]]></description>
 </item>
 <item>
     <title>算法概述</title>
@@ -46,17 +46,9 @@
     <description><![CDATA[当六月份看到朋友发的招募贴时，随即决定给自己放一次长假，让自己从持续多年的忙碌状态中抽离出来，腾出几天时间，给自己来一场心灵的放松、灵魂的洗]]></description>
 </item>
 <item>
-    <title>Java链表</title>
-    <link>https://michaelsongyc.github.io/posts/tech/java/java-node/</link>
-    <pubDate>Sun, 19 Jun 2022 22:26:50 &#43;0000</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/java/java-node/</guid>
-    <description><![CDATA[java ListNode 链表]]></description>
-</item>
-<item>
     <title>自媒体</title>
     <link>https://michaelsongyc.github.io/posts/life/parttime/wemeida/</link>
-    <pubDate>Sun, 05 Jun 2022 11:14:50 &#43;0000</pubDate>
+    <pubDate>Sun, 05 Jun 2022 22:59:12 &#43;0800</pubDate>
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/life/parttime/wemeida/</guid>
     <description><![CDATA[方向 一到两个 方向/赛道，不要多。 知识分享、知识付费 （Java）&ndash; 起网名，中文、简单、便于搜索； 资料 自媒体-1 自媒体-2 自媒体-3]]></description>
@@ -83,7 +75,15 @@
     <pubDate>Sun, 01 May 2022 15:34:11 &#43;0000</pubDate>
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/tech/setup/install-software-collection/</guid>
-    <description><![CDATA[Mac mac-mysql安装-参考-1 mac-mysql安装-参考-2 mac-python3 安装-参考 mac-Homebrew 安装-参考]]></description>
+    <description><![CDATA[Mac Tool Charles DB mac-mysql安装-参考-1 mac-mysql安装-参考-2 mac-python3 安装-参考 mac-Homebrew 安装-参考]]></description>
+</item>
+<item>
+    <title>Github Pages Action</title>
+    <link>https://michaelsongyc.github.io/posts/tech/github/githubaction/</link>
+    <pubDate>Sun, 13 Mar 2022 20:03:11 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/tech/github/githubaction/</guid>
+    <description><![CDATA[github 自动部署, refer to : Hugo 白话文 | GitHub Action 自动部署 基于 Github Action 自动构建 Hugo 博客 document]]></description>
 </item>
 </channel>
 </rss>
