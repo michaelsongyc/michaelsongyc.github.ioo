@@ -4,14 +4,18 @@
         <link>https://michaelsongyc.github.io/tags/%E5%8D%9A%E5%AE%A2/</link>
         <description>博客 - 标签 - </description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 13 Aug 2019 00:56:59 &#43;0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/%E5%8D%9A%E5%AE%A2/" rel="self" type="application/rss+xml" /><item>
-    <title>Hugo搭建博客[How to build a blog quickly?]</title>
+    <title>Hugo搭建博客(How to build a blog quickly?)</title>
     <link>https://michaelsongyc.github.io/posts/tech/hugo/hugo-build-blog/</link>
     <pubDate>Tue, 13 Aug 2019 00:56:59 &#43;0000</pubDate>
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/tech/hugo/hugo-build-blog/</guid>
-    <description><![CDATA[<p></p>
-<h1 id="hugo介绍">hugo介绍</h1>
-<p>Hugo
+    <description><![CDATA[<h2 id="hugo介绍">hugo介绍</h2>
+<figure><figcaption>
+            <h4>desc</h4>
+        </figcaption>
+</figure>
+
+<p>Hug
 Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 hexo 迁移到了 Hugo，Hugo使用人数也多了起来，GitHub 上 Hugo 项目有 56.2k 个 star，已远远超过了 hexo，因此你也不用太担心 Hugo 会不会太小众化的问题，但是 Hugo 上的主题选择会更少一些，其中最受欢迎的是 wowchemy，但也仅有 6.1k 个star，而本站采用的是 LoveIt 主题，它的 star 就更少了，才 1.6k 个。当然，如果你是搞前端开发的，或者乐意自己写主题，那这些就不重要了。</p>
 <h2 id="hugo优点">Hugo优点：</h2>
 <p>速度快</p>
