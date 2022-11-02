@@ -8,8 +8,8 @@
 <meta property="og:description" content="Java基础概括 大图 Java 设计模式 &amp;&amp; 算法 框架 &amp;&amp; spring 中间件 &amp;&amp; 其他 Java Document Oracle Java tutorial List 1 2 public class ArrayList&lt;E&gt; extends AbstractList&lt;E&gt; implements List&lt;E&gt;, RandomAccess, Cloneable, java.io.Serializable{} 1 2 public class LinkedList&lt;E&gt; extends AbstractSequentialList&lt;E&gt; implements List&lt;E&gt;, Deque&lt;E&gt;, Cloneable, java.io.Serializable{} 1 2 public class CopyOnWriteArrayList&lt;E&gt; implements List&lt;E&gt;, RandomAccess, Cloneable, java.io.Serializable {} List" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://michaelsongyc.github.io/posts/tech/java/java-node/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2018-06-19T22:26:50+00:00" />
-<meta property="article:modified_time" content="2018-06-19T22:26:50+00:00" /><meta property="og:site_name" content="Michael" />
+<meta property="article:published_time" content="2019-03-19T22:26:50+00:00" />
+<meta property="article:modified_time" content="2019-03-19T22:26:50+00:00" /><meta property="og:site_name" content="Michael" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Java学习随笔"/>
@@ -17,7 +17,7 @@
 <meta name="application-name" content="MichaelSongs">
 <meta name="apple-mobile-web-app-title" content="MichaelSongs"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://michaelsongyc.github.io/posts/tech/java/java-node/" /><link rel="next" href="https://michaelsongyc.github.io/posts/tech/java/concurrencyparall/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://michaelsongyc.github.io/posts/tech/java/java-node/" /><link rel="prev" href="https://michaelsongyc.github.io/posts/tech/tools/markdown/" /><link rel="next" href="https://michaelsongyc.github.io/posts/tech/java/concurrencyparall/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -28,8 +28,8 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/michaelsongyc.github.io\/posts\/tech\/java\/java-node\/"
-        },"genre": "posts","keywords": "Java","wordcount":  2117 ,
-        "url": "https:\/\/michaelsongyc.github.io\/posts\/tech\/java\/java-node\/","datePublished": "2018-06-19T22:26:50+00:00","dateModified": "2018-06-19T22:26:50+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+        },"genre": "posts","keywords": "Java","wordcount":  3525 ,
+        "url": "https:\/\/michaelsongyc.github.io\/posts\/tech\/java\/java-node\/","datePublished": "2019-03-19T22:26:50+00:00","dateModified": "2019-03-19T22:26:50+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -102,8 +102,8 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Java学习随笔</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Michael Song</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/java/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Java</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2018-06-19">2018-06-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 2117 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 5 分钟&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2019-03-19">2019-03-19</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 3525 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 8 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>目录</span>
@@ -124,12 +124,14 @@
       <ul>
         <li><a href="#document">Document</a></li>
         <li><a href="#list">List</a></li>
-        <li><a href="#map">Map</a></li>
         <li><a href="#java-equals-and-hashcode">Java equals() and hashCode()</a></li>
+        <li><a href="#project-lombok">Project Lombok</a></li>
         <li><a href="#serialization-and-deserialization">Serialization and Deserialization</a></li>
         <li><a href="#java-泛型generics">Java 泛型（generics）</a></li>
         <li><a href="#java-reflection">Java Reflection</a></li>
         <li><a href="#java-annotations">Java Annotations</a></li>
+        <li><a href="#map">Map</a></li>
+        <li><a href="#hashmap">HashMap</a></li>
       </ul>
     </li>
     <li><a href="#todo">todo</a>
@@ -200,7 +202,6 @@
 <pre><code> List list = Collections.synchronizedList(new ArrayList(...));
 </code></pre>
 </blockquote>
-<h3 id="map">Map</h3>
 <h3 id="java-equals-and-hashcode">Java equals() and hashCode()</h3>
 <ul>
 <li><a href="https://www.digitalocean.com/community/tutorials/java-equals-hashcode" target="_blank" rel="noopener noreffer ">refer</a></li>
@@ -237,12 +238,164 @@
 <li><code>If two objects are unequal according to equals() method, their hash code are not required to be different.</code> Their hash code value may or may-not be equal.</li>
 </ul>
 <h4 id="importance-of-equals-and-hashcode-method">Importance of equals() and hashCode() method</h4>
-<p>Java hashCode() and equals() method are used in Hash table based implementations in java for storing and retrieving data. I have explained it in detail at How HashMap works in java? The implementation of equals() and hashCode() should follow these rules.</p>
+<p>Java hashCode() and equals() method are used in Hash table based implementations in java for storing and retrieving data. I have explained it in detail at <code>How HashMap works in java?</code> The implementation of equals() and hashCode() should follow these rules.</p>
 <ul>
 <li>If o1.equals(o2), then o1.hashCode() == o2.hashCode() should always be true.</li>
 <li>If o1.hashCode() == o2.hashCode is true, it doesn’t mean that o1.equals(o2) will be true.</li>
 </ul>
 <h4 id="when-to-override-equals-and-hashcode-methods">When to override equals() and hashCode() methods?</h4>
+<p><code>When we override equals() method</code>, it’s almost necessary to override the hashCode() method too so that their contract is not violated by our implementation. Note that your program will not throw any exceptions if the equals() and hashCode() contract is violated, if you are not planning to use the class as Hash table key, then it will not create any problem. If you are planning to use a class as Hash table key, then it’s must to override both equals() and hashCode() methods. Let’s see what happens when we rely on default implementation of equals() and hashCode() methods and use a custom class as HashMap key.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">DataKey</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="n">String</span> <span class="n">name</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="kt">int</span> <span class="n">id</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="c1">// getter and setter methods
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  
+</span></span><span class="line"><span class="cl">    <span class="nd">@Override</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">String</span> <span class="nf">toString</span><span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="s">&#34;DataKey [name=&#34;</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s">&#34;, id=&#34;</span> <span class="o">+</span> <span class="n">id</span> <span class="o">+</span> <span class="s">&#34;]&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">HashingTest</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Map</span><span class="o">&lt;</span><span class="n">DataKey</span><span class="o">,</span> <span class="n">Integer</span><span class="o">&gt;</span> <span class="n">hm</span> <span class="o">=</span> <span class="n">getAllData</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">DataKey</span> <span class="n">dk</span> <span class="o">=</span> <span class="k">new</span> <span class="n">DataKey</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dk</span><span class="o">.</span><span class="na">setId</span><span class="o">(</span><span class="n">1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dk</span><span class="o">.</span><span class="na">setName</span><span class="o">(</span><span class="s">&#34;Pankaj&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">log</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">&#34;{}&#34;</span><span class="o">,</span> <span class="n">dk</span><span class="o">.</span><span class="na">hashCode</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">Integer</span> <span class="n">value</span> <span class="o">=</span> <span class="n">hm</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">dk</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">log</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">&#34;{}&#34;</span><span class="o">,</span> <span class="n">value</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="kd">static</span> <span class="n">Map</span><span class="o">&lt;</span><span class="n">DataKey</span><span class="o">,</span> <span class="n">Integer</span><span class="o">&gt;</span> <span class="nf">getAllData</span><span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">Map</span><span class="o">&lt;</span><span class="n">DataKey</span><span class="o">,</span> <span class="n">Integer</span><span class="o">&gt;</span> <span class="n">hm</span> <span class="o">=</span> <span class="k">new</span> <span class="n">HashMap</span><span class="o">&lt;&gt;();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">DataKey</span> <span class="n">dk</span> <span class="o">=</span> <span class="k">new</span> <span class="n">DataKey</span><span class="o">();</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dk</span><span class="o">.</span><span class="na">setId</span><span class="o">(</span><span class="n">1</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="n">dk</span><span class="o">.</span><span class="na">setName</span><span class="o">(</span><span class="s">&#34;Pankaj&#34;</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">        <span class="n">log</span><span class="o">.</span><span class="na">info</span><span class="o">(</span><span class="s">&#34;{}&#34;</span><span class="o">,</span> <span class="n">dk</span><span class="o">.</span><span class="na">hashCode</span><span class="o">());</span>
+</span></span><span class="line"><span class="cl">        <span class="n">hm</span><span class="o">.</span><span class="na">put</span><span class="o">(</span><span class="n">dk</span><span class="o">,</span> <span class="n">10</span><span class="o">);</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="n">hm</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>When we run above program, it will print null. It’s because Object hashCode() method is used to find the bucket to look for the key. Since we don’t have access to the HashMap keys and we are creating the key again to retrieve the data, you will notice that hash code values of both the objects are different and hence value is not found.</p>
+<p>We can also use Project Lombok to auto generate equals and hashCode method implementations.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">lombok.Data</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nd">@Data</span>
+</span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">DataKey</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="n">String</span> <span class="n">name</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">private</span> <span class="kt">int</span> <span class="n">id</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nd">@Override</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">public</span> <span class="n">String</span> <span class="nf">toString</span><span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">        <span class="k">return</span> <span class="s">&#34;DataKey [name=&#34;</span> <span class="o">+</span> <span class="n">name</span> <span class="o">+</span> <span class="s">&#34;, id=&#34;</span> <span class="o">+</span> <span class="n">id</span> <span class="o">+</span> <span class="s">&#34;]&#34;</span><span class="o">;</span>
+</span></span><span class="line"><span class="cl">    <span class="o">}</span>
+</span></span><span class="line"><span class="cl"><span class="o">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h4 id="what-is-hash-collision-">What is Hash Collision ??</h4>
+<p>In very simple terms, Java Hash table implementations uses following logic for get and put operations.</p>
+<ol>
+<li>First identify the “Bucket” to use using the “key” hash code.</li>
+<li>If there are no objects present in the bucket with same hash code, then add the object for put operation and return null for get operation.</li>
+<li>If there are other objects in the bucket with same hash code, then “key” equals method comes into play.
+<ul>
+<li>If equals() return true and it’s a put operation, then object value is overridden.</li>
+<li>If equals() return false and it’s a put operation, then new entry is added to the bucket.</li>
+<li>If equals() return true and it’s a get operation, then object value is returned.</li>
+<li>If equals() return false and it’s a get operation, then null is returned.</li>
+</ul>
+</li>
+</ol>
+<p>Below image shows a bucket items of HashMap and how their equals() and hashCode() are related.</p>
+<figure><img src="/image/tech/java/base/hashCode.png"/><figcaption>
+            <h4>desc</h4>
+        </figcaption>
+</figure>
+
+<p>The phenomenon when two keys have same hash code is called hash collision. If hashCode() method is not implemented properly, there will be higher number of hash collision and map entries will not be properly distributed causing slowness in the get and put operations. This is the reason for prime number usage in generating hash code so that map entries are properly distributed across all the buckets.</p>
+<p><strong>What if we don’t implement both hashCode() and equals()?</strong></p>
+<p>We have already seen above that if hashCode() is not implemented, we won’t be able to retrieve the value because HashMap use hash code to find the bucket to look for the entry. If we only use hashCode() and don’t implement equals() then also value will be not retrieved because equals() method will return false.</p>
+<p><strong>Best Practices for implementing equals() and hashCode() method</strong></p>
+<ul>
+<li>Use same properties in both equals() and hashCode() method implementations, so that their contract doesn’t violate when any properties is updated.</li>
+<li>It’s better to use immutable objects as Hash table key so that we can cache the hash code rather than calculating it on every call. That’s why String is a good candidate for Hash table key because it’s immutable and cache the hash code value.</li>
+<li>Implement hashCode() method so that least number of hash collision occurs and entries are evenly distributed across all the buckets.</li>
+</ul>
+<h3 id="project-lombok">Project Lombok</h3>
+<ul>
+<li><a href="https://www.digitalocean.com/community/tutorials/java-project-lombok" target="_blank" rel="noopener noreffer ">refer</a></li>
+</ul>
 <h3 id="serialization-and-deserialization">Serialization and Deserialization</h3>
 <p><code>Serialization</code> is the conversion of the state of an object into a byte stream;<code>deserialization</code> does the opposite. Stated differently, serialization is the conversion of a Java object into a static stream (sequence) of bytes, which we can then save to a database or transfer over a network.</p>
 <ul>
@@ -518,13 +671,9 @@ Generic code ensures type safety. The compiler uses type-erasure to remove all t
 </span><span class="lnt">27
 </span><span class="lnt">28
 </span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nn">com.journaldev.annotations</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">java.io.FileNotFoundException</span><span class="o">;</span>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">java.io.FileNotFoundException</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">java.util.ArrayList</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">java.util.List</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl">
@@ -591,13 +740,9 @@ Generic code ensures type safety. The compiler uses type-erasure to remove all t
 </span><span class="lnt">29
 </span><span class="lnt">30
 </span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nn">com.journaldev.annotations</span><span class="o">;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">java.lang.annotation.Annotation</span><span class="o">;</span>
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">java.lang.annotation.Annotation</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">java.lang.reflect.Method</span><span class="o">;</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">AnnotationParsing</span> <span class="o">{</span>
@@ -605,9 +750,9 @@ Generic code ensures type safety. The compiler uses type-erasure to remove all t
 </span></span><span class="line"><span class="cl">	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
 </span></span><span class="line"><span class="cl">		<span class="k">try</span> <span class="o">{</span>
 </span></span><span class="line"><span class="cl">			<span class="k">for</span> <span class="o">(</span><span class="n">Method</span> <span class="n">method</span> <span class="o">:</span> <span class="n">AnnotationParsing</span><span class="o">.</span><span class="na">class</span><span class="o">.</span><span class="na">getClassLoader</span><span class="o">()</span>
-</span></span><span class="line"><span class="cl">					<span class="o">.</span><span class="na">loadClass</span><span class="o">((</span><span class="s">&#34;com.journaldev.annotations.AnnotationExample&#34;</span><span class="o">)).</span><span class="na">getMethods</span><span class="o">())</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">					<span class="o">.</span><span class="na">loadClass</span><span class="o">((</span><span class="s">&#34;com.michael.annotations.AnnotationExample&#34;</span><span class="o">)).</span><span class="na">getMethods</span><span class="o">())</span> <span class="o">{</span>
 </span></span><span class="line"><span class="cl">				<span class="c1">// checks if MethodInfo annotation is present for the method
-</span></span></span><span class="line"><span class="cl"><span class="c1"></span>				<span class="k">if</span> <span class="o">(</span><span class="n">method</span><span class="o">.</span><span class="na">isAnnotationPresent</span><span class="o">(</span><span class="n">com</span><span class="o">.</span><span class="na">journaldev</span><span class="o">.</span><span class="na">annotations</span><span class="o">.</span><span class="na">MethodInfo</span><span class="o">.</span><span class="na">class</span><span class="o">))</span> <span class="o">{</span>
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>				<span class="k">if</span> <span class="o">(</span><span class="n">method</span><span class="o">.</span><span class="na">isAnnotationPresent</span><span class="o">(</span><span class="n">com</span><span class="o">.</span><span class="na">michael</span><span class="o">.</span><span class="na">annotations</span><span class="o">.</span><span class="na">MethodInfo</span><span class="o">.</span><span class="na">class</span><span class="o">))</span> <span class="o">{</span>
 </span></span><span class="line"><span class="cl">					<span class="k">try</span> <span class="o">{</span>
 </span></span><span class="line"><span class="cl">						<span class="c1">// iterates all the annotations available in the method
 </span></span></span><span class="line"><span class="cl"><span class="c1"></span>						<span class="k">for</span> <span class="o">(</span><span class="n">Annotation</span> <span class="n">anno</span> <span class="o">:</span> <span class="n">method</span><span class="o">.</span><span class="na">getDeclaredAnnotations</span><span class="o">())</span> <span class="o">{</span>
@@ -631,6 +776,45 @@ Generic code ensures type safety. The compiler uses type-erasure to remove all t
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>Reflection API is very powerful and used widely in Java, J2EE frameworks like Spring, Hibernate, JUnit, check out Reflection in Java. That’s all for the java annotations example tutorial, I hope you learned something from it.</p>
+<h3 id="map">Map</h3>
+<h3 id="hashmap">HashMap</h3>
+<ul>
+<li><a href="https://www.digitalocean.com/community/tutorials/java-hashmap" target="_blank" rel="noopener noreffer ">refer</a></li>
+</ul>
+<p>Java HashMap is one of the most popular Collection classes in java. Java HashMap is Hash table based implementation. HashMap in java extends AbstractMap class that implements Map interface.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="kd">public</span> <span class="kd">class</span> <span class="nc">HashMap</span><span class="o">&lt;</span><span class="n">K</span><span class="o">,</span><span class="n">V</span><span class="o">&gt;</span> <span class="kd">extends</span> <span class="n">AbstractMap</span><span class="o">&lt;</span><span class="n">K</span><span class="o">,</span><span class="n">V</span><span class="o">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="kd">implements</span> <span class="n">Map</span><span class="o">&lt;</span><span class="n">K</span><span class="o">,</span><span class="n">V</span><span class="o">&gt;,</span> <span class="n">Cloneable</span><span class="o">,</span> <span class="n">Serializable</span> <span class="o">{}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Some of the important points about HashMap in Java are;</p>
+<ul>
+<li>Java HashMap allows null key and null values.</li>
+<li>HashMap is not an ordered collection. You can iterate over HashMap entries through keys set but they are not guaranteed to be in the order of their addition to the HashMap.</li>
+<li>HashMap is almost similar to Hashtable except that it’s unsynchronized and allows null key and values.</li>
+<li>HashMap uses it’s inner class Node&lt;K,V&gt; for storing map entries.</li>
+<li>HashMap stores entries into multiple singly linked lists, called buckets or bins. Default number of bins is 16 and it’s always power of 2.</li>
+<li>HashMap uses hashCode() and equals() methods on keys for get and put operations. So HashMap key object should provide good implementation of these methods. This is the reason immutable classes are better suitable for keys, for example String and Interger.</li>
+<li>Java HashMap is not thread safe, for multithreaded environment you should use ConcurrentHashMap class or get synchronized map using Collections.synchronizedMap() method.</li>
+</ul>
+<h4 id="java-hashmap-constructors">Java HashMap Constructors</h4>
+<p>Java HashMap provides four constructors.</p>
+<ul>
+<li>public HashMap(): Most commonly used HashMap constructor. This constructor will create an empty HashMap with default initial capacity 16 and load factor 0.75</li>
+<li>public HashMap(int initialCapacity): This HashMap constructor is used to specify the initial capacity and 0.75 load factor. This is useful in avoiding rehashing if you know the number of mappings to be stored in the HashMap.</li>
+<li>public HashMap(int initialCapacity, float loadFactor): This HashMap constructor will create an empty HashMap with specified initial capacity and load factor. You can use this if you know the maximum number of mappings to be stored in HashMap. In common scenarios you should avoid this because load factor 0.75 offers a good tradeoff between space and time cost.</li>
+<li>public HashMap(Map&lt;? extends K, ? extends V&gt; m): Creates a Map having same mappings as the specified map and with load factor 0.75</li>
+</ul>
+<h4 id="how-hashmap-works-in-java">How HashMap works in java?</h4>
+<p> HashMap in java use it’s inner class Node&lt;K,V&gt; for storing mappings. HashMap works on hashing algorithm and uses hashCode() and equals() method on key for get and put operations. HashMap use singly linked list to store elements, these are called bins or buckets.</p>
+<p>  When we call put method, hashCode of key is used to determine the bucket that will be used to store the mapping. Once bucket is identified, hashCode is used to check if there is already a key with same hashCode or not. If there is an existing key with same hashCode, then equals() method is used on key. If equals returns true, then value is overwritten, otherwise a new mapping is made to this singly linked list bucket. If there is no key with same hashCode then mapping is inserted into the bucket.</p>
+<p> For HashMap get operation, again key hashCode is used to determine the bucket to look for the value. After bucket is identified, entries are traversed to find out the Entry using hashCode and equals method. If match is found, value is returned otherwise null is returned. There are much more things involved such as hashing algorithm to get the bucket for the key, rehashing of mappings etc. But for our working, just remember that HashMap operations work on Key and good implementation of hashCode and equals method is required to avoid unwanted behaviour.</p>
+<p> Below image shows the explanation of get and put operations.</p>
 <h2 id="todo">todo</h2>
 <h3 id="java-链表">java 链表</h3>
 <ul>
@@ -640,7 +824,7 @@ Generic code ensures type safety. The compiler uses type-erasure to remove all t
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2018-06-19</span>
+                <span>更新于 2019-03-19</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
@@ -657,7 +841,7 @@ Generic code ensures type safety. The compiler uses type-erasure to remove all t
         </section>
     </div>
 
-    <div class="post-nav">
+    <div class="post-nav"><a href="/posts/tech/tools/markdown/" class="prev" rel="prev" title="markdown"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>markdown</a>
             <a href="/posts/tech/java/concurrencyparall/" class="next" rel="next" title="并行&amp;&amp;并发">并行&&并发<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
