@@ -5,15 +5,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <title>Hugo搭建博客(How to build a blog quickly?) - </title><meta name="Description" content="Welcome to SYC Blog"><meta property="og:title" content="Hugo搭建博客(How to build a blog quickly?)" />
-<meta property="og:description" content="hugo介绍
+<meta property="og:description" content="Hugo介绍
 
             desc
         
 
 
-Hug
 Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 hexo 迁移到了 Hugo，Hugo使用人数也多了起来，GitHub 上 Hugo 项目有 56.2k 个 star，已远远超过了 hexo，因此你也不用太担心 Hugo 会不会太小众化的问题，但是 Hugo 上的主题选择会更少一些，其中最受欢迎的是 wowchemy，但也仅有 6.1k 个star，而本站采用的是 LoveIt 主题，它的 star 就更少了，才 1.6k 个。当然，如果你是搞前端开发的，或者乐意自己写主题，那这些就不重要了。
-Hugo优点：
+优点
 速度快
 Hugo 采用 Go 语言编写，它的速度用作者的话来形容就是世界上最快的构建网站工具。并且 Hugo 是即时渲染的，这意味着你可以边写边改样式，直到你满意为止。即使是你写了几百篇文章，它也能在几秒之内全部渲染完成。
 The world’s fastest framework for building websites
@@ -21,11 +20,11 @@ The world’s fastest framework for building websites
 你需要安装只是 Hugo，不像 hexo 还得安装 Node.js。并且Hugo 中是不区分站点和主题的配置文件的，Hugo 中只有一个位于站点根目录下的 config.toml 配置文件，你只用在这里面进行修改就可以了。
 方便自定义
 你可以在不修改主题文件的前提下方便地定制主题。在 Hugo 中，如果你想要定制主题，你只需在站点目录下新建相应的文件即可。这是非常利于主题的维护的，你只需使用 Git 的 submodule 的方式安装 Hugo 的主题，然后更新时只需直接在站点根目录下敲一条命令回车即可，非常方便！
-缺点：
+缺点
 主题比较少，很可能大家都是用的同一个主题，并且主题作者更新会更少一点。
 总结：如果你喜欢 DIY，我建议使用 Hugo。如果你是个专业博主，写了很多文章需要渲染，我建议使用 Hugo！
 环境准备
-1.安装 hugo
+安装 hugo
 
 
 自动安装（依赖网速，可能会非常慢） 在终端中输入 brew install hugo 安装。 安装成功后可输入 hugo version 查看版本信息。
@@ -36,12 +35,13 @@ The world’s fastest framework for building websites
 下载完成后解压到一个你认为合适的位置，然后把 hugo.exe 所在的文件夹添加至环境变量中的 Path 中即可。
 
 
-2.创建新网址
+使用流程
+1.创建新网址
 
 hugo new site quickstart
 
 其中quickstart更改为用户名.github.io-creator（用户名为 github 用户名，需要小写） 使用code 用户名.github.io-creator使用 vscode 查看目录
-3.添加一个主题
+2.添加一个主题
 
 在 quickstart 目录下打开新的终端，输入 git init
 
@@ -84,20 +84,19 @@ draft: true
 " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://michaelsongyc.github.io/posts/tech/hugo/hugo-build-blog/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2019-08-13T00:56:59+00:00" />
-<meta property="article:modified_time" content="2019-08-13T00:56:59+00:00" /><meta property="og:site_name" content="Michael" />
+<meta property="article:published_time" content="2018-07-13T00:56:59+00:00" />
+<meta property="article:modified_time" content="2018-07-13T00:56:59+00:00" /><meta property="og:site_name" content="Michael" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo搭建博客(How to build a blog quickly?)"/>
-<meta name="twitter:description" content="hugo介绍
+<meta name="twitter:description" content="Hugo介绍
 
             desc
         
 
 
-Hug
 Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 hexo 迁移到了 Hugo，Hugo使用人数也多了起来，GitHub 上 Hugo 项目有 56.2k 个 star，已远远超过了 hexo，因此你也不用太担心 Hugo 会不会太小众化的问题，但是 Hugo 上的主题选择会更少一些，其中最受欢迎的是 wowchemy，但也仅有 6.1k 个star，而本站采用的是 LoveIt 主题，它的 star 就更少了，才 1.6k 个。当然，如果你是搞前端开发的，或者乐意自己写主题，那这些就不重要了。
-Hugo优点：
+优点
 速度快
 Hugo 采用 Go 语言编写，它的速度用作者的话来形容就是世界上最快的构建网站工具。并且 Hugo 是即时渲染的，这意味着你可以边写边改样式，直到你满意为止。即使是你写了几百篇文章，它也能在几秒之内全部渲染完成。
 The world’s fastest framework for building websites
@@ -105,11 +104,11 @@ The world’s fastest framework for building websites
 你需要安装只是 Hugo，不像 hexo 还得安装 Node.js。并且Hugo 中是不区分站点和主题的配置文件的，Hugo 中只有一个位于站点根目录下的 config.toml 配置文件，你只用在这里面进行修改就可以了。
 方便自定义
 你可以在不修改主题文件的前提下方便地定制主题。在 Hugo 中，如果你想要定制主题，你只需在站点目录下新建相应的文件即可。这是非常利于主题的维护的，你只需使用 Git 的 submodule 的方式安装 Hugo 的主题，然后更新时只需直接在站点根目录下敲一条命令回车即可，非常方便！
-缺点：
+缺点
 主题比较少，很可能大家都是用的同一个主题，并且主题作者更新会更少一点。
 总结：如果你喜欢 DIY，我建议使用 Hugo。如果你是个专业博主，写了很多文章需要渲染，我建议使用 Hugo！
 环境准备
-1.安装 hugo
+安装 hugo
 
 
 自动安装（依赖网速，可能会非常慢） 在终端中输入 brew install hugo 安装。 安装成功后可输入 hugo version 查看版本信息。
@@ -120,12 +119,13 @@ The world’s fastest framework for building websites
 下载完成后解压到一个你认为合适的位置，然后把 hugo.exe 所在的文件夹添加至环境变量中的 Path 中即可。
 
 
-2.创建新网址
+使用流程
+1.创建新网址
 
 hugo new site quickstart
 
 其中quickstart更改为用户名.github.io-creator（用户名为 github 用户名，需要小写） 使用code 用户名.github.io-creator使用 vscode 查看目录
-3.添加一个主题
+2.添加一个主题
 
 在 quickstart 目录下打开新的终端，输入 git init
 
@@ -169,7 +169,7 @@ draft: true
 <meta name="application-name" content="MichaelSongs">
 <meta name="apple-mobile-web-app-title" content="MichaelSongs"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://michaelsongyc.github.io/posts/tech/hugo/hugo-build-blog/" /><link rel="prev" href="https://michaelsongyc.github.io/posts/tech/setup/mac-reset-mysql-pwd/" /><link rel="next" href="https://michaelsongyc.github.io/posts/tech/python/python3/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://michaelsongyc.github.io/posts/tech/hugo/hugo-build-blog/" /><link rel="prev" href="https://michaelsongyc.github.io/posts/tech/tools/markdown/" /><link rel="next" href="https://michaelsongyc.github.io/posts/tech/java/java-node/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -180,8 +180,8 @@ draft: true
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/michaelsongyc.github.io\/posts\/tech\/hugo\/hugo-build-blog\/"
-        },"genre": "posts","keywords": "hugo, 博客","wordcount":  2173 ,
-        "url": "https:\/\/michaelsongyc.github.io\/posts\/tech\/hugo\/hugo-build-blog\/","datePublished": "2019-08-13T00:56:59+00:00","dateModified": "2019-08-13T00:56:59+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+        },"genre": "posts","keywords": "hugo, 博客","wordcount":  2174 ,
+        "url": "https:\/\/michaelsongyc.github.io\/posts\/tech\/hugo\/hugo-build-blog\/","datePublished": "2018-07-13T00:56:59+00:00","dateModified": "2018-07-13T00:56:59+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -197,7 +197,7 @@ draft: true
             <a href="/" title="">SYC-终身学习</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/"> 首页 </a><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+            <div class="menu-inner"><a class="menu-item" href="/"> 首页 </a><a class="menu-item" href="/posts/"> 所有文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/aboutme/"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
                             <i class="fas fa-search fa-fw" aria-hidden="true"></i>
@@ -239,7 +239,7 @@ draft: true
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
                         取消
                     </a>
-                </div><a class="menu-item" href="/" title="">首页</a><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                </div><a class="menu-item" href="/" title="">首页</a><a class="menu-item" href="/posts/" title="">所有文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/aboutme/" title="">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
             </a></div>
     </div>
@@ -254,7 +254,7 @@ draft: true
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Hugo搭建博客(How to build a blog quickly?)</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Michael Song</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/tech/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Tech</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2019-08-13">2019-08-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 2173 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2018-07-13">2018-07-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 2174 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 5 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -263,51 +263,56 @@ draft: true
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#hugo介绍">hugo介绍</a></li>
-    <li><a href="#hugo优点">Hugo优点：</a></li>
-    <li><a href="#缺点">缺点：</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#1安装-hugo">1.安装 hugo</a></li>
-    <li><a href="#2创建新网址">2.创建新网址</a></li>
-    <li><a href="#3添加一个主题">3.添加一个主题</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#上传至-github">上传至 github</a></li>
-  </ul>
-
-  <ul>
-    <li><a href="#知识点">知识点</a></li>
-    <li><a href="#hugo置顶文章">Hugo置顶文章</a>
+    <li><a href="#hugo介绍">Hugo介绍</a>
       <ul>
+        <li><a href="#优点">优点</a></li>
+        <li><a href="#缺点">缺点</a></li>
+      </ul>
+    </li>
+    <li><a href="#环境准备">环境准备</a>
+      <ul>
+        <li><a href="#安装-hugo">安装 hugo</a></li>
+      </ul>
+    </li>
+    <li><a href="#使用流程">使用流程</a>
+      <ul>
+        <li><a href="#1创建新网址">1.创建新网址</a></li>
+        <li><a href="#2添加一个主题">2.添加一个主题</a></li>
+        <li><a href="#3添加文件">3.添加文件</a></li>
+        <li><a href="#4构建页面">4.构建页面</a></li>
+        <li><a href="#5-启动-hugo-服务器">5. 启动 Hugo 服务器</a></li>
+        <li><a href="#6-上传至-github">6. 上传至 github</a></li>
+      </ul>
+    </li>
+    <li><a href="#refer">Refer</a>
+      <ul>
+        <li><a href="#知识点">知识点</a></li>
+        <li><a href="#hugo置顶文章">Hugo置顶文章</a></li>
         <li><a href="#command">command</a></li>
       </ul>
     </li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h2 id="hugo介绍">hugo介绍</h2>
+            </div><div class="content" id="content"><h2 id="hugo介绍">Hugo介绍</h2>
 <figure><img src="/image/hexo-blog.png"/><figcaption>
             <h4>desc</h4>
         </figcaption>
 </figure>
 
-<p>Hug
-Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 hexo 迁移到了 Hugo，Hugo使用人数也多了起来，GitHub 上 Hugo 项目有 56.2k 个 star，已远远超过了 hexo，因此你也不用太担心 Hugo 会不会太小众化的问题，但是 Hugo 上的主题选择会更少一些，其中最受欢迎的是 wowchemy，但也仅有 6.1k 个star，而本站采用的是 LoveIt 主题，它的 star 就更少了，才 1.6k 个。当然，如果你是搞前端开发的，或者乐意自己写主题，那这些就不重要了。</p>
-<h2 id="hugo优点">Hugo优点：</h2>
-<p>速度快</p>
+<p>Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 hexo 迁移到了 Hugo，Hugo使用人数也多了起来，GitHub 上 Hugo 项目有 56.2k 个 star，已远远超过了 hexo，因此你也不用太担心 Hugo 会不会太小众化的问题，但是 Hugo 上的主题选择会更少一些，其中最受欢迎的是 wowchemy，但也仅有 6.1k 个star，而本站采用的是 LoveIt 主题，它的 star 就更少了，才 1.6k 个。当然，如果你是搞前端开发的，或者乐意自己写主题，那这些就不重要了。</p>
+<h3 id="优点">优点</h3>
+<h4 id="速度快">速度快</h4>
 <p>Hugo 采用 Go 语言编写，它的速度用作者的话来形容就是世界上最快的构建网站工具。并且 Hugo 是即时渲染的，这意味着你可以边写边改样式，直到你满意为止。即使是你写了几百篇文章，它也能在几秒之内全部渲染完成。</p>
 <p>The world’s fastest framework for building websites</p>
-<p>配置更为简单</p>
+<h4 id="配置更为简单">配置更为简单</h4>
 <p>你需要安装只是 Hugo，不像 hexo 还得安装 Node.js。并且Hugo 中是不区分站点和主题的配置文件的，Hugo 中只有一个位于站点根目录下的 config.toml 配置文件，你只用在这里面进行修改就可以了。</p>
-<p>方便自定义</p>
+<h4 id="方便自定义">方便自定义</h4>
 <p>你可以在不修改主题文件的前提下方便地定制主题。在 Hugo 中，如果你想要定制主题，你只需在站点目录下新建相应的文件即可。这是非常利于主题的维护的，你只需使用 Git 的 submodule 的方式安装 Hugo 的主题，然后更新时只需直接在站点根目录下敲一条命令回车即可，非常方便！</p>
-<h2 id="缺点">缺点：</h2>
+<h3 id="缺点">缺点</h3>
 <p>主题比较少，很可能大家都是用的同一个主题，并且主题作者更新会更少一点。</p>
 <p>总结：如果你喜欢 DIY，我建议使用 Hugo。如果你是个专业博主，写了很多文章需要渲染，我建议使用 Hugo！</p>
-<h1 id="环境准备">环境准备</h1>
-<h2 id="1安装-hugo">1.安装 hugo</h2>
+<h2 id="环境准备">环境准备</h2>
+<h3 id="安装-hugo">安装 hugo</h3>
 <ul>
 <li>
 <p>自动安装（依赖网速，可能会非常慢） 在终端中输入 <code>brew install hugo</code> 安装。 安装成功后可输入 <code>hugo version</code> 查看版本信息。</p>
@@ -318,12 +323,13 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
 下载完成后解压到一个你认为合适的位置，然后把 hugo.exe 所在的文件夹添加至环境变量中的 Path 中即可。</p>
 </li>
 </ul>
-<h2 id="2创建新网址">2.创建新网址</h2>
+<h2 id="使用流程">使用流程</h2>
+<h3 id="1创建新网址">1.创建新网址</h3>
 <blockquote>
 <p>hugo new site quickstart</p>
 </blockquote>
 <p>其中quickstart更改为用户名.github.io-creator（用户名为 github 用户名，需要小写） 使用code 用户名.github.io-creator使用 vscode 查看目录</p>
-<h2 id="3添加一个主题">3.添加一个主题</h2>
+<h3 id="2添加一个主题">2.添加一个主题</h3>
 <ul>
 <li>在 quickstart 目录下打开新的终端，输入 <code>git init</code></li>
 </ul>
@@ -365,7 +371,7 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
 <p>其中title表示文章标题，date为生成文章当时的时间，tags为标签，categories为目录，toc enable为启用文章目录（需要自己在文章中生成），description为文章摘要，draft表示是否为草稿（写完了文章把这里改为 false 即可），</p>
 </blockquote>
 <p>为 LoveIt 主题的摘要标识符，该标识符上方的内容为文章摘要，如果上方为空，则采用 frontmatter 中设置的descriptions为文章摘要。</p>
-<h1 id="添加文件">添加文件</h1>
+<h3 id="3添加文件">3.添加文件</h3>
 <p>现在开始撰写文章</p>
 <blockquote>
 <p>hugo new posts/my-first-post.md</p>
@@ -375,7 +381,7 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
 <blockquote>
 <p>hugo new post/some-content.md</p>
 </blockquote>
-<h1 id="构建页面">构建页面</h1>
+<h3 id="4构建页面">4.构建页面</h3>
 <p>写完了文章进行网页的构建</p>
 <blockquote>
 <p>hugo server -D -e production</p>
@@ -397,7 +403,7 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
 </blockquote>
 <p>这会生成一个 public 目录, 其中包含你网站的所有静态内容和资源. 现在可以将其部署在任何 Web 服务器上。</p>
 <p>确认无误后就要把它发到公网上了，这里采用 GitHub pages 进行部署（当然，也有很多种方法也能达成这一目的）</p>
-<h1 id="启动-hugo-服务器">启动 Hugo 服务器</h1>
+<h3 id="5-启动-hugo-服务器">5. 启动 Hugo 服务器</h3>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -407,10 +413,10 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>-D 代表草稿态</p>
-<h2 id="上传至-github">上传至 github</h2>
-<h1 id="refer">Refer</h1>
+<h3 id="6-上传至-github">6. 上传至 github</h3>
+<h2 id="refer">Refer</h2>
 <p><a href="https://spongecaptain.cool/post/hugo/howtousehugo/#1-%E5%AE%89%E8%A3%85-hugo" target="_blank" rel="noopener noreffer ">参考</a></p>
-<h2 id="知识点">知识点</h2>
+<h3 id="知识点">知识点</h3>
 <p>用hugo生成的网站包含以下文件和文件夹：</p>
 <ul>
 <li>archetypes: 储存.md的模板文件，该文件夹的优先级高于themes下的archetypes文件夹</li>
@@ -422,7 +428,7 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
 <li>themes: 储存主题</li>
 <li>public: 执行hugo命令后，储存生成的静态文件</li>
 </ul>
-<h2 id="hugo置顶文章">Hugo置顶文章</h2>
+<h3 id="hugo置顶文章">Hugo置顶文章</h3>
 <p>Hugo 置顶文章很简单，只需要将以下放在文章头部即可置顶</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -487,7 +493,7 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2019-08-13</span>
+                <span>更新于 2018-07-13</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"></div>
@@ -504,8 +510,8 @@ Hugo 几年前的影响力是不如 hexo 的，但现在越来越多的人从 he
         </section>
     </div>
 
-    <div class="post-nav"><a href="/posts/tech/setup/mac-reset-mysql-pwd/" class="prev" rel="prev" title="Mac下Mysql重置密码"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Mac下Mysql重置密码</a>
-            <a href="/posts/tech/python/python3/" class="next" rel="next" title="python3">python3<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/posts/tech/tools/markdown/" class="prev" rel="prev" title="Markdown 基本语法"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Markdown 基本语法</a>
+            <a href="/posts/tech/java/java-node/" class="next" rel="next" title="Java学习随笔">Java学习随笔<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 </article></div>
             </main><footer class="footer">

@@ -30,14 +30,6 @@
     <description><![CDATA[leetcode leetcode-labuladong (109k) labuladong-算法讲解 宫水三叶-blog leetcode-宫水三叶 github-宫水三叶]]></description>
 </item>
 <item>
-    <title>[读书笔记] 《穷查理宝典》</title>
-    <link>https://michaelsongyc.github.io/posts/book/poor_charlie_book/</link>
-    <pubDate>Fri, 29 Jul 2022 20:03:11 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/book/poor_charlie_book/</guid>
-    <description><![CDATA[查理就是如此独特的人，他的独特性既表现在他的思想上，也表现在他的人格上。 比如说，查理思考问题总是从逆向开始。如果要明白人生如何得到幸福，查理]]></description>
-</item>
-<item>
     <title>新疆旅行-北疆</title>
     <link>https://michaelsongyc.github.io/posts/travel/xinjiang/</link>
     <pubDate>Fri, 22 Jul 2022 00:57:07 &#43;0000</pubDate>
@@ -84,6 +76,14 @@
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/tech/github/githubaction/</guid>
     <description><![CDATA[github 自动部署, refer to : Hugo 白话文 | GitHub Action 自动部署 基于 Github Action 自动构建 Hugo 博客 document]]></description>
+</item>
+<item>
+    <title>[读书笔记] 《人生定位》</title>
+    <link>https://michaelsongyc.github.io/posts/book/life_orientation/</link>
+    <pubDate>Sat, 21 Aug 2021 20:03:11 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/book/life_orientation/</guid>
+    <description><![CDATA[案例背景 中国正处在一个至关重要的十字路口上。制造廉价产品已使中国有了很大的发展，但上升的劳动力成本、环境问题、收人不平等以及对创新的需求都意]]></description>
 </item>
 </channel>
 </rss>

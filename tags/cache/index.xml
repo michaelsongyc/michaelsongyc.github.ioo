@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>cache - 标签 - </title>
+        <link>https://michaelsongyc.github.io/tags/cache/</link>
+        <description>cache - 标签 - </description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 Nov 2020 19:49:30 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/cache/" rel="self" type="application/rss+xml" /><item>
+    <title>缓存框架总结</title>
+    <link>https://michaelsongyc.github.io/posts/tech/java/cache/</link>
+    <pubDate>Sun, 01 Nov 2020 19:49:30 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/tech/java/cache/</guid>
+    <description><![CDATA[Caffeine, GuavaCache, EhCache 前言 在大部分互联网架构中 Cache 己经成为了必可不少的一环。常用的方案有大家熟知的 NoSQL数据库 (Redis、Memcached) 等,也有大]]></description>
+</item>
+</channel>
+</rss>
