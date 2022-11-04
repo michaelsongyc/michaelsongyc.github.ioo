@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>学习 - 标签 - </title>
+        <link>https://michaelsongyc.github.io/tags/%E5%AD%A6%E4%B9%A0/</link>
+        <description>学习 - 标签 - </description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 03 Jun 2018 13:07:16 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/%E5%AD%A6%E4%B9%A0/" rel="self" type="application/rss+xml" /><item>
+    <title>如何成为一名优秀的码农</title>
+    <link>https://michaelsongyc.github.io/posts/book/bettercoder/</link>
+    <pubDate>Sun, 03 Jun 2018 13:07:16 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/book/bettercoder/</guid>
+    <description><![CDATA[1.保持学习 一个非常重要的观点是：如果你停留在一个地方不前，并不代表你能一直呆在那里，而是代表你正在落后（不进则退）。往前进并不意味着你是就]]></description>
+</item>
+</channel>
+</rss>

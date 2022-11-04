@@ -3,31 +3,15 @@
         <title></title>
         <link>https://michaelsongyc.github.io/</link>
         <description>Welcome to SYC Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 18 Aug 2022 20:24:07 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 22 Jul 2022 00:57:07 &#43;0000</lastBuildDate>
             <atom:link href="https://michaelsongyc.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>心灵鸡汤</title>
     <link>https://michaelsongyc.github.io/posts/life/sentence/</link>
-    <pubDate>Tue, 16 Aug 2022 20:19:50 &#43;0800</pubDate>
+    <pubDate>Sun, 03 Jan 2021 20:19:50 &#43;0800</pubDate>
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/life/sentence/</guid>
-    <description><![CDATA[大道至简 加油，把刷题变成打游戏一样的兴趣。 天道酬勤，凡事感激. 编程能力就像任何其他技能一样，也是一个可以通过 刻意练习 大大提高的。 1 2 3 4 5 6]]></description>
-</item>
-<item>
-    <title>算法概述</title>
-    <link>https://michaelsongyc.github.io/posts/tech/leetcode/algorithm/</link>
-    <pubDate>Thu, 18 Aug 2022 20:24:07 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/leetcode/algorithm/</guid>
-    <description><![CDATA[一、数据结构的存储方式 数据结构的存储方式只有两种：数组（顺序存储）和链表（链式存储） 这句话怎么理解，不是还有散列表、栈、队列、堆、树、图等等]]></description>
-</item>
-<item>
-    <title>Github</title>
-    <link>https://michaelsongyc.github.io/posts/tech/github/github/</link>
-    <pubDate>Thu, 18 Aug 2022 20:00:22 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/github/github/</guid>
-    <description><![CDATA[leetcode leetcode-labuladong (109k) labuladong-算法讲解 宫水三叶-blog leetcode-宫水三叶 github-宫水三叶]]></description>
+    <description><![CDATA[随笔 不要沉迷框架，修炼内功 提高英语阅读能力【google translate】 职场从来不缺普通的程序员 工作之外有自己感兴趣的东西 学会规划自己的]]></description>
 </item>
 <item>
     <title>新疆旅行-北疆</title>
@@ -38,30 +22,6 @@
     <description><![CDATA[当六月份看到朋友发的招募贴时，随即决定给自己放一次长假，让自己从持续多年的忙碌状态中抽离出来，腾出几天时间，给自己来一场心灵的放松、灵魂的洗]]></description>
 </item>
 <item>
-    <title>自媒体</title>
-    <link>https://michaelsongyc.github.io/posts/life/parttime/wemeida/</link>
-    <pubDate>Sun, 05 Jun 2022 22:59:12 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/life/parttime/wemeida/</guid>
-    <description><![CDATA[方向 一到两个 方向/赛道，不要多。 知识分享、知识付费 （Java）&ndash; 起网名，中文、简单、便于搜索； 资料 自媒体-1 自媒体-2 自媒体-3]]></description>
-</item>
-<item>
-    <title>mine-thinking</title>
-    <link>https://michaelsongyc.github.io/posts/thinking/mine-thinking/</link>
-    <pubDate>Fri, 03 Jun 2022 13:54:20 &#43;0000</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/thinking/mine-thinking/</guid>
-    <description><![CDATA[所有的行业-》提供产品，服务消费者，教培行业[知识付费] 每天都在重复、传授、吸收知识。&ndash; 如教师行业 知识星球。 知识是掌握路径： 学习]]></description>
-</item>
-<item>
-    <title>collection_material</title>
-    <link>https://michaelsongyc.github.io/posts/tech/collection-material/</link>
-    <pubDate>Thu, 02 Jun 2022 16:13:17 &#43;0000</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/collection-material/</guid>
-    <description><![CDATA[github java Guide-1 java Guide-2 java Guide-git 1、不要沉迷框架，修炼内功 2、提高英语阅读能力【google translate】 3、职场从来不缺普通的程序员 4、工作之外有自己]]></description>
-</item>
-<item>
     <title>Mac下开发工具安装</title>
     <link>https://michaelsongyc.github.io/posts/tech/setup/install-software-collection/</link>
     <pubDate>Sun, 01 May 2022 15:34:11 &#43;0000</pubDate>
@@ -70,12 +30,20 @@
     <description><![CDATA[Mac Tool Charles DB mac-mysql安装-参考-1 mac-mysql安装-参考-2 mac-python3 安装-参考 mac-Homebrew 安装-参考]]></description>
 </item>
 <item>
-    <title>Github Pages Action</title>
-    <link>https://michaelsongyc.github.io/posts/tech/github/githubaction/</link>
-    <pubDate>Sun, 13 Mar 2022 20:03:11 &#43;0800</pubDate>
+    <title>[户外]龙王山-雾凇</title>
+    <link>https://michaelsongyc.github.io/posts/life/sport/longwangshan/</link>
+    <pubDate>Fri, 17 Dec 2021 20:20:03 &#43;0800</pubDate>
     <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/github/githubaction/</guid>
-    <description><![CDATA[github 自动部署, refer to : Hugo 白话文 | GitHub Action 自动部署 基于 Github Action 自动构建 Hugo 博客 document]]></description>
+    <guid>https://michaelsongyc.github.io/posts/life/sport/longwangshan/</guid>
+    <description><![CDATA[攀爬 晶莹剔透 群山环绕 雾凇 对于没在山上长大的同学，能看到雾凇的机会不是太多； 近距离看雾凇 龙王山·雾凇（1587m） 到达山顶 记录 记录]]></description>
+</item>
+<item>
+    <title>[读书笔记] 吾日三省吾身</title>
+    <link>https://michaelsongyc.github.io/posts/book/famoussentence/</link>
+    <pubDate>Sun, 03 Oct 2021 12:22:30 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/book/famoussentence/</guid>
+    <description><![CDATA[古语 子曰：“学而时习之，不亦说乎?有朋自远方来，不亦乐乎?人不知而不愠，不亦君子乎?”（《学而》） 曾子曰：“吾日三省吾身：为人谋而不忠乎？与]]></description>
 </item>
 <item>
     <title>[读书笔记] 《人生定位》</title>
@@ -84,6 +52,38 @@
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/book/life_orientation/</guid>
     <description><![CDATA[案例背景 中国正处在一个至关重要的十字路口上。制造廉价产品已使中国有了很大的发展，但上升的劳动力成本、环境问题、收人不平等以及对创新的需求都意]]></description>
+</item>
+<item>
+    <title>算法概述</title>
+    <link>https://michaelsongyc.github.io/posts/tech/leetcode/algorithm/</link>
+    <pubDate>Wed, 18 Aug 2021 20:24:07 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/tech/leetcode/algorithm/</guid>
+    <description><![CDATA[一、数据结构的存储方式 数据结构的存储方式只有两种：数组（顺序存储）和链表（链式存储） 这句话怎么理解，不是还有散列表、栈、队列、堆、树、图等等]]></description>
+</item>
+<item>
+    <title>万宁Outing</title>
+    <link>https://michaelsongyc.github.io/posts/travel/wanning/</link>
+    <pubDate>Tue, 13 Jul 2021 16:58:08 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/travel/wanning/</guid>
+    <description><![CDATA[2021.07.02-2021.07.05 Day1 【周五】 周五下坐飞机飞海口，原计划14点的飞机，晚点到17点起飞； 20点左右到达海口，乘坐旅游大巴赶往万宁； 23点左右入到达万宁，入住神]]></description>
+</item>
+<item>
+    <title>[户外]吴越古道➕浙西天池</title>
+    <link>https://michaelsongyc.github.io/posts/life/sport/zhexidaxiagu/</link>
+    <pubDate>Mon, 03 May 2021 20:32:17 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/life/sport/zhexidaxiagu/</guid>
+    <description><![CDATA[吴越古道➕浙西天池 吴越古道 队伍 生命的力量 微视角 刷新徒步新记录 20.76km，刷新单日徒步记录；]]></description>
+</item>
+<item>
+    <title>[户外]西湖群山-10km越野赛</title>
+    <link>https://michaelsongyc.github.io/posts/life/sport/westlake2021/</link>
+    <pubDate>Sat, 24 Apr 2021 16:05:18 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/life/sport/westlake2021/</guid>
+    <description><![CDATA[开跑 第一次报名参加越野跑，也就是传说中的跑山、跑土路，听上去就蛮刺激的； 起点-开跑 一路风景 真的跑山哈，没路的话，就硬踩出路。 山里找路 左右边都]]></description>
 </item>
 </channel>
 </rss>

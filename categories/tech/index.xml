@@ -3,13 +3,13 @@
         <title>Tech - 分类 - </title>
         <link>https://michaelsongyc.github.io/categories/tech/</link>
         <description>Tech - 分类 - </description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 18 Aug 2022 20:00:22 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/categories/tech/" rel="self" type="application/rss+xml" /><item>
-    <title>Github</title>
-    <link>https://michaelsongyc.github.io/posts/tech/github/github/</link>
-    <pubDate>Thu, 18 Aug 2022 20:00:22 &#43;0800</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 01 May 2022 15:34:11 &#43;0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/categories/tech/" rel="self" type="application/rss+xml" /><item>
+    <title>Mac下开发工具安装</title>
+    <link>https://michaelsongyc.github.io/posts/tech/setup/install-software-collection/</link>
+    <pubDate>Sun, 01 May 2022 15:34:11 &#43;0000</pubDate>
     <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/github/github/</guid>
-    <description><![CDATA[leetcode leetcode-labuladong (109k) labuladong-算法讲解 宫水三叶-blog leetcode-宫水三叶 github-宫水三叶]]></description>
+    <guid>https://michaelsongyc.github.io/posts/tech/setup/install-software-collection/</guid>
+    <description><![CDATA[Mac Tool Charles DB mac-mysql安装-参考-1 mac-mysql安装-参考-2 mac-python3 安装-参考 mac-Homebrew 安装-参考]]></description>
 </item>
 </channel>
 </rss>

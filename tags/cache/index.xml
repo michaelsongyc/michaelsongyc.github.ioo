@@ -9,7 +9,7 @@
     <pubDate>Sun, 01 Nov 2020 19:49:30 &#43;0800</pubDate>
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/tech/java/cache/</guid>
-    <description><![CDATA[Caffeine, GuavaCache, EhCache 前言 在大部分互联网架构中 Cache 己经成为了必可不少的一环。常用的方案有大家熟知的 NoSQL数据库 (Redis、Memcached) 等,也有大]]></description>
+    <description><![CDATA[常用三个框架 Caffeine, GuavaCache, EhCache 前言 在大部分互联网架构中 Cache 己经成为了必可不少的一环- 常用的方案有大家熟知的 NoSQL数据库 (Redis、Memcached]]></description>
 </item>
 </channel>
 </rss>

@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>多线程 - 标签 - </title>
+        <link>https://michaelsongyc.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</link>
+        <description>多线程 - 标签 - </description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Sep 2019 11:05:18 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/" rel="self" type="application/rss+xml" /><item>
+    <title>Java 多线程并行处理</title>
+    <link>https://michaelsongyc.github.io/posts/tech/java/callable/</link>
+    <pubDate>Wed, 18 Sep 2019 11:05:18 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/tech/java/callable/</guid>
+    <description><![CDATA[Callable 和 Runnable的区别 相同点 都是接口 都可以编写多线程程序 都采用Thread.start()启动线程 不同点 Runnable没有返回值；Ca]]></description>
+</item>
+</channel>
+</rss>
