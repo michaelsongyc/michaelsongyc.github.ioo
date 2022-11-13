@@ -3,7 +3,7 @@
         <title></title>
         <link>https://michaelsongyc.github.io/</link>
         <description>Welcome to SYC Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 07 Nov 2022 21:37:34 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 11 Nov 2022 09:03:22 &#43;0800</lastBuildDate>
             <atom:link href="https://michaelsongyc.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>心灵鸡汤</title>
@@ -14,7 +14,15 @@
     <description><![CDATA[视角 邓宁-克鲁格心理效应 能力欠缺的人在自己欠考虑的决定的基础上得出错误结论，但是无法正确认识到自身的不足，辨别错误行为，是一种认知偏差现象。]]></description>
 </item>
 <item>
-    <title>看完这些电影，我只想拼命的学习！</title>
+    <title>一些引人深思的图片</title>
+    <link>https://michaelsongyc.github.io/posts/life/interesting/</link>
+    <pubDate>Fri, 11 Nov 2022 09:03:22 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/life/interesting/</guid>
+    <description><![CDATA[沟通的技巧 沟通-换位思考 视角 视角]]></description>
+</item>
+<item>
+    <title>情绪低落时，可以看下这些电影，自我治愈</title>
     <link>https://michaelsongyc.github.io/posts/life/movie/inspriemovies/</link>
     <pubDate>Mon, 07 Nov 2022 21:37:34 &#43;0800</pubDate>
     <author>Michael Song</author>
@@ -28,6 +36,14 @@
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/travel/xinjiang/</guid>
     <description><![CDATA[今年年初就计划着去新疆旅行，刚好六月份看到朋友发的帖子，大家一拍即合，开团成行；刚好借此计划给自己放一个长假， 把自己从持续多年的忙碌状态中抽]]></description>
+</item>
+<item>
+    <title>[读书笔记] 《纳瓦尔宝典》</title>
+    <link>https://michaelsongyc.github.io/posts/book/naval/</link>
+    <pubDate>Tue, 05 Jul 2022 11:12:20 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/book/naval/</guid>
+    <description><![CDATA[个人履历 纳纳瓦尔 •拉维坎特经历表 1974年，出生于印度德里 1983年，9岁，从印度新德里搬到美国纽约皇后区 1988年，14岁，就读于史岱文森]]></description>
 </item>
 <item>
     <title>Mac下开发工具安装</title>
@@ -68,22 +84,6 @@
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/book/life_orientation/</guid>
     <description><![CDATA[案例背景 中国正处在一个至关重要的十字路口上。制造廉价产品已使中国有了很大的发展，但上升的劳动力成本、环境问题、收入不平等以及对创新的需求都意]]></description>
-</item>
-<item>
-    <title>算法概述</title>
-    <link>https://michaelsongyc.github.io/posts/tech/leetcode/algorithm/</link>
-    <pubDate>Wed, 18 Aug 2021 20:24:07 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/leetcode/algorithm/</guid>
-    <description><![CDATA[一、数据结构的存储方式 数据结构的存储方式只有两种：数组（顺序存储）和链表（链式存储） 这句话怎么理解，不是还有散列表、栈、队列、堆、树、图等等]]></description>
-</item>
-<item>
-    <title>万宁Outing</title>
-    <link>https://michaelsongyc.github.io/posts/travel/wanning/</link>
-    <pubDate>Tue, 13 Jul 2021 16:58:08 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/travel/wanning/</guid>
-    <description><![CDATA[2021.07.02-2021.07.05 Day1 【周五】 周五下坐飞机飞海口，原计划14点的飞机，晚点到17点起飞； 20点左右到达海口，乘坐旅游大巴赶往万宁； 23点左右入到达万宁，入住神]]></description>
 </item>
 </channel>
 </rss>
