@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>git - 标签 - </title>
+        <link>https://michaelsongyc.github.io/tags/git/</link>
+        <description>git - 标签 - </description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 11 Oct 2018 12:55:26 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/git/" rel="self" type="application/rss+xml" /><item>
+    <title>Git小结</title>
+    <link>https://michaelsongyc.github.io/posts/tech/tools/git/</link>
+    <pubDate>Thu, 11 Oct 2018 12:55:26 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/tech/tools/git/</guid>
+    <description><![CDATA[版本控制 : 集中式 vs 分布式 集中式版本控制（csv、svn） 集中式版本控制系统，版本库是集中存放在中央服务器的，而干活的时候，用的都是自己的电脑]]></description>
+</item>
+</channel>
+</rss>

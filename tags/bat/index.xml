@@ -3,10 +3,10 @@
         <title>bat - 标签 - </title>
         <link>https://michaelsongyc.github.io/tags/bat/</link>
         <description>bat - 标签 - </description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 08 May 2018 12:38:35 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/bat/" rel="self" type="application/rss+xml" /><item>
-    <title>Windows下bat同jar交互</title>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 May 2018 12:38:35 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/bat/" rel="self" type="application/rss+xml" /><item>
+    <title>bat同jar交互</title>
     <link>https://michaelsongyc.github.io/posts/tech/tools/windowsbat/</link>
-    <pubDate>Tue, 08 May 2018 12:38:35 &#43;0800</pubDate>
+    <pubDate>Sat, 12 May 2018 12:38:35 &#43;0800</pubDate>
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/tech/tools/windowsbat/</guid>
     <description><![CDATA[Windows下通过bat调用jar时，传参，网上有很多例子，这里就不做阐述。 今儿讲下如何在bat调用jar后，bat可以获取jar的返回值]]></description>
