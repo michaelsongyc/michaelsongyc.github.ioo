@@ -3,7 +3,7 @@
         <title></title>
         <link>https://michaelsongyc.github.io/</link>
         <description>Welcome to SYC Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 13 Nov 2022 20:18:37 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 11 Dec 2022 16:51:42 &#43;0800</lastBuildDate>
             <atom:link href="https://michaelsongyc.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>心灵鸡汤</title>
@@ -12,6 +12,30 @@
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/life/sentence/</guid>
     <description><![CDATA[视角 邓宁-克鲁格心理效应 能力欠缺的人在自己欠考虑的决定的基础上得出错误结论，但是无法正确认识到自身的不足，辨别错误行为，是一种认知偏差现象。]]></description>
+</item>
+<item>
+    <title>[读书笔记]《小狗钱钱》</title>
+    <link>https://michaelsongyc.github.io/posts/book/small_dog_money/</link>
+    <pubDate>Sun, 11 Dec 2022 16:51:42 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/book/small_dog_money/</guid>
+    <description><![CDATA[关于书 《小狗钱钱-孩子和家长共同成长的金融读物》 [德]博多•舍费尔 著；王钟欣 余茜译 四川少年儿童出版社 引导孩子正确认识财富、创造财富的“金钱童]]></description>
+</item>
+<item>
+    <title>[读书笔记《断舍离》</title>
+    <link>https://michaelsongyc.github.io/posts/book/throw/</link>
+    <pubDate>Sat, 10 Dec 2022 20:51:49 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/book/throw/</guid>
+    <description><![CDATA[关于书 《断舍离.心灵篇》 山下英子; 王珊译 广西科学技术出版社 三种扔不掉东西的人 逃避现实型 真麻烦； 这种类型的人太忙碌，几乎没什么时间待在家里，所]]></description>
+</item>
+<item>
+    <title>[读书笔记] 如何阅读一本书</title>
+    <link>https://michaelsongyc.github.io/posts/book/how_to_read_book/</link>
+    <pubDate>Sat, 10 Dec 2022 19:47:00 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/book/how_to_read_book/</guid>
+    <description><![CDATA[效率 效能，单位时间内产生的生产价值；提高效能意味着 使用相对少的时间，产生相对大的生产价值。 效率，在产生效能过程中的使用的方式方法等。 大到机构]]></description>
 </item>
 <item>
     <title>[读书笔记] 《金字塔原理》</title>
@@ -60,30 +84,6 @@
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/tech/setup/install-software-collection/</guid>
     <description><![CDATA[Mac Tool Charles DB mac-mysql安装-参考-1 mac-mysql安装-参考-2 mac-python3 安装-参考 mac-Homebrew 安装-参考]]></description>
-</item>
-<item>
-    <title>管理</title>
-    <link>https://michaelsongyc.github.io/posts/job/management/beleader/</link>
-    <pubDate>Mon, 07 Mar 2022 10:06:15 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/job/management/beleader/</guid>
-    <description><![CDATA[如果我是一线主管 每周也要写周报，每年也要写绩效，也想晋升、加薪、诸如此类； 团队有五、六个人还好，十几个人的团队的话会希望有人可以站出来帮我;]]></description>
-</item>
-<item>
-    <title>[户外]龙王山-雾凇</title>
-    <link>https://michaelsongyc.github.io/posts/life/sport/longwangshan/</link>
-    <pubDate>Fri, 17 Dec 2021 20:20:03 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/life/sport/longwangshan/</guid>
-    <description><![CDATA[攀爬 晶莹剔透 群山环绕 雾凇 对于没在山上长大的同学，能看到雾凇的机会不是太多； 近距离看雾凇 龙王山·雾凇（1587m） 到达山顶 记录 记录]]></description>
-</item>
-<item>
-    <title>[读书笔记] 吾日三省吾身</title>
-    <link>https://michaelsongyc.github.io/posts/book/famoussentence/</link>
-    <pubDate>Sun, 03 Oct 2021 12:22:30 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/book/famoussentence/</guid>
-    <description><![CDATA[古语 子曰：“学而时习之，不亦说乎?有朋自远方来，不亦乐乎?人不知而不愠，不亦君子乎?”（《学而》） 曾子曰：“吾日三省吾身：为人谋而不忠乎？与]]></description>
 </item>
 </channel>
 </rss>

@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/michaelsongyc.github.io\/posts\/tech\/tools\/git\/"
-        },"genre": "posts","keywords": "git","wordcount":  3308 ,
+        },"genre": "posts","keywords": "git","wordcount":  3607 ,
         "url": "https:\/\/michaelsongyc.github.io\/posts\/tech\/tools\/git\/","datePublished": "2018-10-11T12:55:26+08:00","dateModified": "2018-10-11T12:55:26+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -101,8 +101,8 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Git小结</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Michael Song</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/tech/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Tech</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2018-10-11">2018-10-11</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 3308 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 7 分钟&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2018-10-11">2018-10-11</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 3607 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 8 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>目录</span>
@@ -161,7 +161,11 @@
 <blockquote>
 <p>yum -y install git</p>
 </blockquote>
-<p>输入 <code>git version</code> 查看Git是否安装完成以及查看其版本号</p>
+<p>输入</p>
+<blockquote>
+<p>git version</p>
+</blockquote>
+<p>查看Git是否安装完成以及查看其版本号</p>
 <p>备注： yum安装git被安装在 <code>/usr/libexec/git-core</code> 目录下</p>
 <h3 id="git初始化配置">Git初始化配置</h3>
 <p>a、设置用户名：
@@ -202,6 +206,7 @@
 <p>git add -h</p>
 </blockquote>
 <h3 id="常规git操作demo">常规git操作Demo</h3>
+<p>你应该能够置并初始化一个仓库（repository）、开始或停止跟踪（track）文件、暂存（stage）或提交（commit）更改.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt"> 1
@@ -235,6 +240,10 @@
 </span><span class="lnt">29
 </span><span class="lnt">30
 </span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">1.进入目标文件夹
@@ -247,6 +256,8 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">4.查看仓库状态
 </span></span><span class="line"><span class="cl">git status
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">请记住，你工作目录下的每一个文件都不外乎这两种状态：已跟踪 或 未跟踪。
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">5.添加文件到暂存区中
 </span></span><span class="line"><span class="cl">git add readme.txt
@@ -265,6 +276,8 @@
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">10.查看最近到最远的历史提交日志
 </span></span><span class="line"><span class="cl">git log
+</span></span><span class="line"><span class="cl"><span class="o">[</span>不传入任何参数的默认情况下，git log 会按时间先后顺序列出所有的提交，最近的更新排在最上面。 
+</span></span><span class="line"><span class="cl">正如你所看到的，这个命令会列出每个提交的 SHA-1 校验和、作者的名字和电子邮件地址、提交时间以及提交说明。<span class="o">]</span>
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">11.回退版本
 </span></span><span class="line"><span class="cl">git reset  --hard 版本号
@@ -315,6 +328,14 @@
 </span><span class="lnt">40
 </span><span class="lnt">41
 </span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span><span class="lnt">49
+</span><span class="lnt">50
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">   mkdir  XX <span class="o">(</span>创建一个空目录 XX指目录名<span class="o">)</span>
@@ -324,8 +345,11 @@
 </span></span><span class="line"><span class="cl">   
 </span></span><span class="line"><span class="cl">   git add XX         把xx文件添加到暂存区去
 </span></span><span class="line"><span class="cl">   git commit –m “XX” 提交文件到本地仓库 –m 后面的是注释
+</span></span><span class="line"><span class="cl">   
 </span></span><span class="line"><span class="cl">   git push –u<span class="o">(</span>第一次要用-u 以后不需要<span class="o">)</span> origin master 把当前master分支推送到远程库
 </span></span><span class="line"><span class="cl">   git push origin master  Git会把master分支推送到远程库对应的远程分支上
+</span></span><span class="line"><span class="cl">   
+</span></span><span class="line"><span class="cl">   git push origin --delete serverfix 删除远程分支
 </span></span><span class="line"><span class="cl">   
 </span></span><span class="line"><span class="cl">   git status         查看仓库状态
 </span></span><span class="line"><span class="cl">
@@ -344,14 +368,19 @@
 </span></span><span class="line"><span class="cl">   git remote –v 查看远程库的详细信息
 </span></span><span class="line"><span class="cl">   git remote add origin https://github.com/tugenhua0707/testgit 关联一个远程库
 </span></span><span class="line"><span class="cl">   
+</span></span><span class="line"><span class="cl">   git fetch 从远程仓库中抓取与拉取
+</span></span><span class="line"><span class="cl">    
 </span></span><span class="line"><span class="cl">   git clone https://github.com/tugenhua0707/testgit  从远程库中克隆
-</span></span><span class="line"><span class="cl">   git checkout –b dev  创建dev分支 并切换到dev分支上
+</span></span><span class="line"><span class="cl">   git checkout –b dev  创建dev分支 并切换到dev分支上； 等同于两条命令的: git branch dev<span class="p">;</span> git checkout dev<span class="p">;</span> 
 </span></span><span class="line"><span class="cl">   git checkout master 切换到master分支
 </span></span><span class="line"><span class="cl">   
-</span></span><span class="line"><span class="cl">   git branch  查看当前所有的分支
-</span></span><span class="line"><span class="cl">   git branch –d dev 删除dev分支
+</span></span><span class="line"><span class="cl">   git branch  查看当前所有的分支<span class="o">[</span>查看当前所有分支的一个列表<span class="o">]</span>
+</span></span><span class="line"><span class="cl">   git branch -v 查看每一个分支的最后一次提交
+</span></span><span class="line"><span class="cl">   git branch –d bug_fix 删除bug_fix分支
 </span></span><span class="line"><span class="cl">   git branch &lt;name&gt;  创建新分支
-</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  
+</span></span><span class="line"><span class="cl">   git branch --no-merged master 尚未合并到 master 分支列表
+</span></span><span class="line"><span class="cl">   
 </span></span><span class="line"><span class="cl">   git merge dev    在当前的分支上合并dev分支
 </span></span><span class="line"><span class="cl">
 </span></span><span class="line"><span class="cl">   git stash 把当前的工作隐藏起来 等以后恢复现场后继续工作
