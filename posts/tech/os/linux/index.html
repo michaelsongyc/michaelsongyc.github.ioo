@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/michaelsongyc.github.io\/posts\/tech\/os\/linux\/"
-        },"genre": "posts","keywords": "Linux","wordcount":  749 ,
+        },"genre": "posts","keywords": "Linux","wordcount":  911 ,
         "url": "https:\/\/michaelsongyc.github.io\/posts\/tech\/os\/linux\/","datePublished": "2018-06-05T12:28:07+08:00","dateModified": "2018-06-05T12:28:07+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -101,7 +101,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Linux相关</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Michael Song</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/tech/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Tech</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2018-06-05">2018-06-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 749 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2018-06-05">2018-06-05</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 911 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -122,6 +122,9 @@
     <li><a href="#常用命令">常用命令</a>
       <ul>
         <li><a href="#压缩命令">压缩命令</a></li>
+        <li><a href="#查看目录大小及文件数量">查看目录大小及文件数量</a></li>
+        <li><a href="#查找大文件">查找大文件</a></li>
+        <li><a href="#查找linux下的大目录">查找Linux下的大目录</a></li>
       </ul>
     </li>
   </ul>
@@ -260,6 +263,70 @@
 <pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">unrar x  *.rar
 </span></span></code></pre></td></tr></table>
 </div>
+</div><h3 id="查看目录大小及文件数量">查看目录大小及文件数量</h3>
+<p>查看当前目录的空间大小:</p>
+<blockquote>
+<p>du -h -d 1</p>
+</blockquote>
+<ul>
+<li>命令-d表示目录的深度，修改-d的值能看更多层目录的空间大小</li>
+</ul>
+<p>查看根分区所有的文件和目录的大小。</p>
+<blockquote>
+<p>du -sh /*</p>
+</blockquote>
+<p>以对单个文件或者目录执行</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">du -sh /home
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">du -sh *
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">du -lh --max-depth<span class="o">=</span><span class="m">1</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="查找大文件">查找大文件</h3>
+<blockquote>
+<p>find . -type f -size +800M</p>
+</blockquote>
+<h3 id="查找linux下的大目录">查找Linux下的大目录</h3>
+<ul>
+<li>[linux]</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">du -h --max-depth<span class="o">=</span><span class="m">1</span>
+</span></span><span class="line"><span class="cl"><span class="c1">#对结果排序</span>
+</span></span><span class="line"><span class="cl">du -h --max-depth<span class="o">=</span><span class="m">1</span> <span class="p">|</span> sort -n
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>[mac]</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">du -hd1
+</span></span><span class="line"><span class="cl"><span class="c1">#对结果排序</span>
+</span></span><span class="line"><span class="cl">du -hd1 <span class="p">|</span> sort -n 
+</span></span></code></pre></td></tr></table>
+</div>
 </div></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -287,7 +354,7 @@
 </article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Powered by MichaelSongs
-                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2018 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Michael Song</a></span></div>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2018 - 2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Michael Song</a></span></div>
         </div>
     </footer></div>
 

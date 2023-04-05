@@ -3,7 +3,7 @@
         <title></title>
         <link>https://michaelsongyc.github.io/</link>
         <description>Welcome to SYC Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 11 Dec 2022 16:51:42 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 19 Mar 2023 13:59:01 &#43;0800</lastBuildDate>
             <atom:link href="https://michaelsongyc.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>心灵鸡汤</title>
@@ -12,6 +12,22 @@
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/life/sentence/</guid>
     <description><![CDATA[视角 邓宁-克鲁格心理效应 能力欠缺的人在自己欠考虑的决定的基础上得出错误结论，但是无法正确认识到自身的不足，辨别错误行为，是一种认知偏差现象。]]></description>
+</item>
+<item>
+    <title>[读书笔记] 《穷爸爸富爸爸》</title>
+    <link>https://michaelsongyc.github.io/posts/book/poordadrichdad/</link>
+    <pubDate>Sun, 19 Mar 2023 13:59:01 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/book/poordadrichdad/</guid>
+    <description><![CDATA[一个爸爸会说：“贪财乃万恶之源。”而另一个爸爸却说：“贫穷才是万恶之本。” 两个不同的观点造就不同的人生； 一个人的观点对他的一生影响巨大； 选择]]></description>
+</item>
+<item>
+    <title>[读书笔记] 《微习惯-成就卓越自我管理的法则》</title>
+    <link>https://michaelsongyc.github.io/posts/book/minihabits/</link>
+    <pubDate>Sat, 18 Mar 2023 13:36:39 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/book/minihabits/</guid>
+    <description><![CDATA[关于书 《微习惯-成就卓越自我管理的法则》 武君 笔记 本书通过分类，阐述了涉及多个方向的微习惯，并在每个分类下引用了不同的实例作为参考样例，证明不]]></description>
 </item>
 <item>
     <title>[读书笔记]《小狗钱钱》</title>
@@ -68,22 +84,6 @@
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/travel/xinjiang/</guid>
     <description><![CDATA[今年年初就计划着去新疆旅行，刚好六月份看到朋友发的帖子，大家一拍即合，开团成行；刚好借此计划给自己放一个长假， 把自己从持续多年的忙碌状态中抽]]></description>
-</item>
-<item>
-    <title>[读书笔记] 《纳瓦尔宝典》</title>
-    <link>https://michaelsongyc.github.io/posts/book/naval/</link>
-    <pubDate>Tue, 05 Jul 2022 11:12:20 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/book/naval/</guid>
-    <description><![CDATA[个人履历 纳纳瓦尔 •拉维坎特经历表 1974年，出生于印度德里 1983年，9岁，从印度新德里搬到美国纽约皇后区 1988年，14岁，就读于史岱文森]]></description>
-</item>
-<item>
-    <title>Mac下开发工具安装</title>
-    <link>https://michaelsongyc.github.io/posts/tech/setup/install-software-collection/</link>
-    <pubDate>Sun, 01 May 2022 15:34:11 &#43;0000</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/setup/install-software-collection/</guid>
-    <description><![CDATA[Mac Tool Charles DB mac-mysql安装-参考-1 mac-mysql安装-参考-2 mac-python3 安装-参考 mac-Homebrew 安装-参考]]></description>
 </item>
 </channel>
 </rss>
