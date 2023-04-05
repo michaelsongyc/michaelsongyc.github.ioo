@@ -28,7 +28,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/michaelsongyc.github.io\/posts\/tech\/tools\/git\/"
-        },"genre": "posts","keywords": "git","wordcount":  3607 ,
+        },"genre": "posts","keywords": "git","wordcount":  3895 ,
         "url": "https:\/\/michaelsongyc.github.io\/posts\/tech\/tools\/git\/","datePublished": "2018-10-11T12:55:26+08:00","dateModified": "2018-10-11T12:55:26+08:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -101,7 +101,7 @@
             <div class="toc-content always-active" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Git小结</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Michael Song</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/tech/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Tech</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2018-10-11">2018-10-11</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 3607 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2018-10-11">2018-10-11</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 3895 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 8 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
@@ -120,6 +120,7 @@
       <ul>
         <li><a href="#yum安装linux">yum安装(Linux)</a></li>
         <li><a href="#git初始化配置">Git初始化配置</a></li>
+        <li><a href="#git-配置ssh">Git 配置SSH</a></li>
       </ul>
     </li>
     <li><a href="#git使用">Git使用</a>
@@ -176,7 +177,61 @@
 <p>c、配置ok之后，我们用如下命令来看看是否配置成功</p>
 <p><code>git config --list</code></p>
 <p>注意：<code>git config --global</code> 参数，有了这个参数表示你这台机器上所有的git仓库都会使用这个配置，当然你也可以对某个仓库指定不同的用户名和邮箱</p>
-<h2 id="git使用">Git使用</h2>
+<h3 id="git-配置ssh">Git 配置SSH</h3>
+<p>git使用SSH，需要以下三个步骤:</p>
+<ul>
+<li>使用秘钥生成工具生成rsa秘钥和公钥</li>
+<li>将rsa公钥添加到git代码托管平台</li>
+<li>将rsa秘钥添加到ssh-agent中，为ssh client指定使用的秘钥文件</li>
+</ul>
+<p>第一步：检查本地主机是否已经存在ssh key</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">cd</span> ~/.ssh
+</span></span><span class="line"><span class="cl">ls
+</span></span><span class="line"><span class="cl">//看是否存在 id_rsa 和 id_rsa.pub文件，如果存在，说明已经有SSH Key
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>第二步：生成ssh key
+如果不存在ssh key，使用如下命令生成</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh-keygen -t rsa -C &#34;xxx@xxx.com&#34;
+</span></span><span class="line"><span class="cl">//执行后一直回车即可
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>第三步：获取ssh key公钥内容（id_rsa.pub）</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd ~/.ssh
+</span></span><span class="line"><span class="cl">cat id_rsa.pub
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>第四步：Github账号上添加公钥
+进入Settings设置</p>
+<p>第五步：验证是否设置成功</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh -T git@github.com
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="git使用">Git使用</h2>
 <h3 id="命令流程图">命令流程图</h3>
 <figure><img src="/image/tech/tools/git_0.png"/><figcaption>
             <h4>远程仓库-本地仓库-工作区</h4>
