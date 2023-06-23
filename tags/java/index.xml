@@ -3,13 +3,13 @@
         <title>Java - 标签 - </title>
         <link>https://michaelsongyc.github.io/tags/java/</link>
         <description>Java - 标签 - </description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 19 Mar 2019 22:26:50 &#43;0000</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/java/" rel="self" type="application/rss+xml" /><item>
-    <title>Java随笔</title>
-    <link>https://michaelsongyc.github.io/posts/tech/java/java-learning/</link>
-    <pubDate>Tue, 19 Mar 2019 22:26:50 &#43;0000</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 12 Nov 2022 20:18:37 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/tags/java/" rel="self" type="application/rss+xml" /><item>
+    <title>Java常用工具类方法</title>
+    <link>https://michaelsongyc.github.io/posts/tech/java/commons/</link>
+    <pubDate>Sat, 12 Nov 2022 20:18:37 &#43;0800</pubDate>
     <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/java/java-learning/</guid>
-    <description><![CDATA[Java基础概括 大图 Java 设计模式 &amp;&amp; 算法 框架 &amp;&amp; spring 中间件 &amp;&amp; 其他 Java Document Oracle Java tutorial List 1 2 public class ArrayList&lt;E&gt; extends AbstractList&lt;E&gt; implements List&lt;E&gt;, RandomAccess, Cloneable, java.io.Serializable{} 1 2 public class LinkedList&lt;E&gt; extends AbstractSequentialList&lt;E&gt; implements List&lt;E&gt;, Deque&lt;E&gt;, Cloneable, java.io.Serializable{} 1 2 public class CopyOnWriteArrayList&lt;E&gt; implements List&lt;E&gt;, RandomAccess, Cloneable, java.io.Serializable {} List]]></description>
+    <guid>https://michaelsongyc.github.io/posts/tech/java/commons/</guid>
+    <description><![CDATA[JDK Objects 1 Objects.equal(Object a, Object b) JDK8 1 stream.anyMath(...) Function.identity() Function.identity()的使用详解 1 2 3 4 5 6 7 8 List&lt;Student&gt; studentLists = new ArrayList(); // list -&gt; map Map&lt;Long, Student&gt; collect = studentLists.stream() .collect(Collectors.toMap(a -&gt; a.getId(), Function.identity())); Map&lt;Long, Student&gt; collec1 = studentLists.stream() .collect(Collectors.toMap(Student::getId, Function.identity())); 3方]]></description>
 </item>
 </channel>
 </rss>

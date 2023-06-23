@@ -3,13 +3,13 @@
         <title>Java - 分类 - </title>
         <link>https://michaelsongyc.github.io/categories/java/</link>
         <description>Java - 分类 - </description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 18 Sep 2019 11:05:18 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/categories/java/" rel="self" type="application/rss+xml" /><item>
-    <title>Java 多线程并行处理</title>
-    <link>https://michaelsongyc.github.io/posts/tech/java/callable/</link>
-    <pubDate>Wed, 18 Sep 2019 11:05:18 &#43;0800</pubDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 24 Oct 2022 20:01:56 &#43;0800</lastBuildDate><atom:link href="https://michaelsongyc.github.io/categories/java/" rel="self" type="application/rss+xml" /><item>
+    <title>内部-Java ParallelStream 踩坑记录</title>
+    <link>https://michaelsongyc.github.io/posts/tech/al/parallelstream/</link>
+    <pubDate>Mon, 24 Oct 2022 20:01:56 &#43;0800</pubDate>
     <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/tech/java/callable/</guid>
-    <description><![CDATA[Callable 和 Runnable的区别 相同点 都是接口 都可以编写多线程程序 都采用Thread.start()启动线程 不同点 Runnable没有返回值；Ca]]></description>
+    <guid>https://michaelsongyc.github.io/posts/tech/al/parallelstream/</guid>
+    <description><![CDATA[一、踩坑经历 在使用JDK8中的stream大家肯定不陌生，而且在处理集合（list、map）的时候用起来很爽，更爽的是可以通过 ParallelStream 进行并行操作]]></description>
 </item>
 </channel>
 </rss>
