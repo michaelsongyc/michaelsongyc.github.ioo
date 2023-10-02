@@ -3,7 +3,7 @@
         <title></title>
         <link>https://michaelsongyc.github.io/</link>
         <description>Welcome to SYC Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 22 Jun 2023 18:06:27 &#43;0800</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 27 Aug 2023 19:56:31 &#43;0800</lastBuildDate>
             <atom:link href="https://michaelsongyc.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>心灵鸡汤</title>
@@ -14,7 +14,15 @@
     <description><![CDATA[视角 邓宁-克鲁格心理效应 能力欠缺的人在自己欠考虑的决定的基础上得出错误结论，但是无法正确认识到自身的不足，辨别错误行为，是一种认知偏差现象。]]></description>
 </item>
 <item>
-    <title>[读书笔记] 微习惯</title>
+    <title>[读书笔记] 《手把手教你读财报》</title>
+    <link>https://michaelsongyc.github.io/posts/book/financial/report/</link>
+    <pubDate>Sun, 27 Aug 2023 19:56:31 &#43;0800</pubDate>
+    <author>Michael Song</author>
+    <guid>https://michaelsongyc.github.io/posts/book/financial/report/</guid>
+    <description><![CDATA[关于书 唐朝 / 中国经济出版社 财报是用来排除企业的 财报里的小故事 先给朋友们讲个暖场的股市小故事，如假包换。只是出手 “你懂的”的原因，隐去了企业名]]></description>
+</item>
+<item>
+    <title>[读书笔记] 《微习惯》</title>
     <link>https://michaelsongyc.github.io/posts/book/tools/mini-habits/</link>
     <pubDate>Thu, 22 Jun 2023 18:06:27 &#43;0800</pubDate>
     <author>Michael Song</author>
@@ -22,12 +30,12 @@
     <description><![CDATA[微习惯-成就卓越自我管理的法则 关于书 武君 著 微习惯是什么 狗家族出了一只很有志气、很有地的的小细，它向整个家族宣布：要去横穿大沙漠！所有的狗都跑]]></description>
 </item>
 <item>
-    <title>[读书笔记] 曾国藩的正面与侧面-1</title>
+    <title>[读书笔记] 《曾国藩的正面与侧面》</title>
     <link>https://michaelsongyc.github.io/posts/book/zengguofan_1/</link>
     <pubDate>Sat, 03 Jun 2023 15:06:03 &#43;0800</pubDate>
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/book/zengguofan_1/</guid>
-    <description><![CDATA[关于书 张宏杰 / 岳麓书社 序]]></description>
+    <description><![CDATA[《曾国藩的正面与侧面》-1 关于书 张宏杰 / 岳麓书社 概述 中国人到中年确实常成为道家信徒，曾国藩也一再说老子的话“柔弱胜 刚强”，（但是什么是柔弱，]]></description>
 </item>
 <item>
     <title>[读书笔记] 《曾国藩家书》</title>
@@ -70,20 +78,12 @@
     <description><![CDATA[关于书 《断舍离.心灵篇》 山下英子; 王珊译 广西科学技术出版社 三种扔不掉东西的人 逃避现实型 真麻烦； 这种类型的人太忙碌，几乎没什么时间待在家里，所]]></description>
 </item>
 <item>
-    <title>[读书笔记] 如何阅读一本书</title>
+    <title>[读书笔记] 《如何阅读一本书》</title>
     <link>https://michaelsongyc.github.io/posts/book/how_to_read_book/</link>
     <pubDate>Sat, 10 Dec 2022 19:47:00 &#43;0800</pubDate>
     <author>Michael Song</author>
     <guid>https://michaelsongyc.github.io/posts/book/how_to_read_book/</guid>
     <description><![CDATA[效率 效能，单位时间内产生的生产价值；提高效能意味着 使用相对少的时间，产生相对大的生产价值。 效率，在产生效能过程中的使用的方式方法等。 大到机构]]></description>
-</item>
-<item>
-    <title>英语素材</title>
-    <link>https://michaelsongyc.github.io/posts/language/material/</link>
-    <pubDate>Sat, 03 Dec 2022 23:43:18 &#43;0800</pubDate>
-    <author>Michael Song</author>
-    <guid>https://michaelsongyc.github.io/posts/language/material/</guid>
-    <description><![CDATA[基础 Learning 250+ advanced English words at a time 最常用1000句英语口语发音示范，太实用了！收藏起来！ 史上最全思维导图，一网打尽英语单词、句型和语法！ 每日一句经典句型1]]></description>
 </item>
 </channel>
 </rss>
